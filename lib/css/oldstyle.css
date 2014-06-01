@@ -1,9 +1,4 @@
-@import "/lib/fonts/bitstreamveraserif/stylesheet.css"
-
-body { 
-        font-family: "Georgia"; 
-        background-color: #ffffff;
-}
+@import "/lib/fonts/bitstreamveraserif/stylesheet.css";
 
 h1.center {
         text-align: center;
