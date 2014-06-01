@@ -49,10 +49,11 @@ div.footer {
 :link {
 	color: #000000;
 	text-decoration: none; 
-	border-bottom: 1px dotted #ccc;
+	border-bottom: 1px dotted #000000;
 }
 
 :visited {
 	color: #000000;
 	text-decoration: none; 
+	border-bottom: 1px dotted #000000;
 }
