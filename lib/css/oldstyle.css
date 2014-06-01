@@ -1,13 +1,11 @@
-@import "/lib/fonts/bitstreamveraserif/stylesheet.css";
-
 h1.center {
         text-align: center;
 }
 
-h2.left {
+h1.left {
 	text-align: left;
 }
 
-h2.right {
+h1.right {
 	text-align: right;
 }
