@@ -1,0 +1,58 @@
+/* 
+ +=========Standard CSS Library  V0.1=========+
+ | This file is released to the public domain.|
+ | Chiayo Lin - www.chiayolin.org - 06012014. |
+ +============================================+
+ | PATH:                     /lib/css/std.css |
+ +============================================+
+*/
+
+@charset 'UTF-8';
+@font-face {
+	font-family: 'bitstream_vera_serifroman';
+	src: url('../font/VeraSerif-webfont.eot');
+	src: url('../font/VeraSerif-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../font/VeraSerif-webfont.woff') format('woff'),
+	     url('../font/VeraSerif-webfont.ttf') format('truetype'),
+	     url('../font/VeraSerif-webfont.svg#bitstream_vera_serifroman') format('svg');
+	     font-weight: normal;
+	     font-style: normal;
+
+}
+
+body { 
+	background-color: #d5e2da;
+	font-family: 'bitstream_vera_serifroman';
+} 
+
+h1.fronttitle {
+	text-transform: uppercase;
+	text-align: center;
+	padding: .3em;
+	margin : auto;
+}
+
+p.nav {
+	text-align: center;
+	margin: 0; margin-bottom: 3em;
+}
+
+.byline {
+	text-align: center; color: #000000; 
+	margin: 2em;
+}
+
+div.footer {
+	text-align: center;
+}
+	
+:link {
+	color: #000000;
+	text-decoration: none; 
+	border-bottom: 1px dotted #ccc;
+}
+
+:visited {
+	color: #000000;
+	text-decoration: none; 
+}
