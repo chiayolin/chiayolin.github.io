@@ -1,13 +1,15 @@
 /* 
- +=========Standard CSS Library  V0.1=========+
+ +=========Standard CSS Library  V0.2=========+
  | This file is released to the public domain.|
- | Chiayo Lin - www.chiayolin.org - 06012014. |
+ | Chiayo Lin - www.chiayolin.org - 06022014. |
  +============================================+
  | PATH:                     /lib/css/std.css |
  +============================================+
 */
 
 @charset 'UTF-8';
+
+/* import font */
 @font-face {
 	font-family: 'bitstream_vera_serifroman';
 	src: url('../font/VeraSerif-webfont.eot');
@@ -20,32 +22,63 @@
 
 }
 
-body { 
-	background-color: #d5e2da;
-	font-family: 'bitstream_vera_serifroman';
-} 
+/* rhythm magic */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, 
+h6, pre, img, form, fieldset, p, blockquote, th, td {  
+	margin: 0; 
+	padding: 0; 
+	text-rendering: optimizeLegibility;
+}
 
-h1.fronttitle {
+body {
+        background-color: #d5e2da;
+        font-family: 'bitstream_vera_serifroman';
+}
+
+header {
 	text-transform: uppercase;
-	text-align: center;
-	padding: .3em;
-	margin : auto;
+        text-align: center;
+        margin: 0px auto;
+	padding: 15px;
+	width: 40em;
 }
 
-p.nav {
+nav {
+	margin: 0px auto;
 	text-align: center;
-	margin: 0; margin-bottom: 3em;
+	width: 40em;
 }
 
-.byline {
-	text-align: center; color: #000000; 
-	margin: 2em;
+article {
+	text-align: left;
+	margin: 0px auto;
+	padding: 20px;
+	width: 40em;
 }
 
-div.footer {
+/* footer */
+footer {
 	text-align: center;
+	margin: 0px auto;
+	width: 40em;
 }
-	
+
+footer section.update {
+	padding-bottom: 20px;
+}
+
+footer section.license img {
+	border-width: 0;
+	margin: 0px auto;
+	display: block";
+	text-align: center; 
+}
+
+footer section.license p {
+	padding: 10px;
+}
+
+/* link */
 :link {
 	color: #000000;
 	text-decoration: none; 
