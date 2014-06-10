@@ -37,28 +37,36 @@ body {
 
 header {
 	text-transform: uppercase;
-        text-align: center;
-        margin: 0px auto;
+    text-align: center;
+	margin: 0px auto;
+	display: block;
 	padding: 14px;
 	width: 40em;
+}
+
+header :link {
+	border-bottom: none;
 }
 
 nav {
 	margin: 0px auto;
 	text-align: center;
 	width: 40em;
+	padding-bottom: 20px;
 }
 
 article {
 	text-align: left;
 	margin: 0px auto;
+	width: 25em;
 	padding: 20px;
-	width: 40em;
+	background-color: #ffffff;
 }
 
 /* footer */
 footer {
 	text-align: center;
+	padding-top: 20px;
 	margin: 0px auto;
 	width: 40em;
 }
@@ -70,8 +78,7 @@ footer section.update {
 footer section.license img {
 	border-width: 0;
 	margin: 0px auto;
-	display: block";
-	text-align: center; 
+	text-align: center;
 }
 
 footer section.license p {
