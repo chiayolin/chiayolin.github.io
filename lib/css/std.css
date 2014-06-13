@@ -43,8 +43,8 @@ h6, pre, img, form, fieldset, p, blockquote, th, td {
 }
 
 body {
-       background-color: #d5e2da;
-	 font-family: 'open_sansregular';
+	background-color: #d5e2da;
+	font-family: 'open_sansregular';
 }
 
 /* header */
@@ -77,7 +77,9 @@ article {
 	width: 35em;
 	padding: 20px;
 	background-color: #ffffff;
-	box-shadow: 10px 10px 5px #888888;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
 }
 
 /* article formating */
