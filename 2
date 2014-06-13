@@ -9,43 +9,18 @@
 
 @charset 'UTF-8';
 
-/* import fonts */
+/* import font */
 @font-face {
 	font-family: 'bitstream_vera_serifroman';
-	src: url('../fonts/VeraSerif/VeraSerif-webfont.eot');
-	src: url('../fonts/VeraSerif/VeraSerif-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('../fonts/VeraSerif/VeraSerif-webfont.woff') format('woff'),
-	     url('../fonts/VeraSerif/VeraSerif-webfont.ttf') format('truetype'),
-	     url('../fonts/VeraSerif/VeraSerif-webfont.svg#bitstream_vera_serifroman') format('svg');
+	src: url('../font/VeraSerif-webfont.eot');
+	src: url('../font/VeraSerif-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../font/VeraSerif-webfont.woff') format('woff'),
+	     url('../font/VeraSerif-webfont.ttf') format('truetype'),
+	     url('../font/VeraSerif-webfont.svg#bitstream_vera_serifroman') format('svg');
 	     font-weight: normal;
 	     font-style: normal;
 
 }
-
-@font-face {
-    font-family: 'droid_sansregular';
-    src: url('DroidSans-webfont.eot');
-    src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
-         url('DroidSans-webfont.woff') format('woff'),
-         url('DroidSans-webfont.ttf') format('truetype'),
-         url('DroidSans-webfont.svg#droid_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'open_sansregular';
-    src: url('OpenSans-Regular-webfont.eot');
-    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('OpenSans-Regular-webfont.woff') format('woff'),
-         url('OpenSans-Regular-webfont.ttf') format('truetype'),
-         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 
 /* rhythm magic */
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, 
@@ -57,11 +32,11 @@ h6, pre, img, form, fieldset, p, blockquote, th, td {
 
 body {
         background-color: #d5e2da;
+        font-family: 'bitstream_vera_serifroman';
 }
 
 /* header */
 header {
-	font-family: 'bitstream_vera_serifroman';
 	text-transform: uppercase;
 	text-align: center;
 	margin: 0px auto;
@@ -76,7 +51,6 @@ header :link {
 
 /* nav */
 nav {
-	font-family: 'droid_sansregular';
 	margin: 0px auto;
 	text-align: center;
 	width: 40em;
@@ -85,7 +59,6 @@ nav {
 
 /* article */
 article {
-	font-family: 'open_sansregular';
 	text-align: left;
 	margin: 0px auto;
 	width: 35em;
@@ -93,8 +66,7 @@ article {
 	background-color: #ffffff;
 }
 
-/* article formating */
-article span.tab{
+article section.tab {
 	margin-left: 3em;
 }
 
@@ -105,7 +77,6 @@ article ul, ol {
 
 /* footer */
 footer {
-	font-family: 'open_sansregular';
 	text-align: center;
 	padding-top: 20px;
 	margin: 0px auto;
