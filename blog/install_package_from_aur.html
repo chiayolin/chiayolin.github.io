@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+ Author: Chiayo Lin
+ Email : chiayo.lin@gmail.com
+ Date  : June 06, 2014
+-->
+<html>
+ <head>
+  <link rel="stylesheet" type="text/css" href="/lib/css/std.css">
+  <style type="text/css">article ol { margin-left: 20px; }</style>
+  <title>Install Software from AUR</title>
+  </head>
+  <body>
+   <!-- START: HEADER -->
+   <header>
+    <h1><a href="http://www.chiayolin.org">Chiayo Lin</a></h1>
+   </header>
+   <!-- END: HEADER -->
+   <nav>
+    <a href="/links">Links</a>     |
+    <a href="/blog">Blog</a>       |
+    <a href="/archive">Archive</a> |
+    <a href="/internetfreedom/">Internet Freedom</a>
+   </nav>
+   <!--START: ARTICLE-->
+   <article>
+    <h2>Install Package from AUR</h2>
+    <hr/>
+    <p>Written by Chiayo Lin | JUN 13, 2014 | Saigon, Vietnam<p><br/>
+    <p>Arch User Repository (AUR) is a community-driven repository for Arch 
+       Linux users. You can find packages that haven't been officially 
+       supported by Arch Linux on AUR, such as Google Chrome, Dropbox, and 
+       Libre Office. AUR contains package descriptions 
+       (<code>PKGBUILDs</code>) that allow you to compile a package from 
+       source with <code>makepkg</code> and then install it via 
+       <code>pacman.</code>
+    </p><br/>
+    <h2>Getting Started</h2><br/>
+    <ol>
+     <li>Install build essentials:</li>
+      <blockquote><code># pacman -S --needed base-devel</code></blockquote>
+     <li>Download the tarball of the package you want from
+      <a href="https://aur.archlinux.org/">AUR</a>.
+      Then switch your working directory to where your tarball is:</li>
+      <blockquote><code>$ cd /path/to/directory/</code></blockquote>
+     <li>Extract the tarball that you downloaded by uing <code>tar</code>:</li>
+      <blockquote><code>$ tar -zxvf FOOBAR.tar.gz</code></blockquote>
+     <li><code>cd</code> into extracted folder:</li>
+      <blockquote><code>$ cd /path/to/FOOBAR/</code></blockquote>
+     <li>Make the package:</li>
+      <blockquote><code>$ makepkg -Acs</code></br>
+       <span style="color: red"><code>Do not run makepkg as root!</code></span>
+      </blockquote>
+     <li>Finally, install the package with filetype <code>pkg.tar.xz</code>
+      <blockquote><code># pacman -U FOOBAR.pkg.tar.xz</code></blockquote>
+    </ol>
+    <p>Done!</p>
+    <br/>
+    <p><i>Please email me if you see any error, thanks :) - chiayo.lin@gmail.com</i></p>
+   </article>
+   <!--END: ARTICLE-->
+   <!-- START: FOOTER -->
+   <footer>
+    <section class="update"><address><p>Updated on June 2014</p></address></section>
+    <section class="license">
+     <img alt="Creative Commons License" src="http://i.creativecommons.org/l/by/4.0/88x31.png"/><br/>
+     <p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+     Creative Commons<br/>Attribution 4.0 International License</a>.</p>
+    </section>
+   </footer>
+   <!-- END: FOOTER -->
+ </body>
+</html>
