@@ -1,7 +1,7 @@
 ﻿/* 
- +=========Standard CSS Library  V0.3=========+
+ +========Standard CSS Library  V0.3==========+
  | This file is released to the public domain.|
- | Chiayo Lin - www.chiayolin.org - 06132014. |
+ | Chiayo Lin - www.chiayolin.org - 06252014. |
  +============================================+
  | PATH:                     /lib/css/std.css |
  +============================================+
@@ -43,43 +43,76 @@ h6, pre, img, form, fieldset, p, blockquote, th, td {
 }
 
 body {
+	background-image:url('../images/day.png');
 	background-color: #d5e2da;
 	font-family: 'open_sansregular';
 }
 
-/* header */
+/* header 238*/
 header {
 	font-family: 'bitstream_vera_serifroman';
-	text-transform: uppercase;
-	text-align: center;
+	background-color: rgba(34, 34, 34, 0.88);
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
 	margin: 0px auto;
 	display: block;
-	padding: 14px;
-	width: 40em;
+	padding: 10px 20px;
+	position: fixed;
+	width: 560px;
+	left: 0;
+	right: 0;
+	top: 0;
 }
 
-header :link {
+header p {
+	color: #ffffff;
+	display: inline;
+}
+
+header h1 { 
+	color: #ffffff;
+	display: inline;
+}
+
+header table {
+	width: 100%;
+}
+
+header div.nav {
+	font-family: 'open_sansregular';
+	font-size: 14px;
+	text-align: right;
+}
+
+header span.nav-space {
+	margin-left: .5em;
+}
+
+header a:link {
+	color: #ffffff;
 	border-bottom: none;
 }
 
-/* nav */
-nav {
-	margin: 0px auto;
-	text-align: center;
-	width: 40em;
-	padding-bottom: 20px;
+header a:visited {
+        color: #ffffff;
+        text-decoration: none;
+        border-bottom: none;
 }
 
 /* article */
 article {
 	text-align: left;
 	margin: 0px auto;
-	width: 35em;
+	width: 560px;
 	padding: 20px;
+	margin-top: 60px;
 	background-color: #ffffff;
 	-moz-box-shadow: 0 0 5px #888;
-	-webkit-box-shadow: 0 0 5px#888;
+	-webkit-box-shadow: 0 0 5px #888;
 	box-shadow: 0 0 5px #888;
+	font-size: 14px;
+
 }
 
 /* article formating */
@@ -95,23 +128,21 @@ article ul, ol {
 /* footer */
 footer {
 	text-align: center;
+	font-size: 14px;
 	padding-top: 20px;
+	padding-bottom: 20px;
 	margin: 0px auto;
 	width: 40em;
 }
 
-footer section.update {
-	padding-bottom: 20px;
+footer address {
+	display: inline;
+	margin-right: 10px;
 }
 
-footer section.license img {
-	border-width: 0;
-	margin: 0px auto;
-	text-align: center;
-}
-
-footer section.license p {
-	padding: 10px;
+footer p {
+	display: inline;
+	margin-left: 10px;
 }
 
 /* blockquote */
