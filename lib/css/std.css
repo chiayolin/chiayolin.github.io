@@ -115,13 +115,16 @@ article {
 
 }
 
-/* article formating */
 article span.tab{
 	margin-left: 3em;
 }
 
 article ul, ol {
 	margin-left: 3em;
+	line-height: 1.5em;
+}
+
+article p {
 	line-height: 1.5em;
 }
 
