@@ -43,7 +43,7 @@ h6, pre, img, form, fieldset, p, blockquote, th, td {
 }
 
 body {
-	background-image:url('../images/day.png');
+	background-image:url('/lib/images/day.png');
 	background-color: #ffffff;
 	font-family: 'open_sansregular';
 }
