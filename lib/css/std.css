@@ -114,6 +114,11 @@ article {
 	font-size: 14px;
 
 }
+article .title {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
 
 article span.tab{
 	margin-left: 3em;
