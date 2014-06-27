@@ -1,7 +1,7 @@
 ﻿/* 
- +========Standard CSS Library  V0.3==========+
+ +========Standard CSS Library  V0.4==========+
  | This file is released to the public domain.|
- | Chiayo Lin - www.chiayolin.org - 06252014. |
+ | Chiayo Lin - www.chiayolin.org - 06272014. |
  +============================================+
  | PATH:                     /lib/css/std.css |
  +============================================+
@@ -44,7 +44,7 @@ h6, pre, img, form, fieldset, p, blockquote, th, td {
 
 body {
 	background-image:url('../images/day.png');
-	background-color: #d5e2da;
+	background-color: #ffffff;
 	font-family: 'open_sansregular';
 }
 
@@ -130,6 +130,11 @@ article ul, ol {
 }
 
 article p {
+	line-height: 1.5em;
+}
+
+article table {
+	width: 100%;
 	line-height: 1.5em;
 }
 
