@@ -154,7 +154,8 @@ footer address {
 }
 
 footer p {
-	line-height: 2em;
+	display: inline;
+	margin-left: 10px;
 }
 
 /* blockquote */
