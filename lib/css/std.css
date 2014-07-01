@@ -158,6 +158,10 @@ footer p {
 	margin-left: 10px;
 }
 
+footer div.404 {
+	line-height: 2em;
+}
+
 /* blockquote */
 blockquote {
 	background: #eeeeee;
