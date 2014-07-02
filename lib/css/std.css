@@ -86,7 +86,7 @@ header div.nav {
 }
 
 header div.nav a {
-	padding: 13px 100%;
+	padding: 13px 0px;
 }
 
 header div.nav span.space {
@@ -107,6 +107,7 @@ header ul li.drop li a:link {
 	color: #000000;
 	border-bottom: none;
 	font-size: 12px;
+	padding-right: 100%;
 }
 
 header ul li.drop li a:visited {
