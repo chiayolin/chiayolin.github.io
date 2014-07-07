@@ -271,6 +271,20 @@ article table {
 	line-height: 1.5em;
 }
 
+article table.defult {
+	border: solid 1px #000000;
+}
+
+article table.defult th {
+	border: solid 1px #000000;
+	padding-left: 3px;
+}
+
+article table.defult td {
+	border: solid 1px #000000;
+	padding-left: 3px;
+}
+
 /* footer */
 footer {
 	text-align: center;
