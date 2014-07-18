@@ -45,12 +45,12 @@ h6, pre, img, form, fieldset, p, blockquote, th, td {
 body {
 	background-image:url('../images/day.png');
 	background-color: #ffffff;
-	font-family: 'open_sansregular';
+	font-family: 'STKaiti', 'DFKai-SB','open_sansregular';
 }
 
 /* header 238 */
 header {
-	font-family: 'bitstream_vera_serifroman';
+	font-family: 'STKaiti', 'DFKai-SB', 'bitstream_vera_serifroman';
 	background-color: rgba(34, 34, 34, 0.88);
 	-moz-box-shadow: 0 0 5px #888;
 	-webkit-box-shadow: 0 0 5px#888;
@@ -68,6 +68,7 @@ header {
 header p {
 	color: #ffffff;
 	display: inline;
+	font-size: 19px;
 }
 
 header h1 { 
@@ -80,7 +81,7 @@ header table {
 }
 
 header div.nav {
-	font-family: 'open_sansregular';
+	font-family: 'STKaiti', 'DFKai-SB','open_sansregular';
 	font-size: 14px;
 	text-align: right;
 }
@@ -299,11 +300,14 @@ footer {
 footer address {
 	display: inline;
 	margin-right: 10px;
+	font-size: 14px;
 }
 
 footer p {
 	display: inline;
 	margin-left: 10px;
+	font-size: 14px;
+
 }
 
 footer div.404 {
