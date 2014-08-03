@@ -2,14 +2,16 @@
 <!--
  Author: Chiayo Lin
  Email : chiayo.lin@gmail.com
- Date  : July 01, 2014
+ Date  : August 03, 2014
 -->
 <html>
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <link rel="shortcut icon" href="../lib/images/icon.ico">
-  <link rel="stylesheet" type="text/css" href="../lib/css/std.css">
-  <title>Archives</title>
+  <script language="javascript" src="../lib/js/lightSwitch.js"></script>
+  <link rel="stylesheet" type="text/css" href="../lib/css/std.css"/>
+  <style type="text/css">article ol { margin-left: 20px; }</style>
+  <title>Finding </title>
   </head>
   <body>
    <!-- START: HEADER -->
@@ -44,36 +46,30 @@
       </tr> 
      </table>
    </header>
+   <!-- END: HEADER -->
    <!--START: ARTICLE-->
    <article>
-    <h2>Index of Archives:</h2>
+    <table class = "title">
+     <td>
+      <h2>Install Package from AUR</h2>
+     </td>
+     <td align="right">
+      <button type="button" onclick="lightSwitch()">
+       <p id = "mode">Night Mode: OFF</p>
+      </button>
+     </td>
+    </table>
     <hr/>
-    <!-- Thoughts -->
-    <b>Politics</b>
-     <ul>
-      <li><a href="internet_freedom.html">Who I am ?</a></li>
-    </ul>
-    <!-- /Thoughts -->
-    <br/>
-    <!-- Thoughts -->
-    <b>Thoughts</b>
-     <ul>
-      <li><a href="internet_freedom.html">Internet Freedom</a></li>
-    </ul>
-    <!-- /Thoughts -->
-    <br/>
-    <!-- ComSci -->
-    <b>ComSci</b>
-    <ul>
-     <li><a href="install_package_from_aur.html">Install Package from AUR</a></li>
-    </ul>
-    <!-- /ComSci -->
+    <p>Written by Chiayo Lin | JUN 13, 2014 | Saigon, Vietnam<p><br/>
+
    </article>
    <!--END: ARTICLE-->
    <!-- START: FOOTER -->
    <footer>
+    <section id = "foot">
      <address>Updated on June 2014</address> -
-     <p><a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+     <p><a id ="foot-link" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+    </section>
    </footer>
    <!-- END: FOOTER -->
  </body>
