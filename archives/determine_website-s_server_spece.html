@@ -71,7 +71,7 @@
        command, <code>grep</code> (<code>man grep</code> for more information) to search for pattern “Server:” then prints it. It makes terminal output 
        more readable. Finally, we use <code>awk</code> to remove the string, "Server:", so the output will 
        be only the name of web server that the website is running on.</p><br/>
-    <h2>Example</h2>
+    <h3>Example</h3>
     <br/>
     <p>Input:</p>
     <blockquote><code>curl -I# www.linux.org | grep 'Server:' | awk '{ print $2 }'</code></blockquote>
