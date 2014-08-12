@@ -178,6 +178,7 @@ header .dropOut ul li {
 header .dropOut ul li:hover {
 	border: 1px solid #000000;
 }
+
 header ul li:hover a { 
 	color: white; 
 }
@@ -220,6 +221,7 @@ article {
 	font-size: 14px;
 
 }
+
 article .title {
 	width: 100%;
 	margin: 0px;
@@ -264,6 +266,10 @@ article ul, ol {
 
 article p {
 	line-height: 1.5em;
+}
+
+article code {
+	font-size: 14px;
 }
 
 article table {
