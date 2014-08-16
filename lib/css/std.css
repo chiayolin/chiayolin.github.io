@@ -340,3 +340,25 @@ a:visited {
 	text-decoration: none; 
 	border-bottom: 1px dotted #000000;
 }
+
+/* botton */
+button {
+   background: #ffffff;
+   padding: 2px 4px;
+   color: #000000;
+   font-size: 11px;
+   text-decoration: none;
+   vertical-align: middle;
+   border-width: 1.5px;
+   border-color: #000000;
+}
+
+button:hover {
+   background: #ffffff;
+   color: #000000;
+}
+
+button:active {
+   background: #ffffff;
+   color: #000000;
+}
