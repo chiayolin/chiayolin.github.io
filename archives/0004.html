@@ -2,15 +2,16 @@
 <!--
  Author: Chiayo Lin
  Email : chiayo.lin@gmail.com
- Date  : July 01, 2014
+ Date  : August 27, 2014
 -->
 <html>
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <link rel="shortcut icon" href="../lib/images/icon.ico">
-  <link rel="stylesheet" type="text/css" href="../lib/css/std.css">
-  </style>
-  <title>Archives</title>
+  <script language="javascript" src="../lib/js/lightSwitch.js"></script>
+  <link rel="stylesheet" type="text/css" href="../lib/css/std.css"/>
+  <style type="text/css">article ol { margin-left: 20px; }</style>
+  <title>ALS Ice Bucket Challenge</title>
   </head>
   <body>
    <!-- START: HEADER -->
@@ -45,39 +46,33 @@
       </tr> 
      </table>
    </header>
+   <!-- END: HEADER -->
    <!--START: ARTICLE-->
    <article>
-    <h2>Index of Archives:</h2>
+    <table class = "title">
+     <td>
+      <h2>ALS Ice Bucket Challenge</h2>
+     </td>
+     <td align="right">
+      <button type="button" onclick="lightSwitch()">
+       <p id = "mode">Night Mode: OFF</p>
+      </button>
+     </td>
+    </table>
     <hr/>
-    <br/>
-    <!-- ComSci -->
-    <b>ComSci</b>
-    <ul>
-     <li><a href="0002.html">Determine Website's Server Spece</a></li>
-     <li><a href="0001.html">Install Package from AUR</a></li>
-    </ul>
-    <!-- /ComSci -->
-    <br/>
-    <!-- Thoughts -->
-    <b>Thoughts</b>
-     <ul>
-      <li><a href="0000.html">Internet Freedom</a></li>
-    </ul>
-    <!-- /Thoughts -->
-    <br/>
-    <!-- Other -->
-    <b>Personal Stuffs</b>
-    <ul>
-     <li><a href="0004.html">ALS Ice Bucket Challenge</a></li>
-     <li><a href="0003.html">High School 2014 - 2015 Schedule</a></li>
-    </ul>
-    <!-- /Other -->
+    <p>Published by Chiayo Lin | AUG 27, 2014 | Saigon, Vietnam<p><br/>
+     <iframe src="https://archive.org/embed/Cyl_als_ice_bucket_challenge.mp4" 
+     width="560" height="480" frameborder="0" webkitallowfullscreen="true" 
+     mozallowfullscreen="true" allowfullscreen></iframe>
+     <i>Please help the ALS Association support research to find a cure for ALS.</i>
    </article>
    <!--END: ARTICLE-->
    <!-- START: FOOTER -->
    <footer>
-     <address>Updated on June 2014</address> -
-     <p><a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+    <section id = "foot">
+     <address>Updated on August 2014</address> -
+     <p><a id ="foot-link" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+    </section>
    </footer>
    <!-- END: FOOTER -->
  </body>
