@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--
+ Author: Chiayo Lin
+ Email : chiayo.lin@gmail.com
+ Date  : November 15, 2014
+-->
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="shortcut icon" href="../lib/images/icon.ico">
+  <script language="javascript" src="../lib/js/lightSwitch.js"></script>
+  <link rel="stylesheet" type="text/css" href="../lib/css/std.css"/>
+  <style type="text/css">
+  article table.transparent thead { background-color: #000080; color: #ffffff; text-align: center;}
+  article table.transparent tbody { text-align: center;}
+  article ol { margin-left: 20px; }
+  </style>
+  <title>DTOB</title>
+  </head>
+  <body>
+   <!-- START: HEADER -->
+   <header>
+    <table>
+     <tr>
+      <td>
+       <p><a href="http://www.chiayolin.org">CHIAYO LIN</a></p>
+      </td>
+      <td>
+       <div class="nav">
+        <ul>
+         <li><a href="/links">Links</a>          <span class="space"/></li>
+         <li><a href="/archives">Archives</a>    <span class="space"/></li>
+         <li><a href="/downloads">Downloads</a>  <span class="space"/></li>
+         <li class="drop">
+          <a href="#">More</a>
+           <div class="dropdownContain">
+            <div class="dropOut">
+             <div class="triangle"></div>
+             <ul>
+              <li><a href="/about">About</a></li>
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="/site_map">Site&nbsp;Map</a></li>
+             </ul>
+            </div>
+           </div>
+          </li>
+         </ul>
+        </div>
+       </td>
+      </tr> 
+     </table>
+   </header>
+   <!-- END: HEADER -->
+   <!-- START: ARTICLE-->
+   <article>
+    <table class = "title">
+     <td>
+      <h2>DTOB</h2>
+     </td>
+     <td align="right">
+      <button type="button" onclick="lightSwitch()">
+       <p id = "mode">Night Mode: OFF</p>
+      </button>
+     </td>
+    </table>
+    <hr/>
+    <p>Published by Chiayo Lin | November 15, 2014 | Saigon, Vietnam</p>
+    <br/>
+    <h2>Introduction</h2>
+    <br/>
+    <p>DTOB (<i>Decimal to Binary and Binary to Decimal Converter</i> ) is an open source 
+       number bases converter written in C. You can use DTOB to convert binary numbers 
+       to decimal numbers, or decimal numbers to binary numbers. It provides two ways to 
+       convert number bases. You can either input numbers directly through the terminal, 
+       or use the interactive mode.</p><br/>
+    <h2>Source Code</h2>
+    <br/>
+    <table class="transparent">
+      <thead>
+      <tr>
+      <th>Version</th>
+      <th>Size</th>
+      <th>Date</th>
+      <th>Download</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <td>1.1</td>
+      <td>19 KB</td>
+      <td>Nov. 15, 2014</td>
+      <td><a href="https://github.com/chiayolin/dtob/archive/master.zip">Clink Here</a></td>
+      </tr>
+      </tbody>
+    </table>
+    <br/>
+    <h2>Installation</h2>
+    <address>For Linux and Max OS X Only</address>
+    <br/>
+    <ol>
+     <li><p>Open your terminal.</p></li>
+     <li><p>Download the source code from above, then upzip it.<br/>Or else, you can use <code>git</code>:</p>
+      <blockquote><code>git clone http://github.com/chiayolin/dtob</code></blockquote></li>
+     <li><p>Change directory to where the folder is:<blockquote><code>cd /path/to/dtob</code></blockquote></p></li>
+     <li><p>Make the install script executable:
+      <blockquote><code>chmod +x install</code></blockquote></p></li>
+     <li><p>Run the install script:<blockquote><code>./install</code></blockquote></p></li>
+    </ol>
+    <h2>Usage</h2>
+    <br/>
+    <h3>Command Line</h3>
+    <blockquote><code>dtob [-options] [value (binary/decimal)]</code></blockquote>
+    <p>Here is a list of available options: <code>-h -d -b -i -m</code></p>
+    <p><code>-h</code> : print the help message.</p>
+    <p><code>-d</code> : convert decimal number to binary.</p>
+    <p><code>-i</code> : force interactive mode.</p>
+    <p><code>-m</code> : print some info about this program.</p>
+    <br>
+    <p>Arguments -d and -b expect a number value after. For example, if we want to convert
+       a decimal number 256 to binary, then we will use the argument -d with a decimal
+       number 410:</p>
+    <blockquote><code>dtob -d 410</code></blockquote>
+    <p>Output:</p>
+    <blockquote><code>110011010</code></blockquote>
+    <p>Same way for the argument <code>-b</code>, which converts binary number to decimal:</p>
+    <blockquote><code>dtob -b 10011001110</code></blockquote>
+    <p>Output:</p>
+    <blockquote><code>1230</code></blockquote>
+    <h3>Interactive Mode</h3>
+    <br/>
+    <p>You can either enter interactive mode by just runing the command dtob, or with the 
+     <code>-i</code> argument like, <code>dtob -i.</code></p><br/>
+    <p>When you get into interactive mode, you will see a prompt like this:</p>
+    <blockquote><code>use h for help<br/>>>> _</code></blockquote>
+    <p>Now you can enter a single character h for help. However, here are some available 
+       options: <code>h, d, b, m,</code> and <code>q</code>.</p>
+    <br/>
+    <p>You can convert a decimal number to binary by using the option <code>d</code>. Here is an 
+       example:</p>
+    <blockquote><code>machine:~ chiayo$ dtob<br/>use h for help
+     <br/>>>> d (Press RETURN)<br/>1112 (Press RETURN)<br/>
+     10001011000</code></blockquote>
+    <p>Or from binary to decimal number:</p>
+    <blockquote><code>...<br/>>>> b (Press RETURN)<br/>1100101010 (Press RETURN)<br/>810</code></blockquote>
+    <p>When you whant to exit the interactive mode, just simply type <code>q</code> then hit return:</p>
+    <blockquote><code>>>> q (Press RETURN)</code></blockquote>
+   </article>
+  </div>
+   <!--END: ARTICLE-->
+   <!-- START: FOOTER -->
+   <footer>
+    <section id = "foot">
+     <address>Updated on November 2014</address> -
+     <p><a id ="foot-link" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+    </section>
+   </footer>
+   <!-- END: FOOTER -->
+ </body>
+</html>
