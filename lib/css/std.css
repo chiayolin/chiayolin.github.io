@@ -1,7 +1,7 @@
 ﻿/* 
- +========Standard CSS Library  V0.5==========+
+ +========Standard CSS Library V0.51==========+
  | This file is released to the public domain.|
- | Chiayo Lin - www.chiayolin.org - 07012014. |
+ | Chiayo Lin - www.chiayolin.org - 11152014. |
  +============================================+
  | PATH:                     /lib/css/std.css |
  +============================================+
@@ -286,7 +286,21 @@ article table.defult th {
 }
 
 article table.defult td {
-	border: solid 1px #000000;
+	border: solid 0px;
+	padding-left: 3px;
+}
+
+article table.transparent {
+	border: 0px;
+}
+
+article table.transparent th {
+	border: 0px;
+	padding-left: 3px;
+}
+
+article table.transparent td {
+	border: 0px;
 	padding-left: 3px;
 }
 
@@ -340,24 +354,16 @@ a:visited {
 	border-bottom: 1px dotted #000000;
 }
 
-/* botton */
+/* button */
 button {
-   background: #ffffff;
-   padding: 2px 4px;
-   color: #000000;
-   font-size: 11px;
-   text-decoration: none;
-   vertical-align: middle;
-   border-width: 1.5px;
-   border-color: #000000;
-}
-
-button:hover {
-   background: #ffffff;
-   color: #000000;
-}
-
-button:active {
-   background: #ffffff;
-   color: #000000;
+	margin: 0em;
+	font: -webkit-small-control;
+	color: initial;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
 }
