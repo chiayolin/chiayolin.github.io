@@ -62,7 +62,7 @@
     <hr/>
     <p>Written by Chiayo Lin | AUG 04, 2014 | Taipei, Taiwan<p><br/>
     <p>The following commands will print what web server the website is running on.</p>
-    <blockquote><code>curl -I# www.foobar.com | grep 'Server:' | awk '{ print $2 }'</code></blockquote>
+    <blockquote><code>curl -I# www.foo.bar | grep 'Server:' | awk '{ print $2 }'</code></blockquote>
     <p>There are three commands above, each command is separated by a “|” (vertical slash).
        Among of these three commands include, <code>curl</code>, <code>grep</code>, and <code>awk</code>.
        We get information from a server by using <code>curl</code> with two command line option, <code>-I</code> and <code>-#</code>. 
