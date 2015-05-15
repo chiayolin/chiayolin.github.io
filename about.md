@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I’m a student in SSIS. My primary responsibility is to complete homework from school everyday
+(which I never did... oops). I am passionate about everything that relates to the science of 
+computation (AKA computer science). Anyway, this site is full trash talks, but maybe you 
+will find something useful. If you’re interested in stuffs that I’m doing (which you probably 
+won’t), go take a look at my [Gihub](https://github.com/chiayolin/) :)
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
