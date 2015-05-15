@@ -4,8 +4,9 @@
 @charset "utf-8";
 
 
+
 // Our variables
-$base-font-family: 'Cutive Mono', "YuMincho", monospace;;
+$base-font-family: 'Cutive Mono', "YuMincho", monospace;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -21,10 +22,12 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    660px;
+$content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
