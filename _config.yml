@@ -10,3 +10,9 @@ github_username:  chiayolin
 
 # Build settings
 markdown: kramdown
+
+# Gems
+gems:
+  - jemoji
+  - jekyll-mentions
+jekyll-mentions: https://github.com
