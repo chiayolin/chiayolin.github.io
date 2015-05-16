@@ -124,3 +124,5 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-mentions
+  jemoji

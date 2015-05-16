@@ -2,7 +2,6 @@
 layout: post
 title:  "Install Packages from AUR"
 date:   2014-06-13 11:25:52
-categories: linux
 ---
 
 Arch User Repository (AUR) is a community-driven repository for Arch Linux users. 
