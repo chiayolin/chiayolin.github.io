@@ -120,7 +120,27 @@ blockquote {
     }
 }
 
+/**
+ * Table
+ */
+table {
+    width: 100%;
+    line-height: 1.5em;
+}
 
+table {
+    border: solid 1px #000000;
+}
+
+table th {
+    border: solid 1px #000000;
+    padding-left: 3px;
+}
+
+table td {
+    border: solid 1px;
+    padding-left: 3px;
+}
 
 /**
  * Code formatting
