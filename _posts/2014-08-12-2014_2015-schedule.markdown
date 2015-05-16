@@ -1,0 +1,94 @@
+---
+layout: post
+title:  "2014-2015 Schedule"
+date:   2014-08-12 22:31:11
+---
+
+| Block | Term        | Course      | Teacher | Room |
+|:-----:|:-----------:|:-----------:|:-------:|:----:|
+| A     | 2014 - 2015 | Geography 9 | CA      | C405 |
+| ADV   | 2014 - 2015 | Advisory 9  | RM      | C418 |
+| B     | 2014 - 2015 | ELD 9       | RM      | C418 |
+| C     | 2014 - 2015 | Algebra 9   | WF      | C320 |
+| D     | 2014 - 2015 | English 9   | JF      | C403 |
+| E     | Semester 1  | Study Hall  | SL      | C318 |
+| F     | 2014 - 2015 | Chemistry   | AB      | C313 |
+| G     | 2014 - 2015 | PE / Health | AL      | C004 |
+| H     | 2014 - 2015 | Spanish 1   | WM      | C409 |
+
+<br/>
+
+<table style="text-align: center;">
+ <thead>
+  <tr >
+  <th>Time / Day</th>
+  <th>1</th>
+  <th>2</th>
+  <th>3</th>
+  <th>4</th>
+  <th>5</th>
+  <th>6</th>
+  <th>7</th>
+  <th>8</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+  <td>08:00 - 09:25</td>
+  <td>A</td>
+  <td>E</td>
+  <td>B</td>
+  <td>F</td>
+  <td>C</td>
+  <td>G</td>
+  <td>D</td>
+  <td>H</td>
+  </tr>
+  <tr>
+  <td>09:25 - 09:40</td>
+  <td colspan="8">BREAK #1</td>
+  </tr>
+  <tr>
+  <td>09:40 - 11:05</td>
+  <td>B</td>
+  <td>F</td>
+  <td>C</td>
+  <td>G</td>
+  <td>D</td>
+  <td>H</td>
+  <td>A</td>
+  <td>E</td>
+  </tr>
+  <tr>
+  <td>11:05 - 11:15</td>
+  <td colspan="8">BREAK #2</td>
+  </tr>
+  <tr>
+  <td>11:15 - 12:40</td>
+  <td>C</td>
+  <td>G</td>
+  <td>D</td>
+  <td>H</td>
+  <td>A</td>
+  <td>E</td>
+  <td>B</td>
+  <td>F</td>
+  </tr>
+  <tr>
+  <td>12:40 - 13:35</td>
+  <td colspan="8">LUNCH :smile_cat:</td>
+  </tr>
+  <tr>
+  <td>13:35 - 15:00</td>
+  <td>D</td>
+  <td>H</td>
+  <td>A</td>
+  <td>E</td>
+  <td>B</td>
+  <td>F</td>
+  <td>C</td>
+  <td>G</td>
+  </tr>
+ </tbody>
+</table>
+
