@@ -7,7 +7,6 @@ rvm:
 before_script: bundle update
 script:
   - bundle exec jekyll build
-  - bundle exec htmlproof ./_site --only-4xx --check-favicon --check-html
 env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 notifications:
