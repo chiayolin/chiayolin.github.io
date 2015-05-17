@@ -1,0 +1,16 @@
+language: ruby
+cache: bundler
+sudo: false
+rvm:
+- 2.2
+- 2.1
+env:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+before_script: bundle update
+script:
+  - bundle exec jekyll build
+  - bundle exec htmlproof ./_site --only-4xx --check-favicon --check-html
+notifications:
+  email:
+    on_success: chiayo.lin@gmail.com
+    on_failure: chiayo.lin@gmail.com
