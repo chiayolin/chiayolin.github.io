@@ -126,10 +126,7 @@ blockquote {
 table {
     width: 100%;
     line-height: 1.5em;
-}
-
-table {
-    border: solid 1px #000000;
+    border-collapse: collapse;
 }
 
 table th {
