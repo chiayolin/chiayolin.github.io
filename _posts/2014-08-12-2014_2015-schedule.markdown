@@ -4,20 +4,6 @@ title:  "2014-2015 Schedule"
 date:   2014-08-12 22:31:11
 ---
 
-| Block | Term        | Course      | Teacher | Room |
-|:-----:|:-----------:|:-----------:|:-------:|:----:|
-| A     | 2014 - 2015 | Geography 9 | CA      | C405 |
-| ADV   | 2014 - 2015 | Advisory 9  | RM      | C418 |
-| B     | 2014 - 2015 | ELD 9       | RM      | C418 |
-| C     | 2014 - 2015 | Algebra 9   | WF      | C320 |
-| D     | 2014 - 2015 | English 9   | JF      | C403 |
-| E     | Semester 1  | Study Hall  | SL      | C318 |
-| F     | 2014 - 2015 | Chemistry   | AB      | C313 |
-| G     | 2014 - 2015 | PE / Health | AL      | C004 |
-| H     | 2014 - 2015 | Spanish 1   | WM      | C409 |
-
-<br/>
-
 <table style="text-align: center;">
  <thead>
   <tr >
