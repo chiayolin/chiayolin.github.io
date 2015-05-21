@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Install Packages from AUR"
+title:  "Install AUR Packages"
 date:   2014-06-13 11:25:52
 ---
 
