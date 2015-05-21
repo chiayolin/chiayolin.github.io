@@ -1,5 +1,4 @@
-# chiayolin.org
-[![Build Status](https://travis-ci.org/chiayolin/chiayolin.github.io.svg?branch=master)](https://travis-ci.org/chiayolin/chiayolin.github.io)
+# chiayolin.org [![Build Status](https://travis-ci.org/chiayolin/chiayolin.github.io.svg?branch=master)](https://travis-ci.org/chiayolin/chiayolin.github.io)
 
 [chiayolin.org][url] is the home page of [Chiayo Lin][name], and it is hosted on [Github Pages][gh-pages]. 
 This site uses [Jekyll][jekyll] for HTML generation, [SASS][sass] for CSS generation, 
