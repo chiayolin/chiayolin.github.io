@@ -12,3 +12,5 @@ currently working on, go take a look on my [Gihub][2] :octocat:
 [t]: https://goo.gl/maps/oGDrf
 [s]: https://goo.gl/maps/Skp06
 [2]: https://github.com/chiayolin/
+
+:wq
