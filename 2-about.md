@@ -13,4 +13,6 @@ currently working on, go take a look on my [Gihub][2] :octocat:
 [s]: https://goo.gl/maps/Skp06
 [2]: https://github.com/chiayolin/
 
+我是林佳佑，我主張台灣獨立。
+
 :wq
