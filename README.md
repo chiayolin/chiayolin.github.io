@@ -10,7 +10,7 @@ and [Bundler][bundler] for managing `Gems`.
 [sass]: https://github.com/sass/sass/
 [bundler]: https://github.com/bundler/bundler/
 
-## Licenses
+## License
 
 The code is licensed under the [MIT][mit] License. 
 [mit]: https://en.wikipedia.org/wiki/MIT_License
