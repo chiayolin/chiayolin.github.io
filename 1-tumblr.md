@@ -1,8 +1,8 @@
 ---
 redirect_to:
-  - http://chiayolin.org/
-title: Archives
-permalink: /archives/
+  - http://tumblr.chiayolin.org/
+title: Tumblr
+permalink: /tumblr/
 ---
 
 hello, world
