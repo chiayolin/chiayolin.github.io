@@ -9,7 +9,7 @@
 {% for article in articles_page.object_list %}
   <li>
     <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr> &raquo;
-    <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
+    <a href="{{ SITEURL }}/{{ article.save_as }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
   </li>
 {% endfor %}
 </ul><!-- /#posts-list -->
