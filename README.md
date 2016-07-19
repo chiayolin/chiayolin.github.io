@@ -13,7 +13,7 @@ To compile the files inside `content/`, run:
 $ make html
 ```
 
-To start up a local http server:
+To start up a local HTTP server:
 
 ```sh
 $ make serve
@@ -27,16 +27,17 @@ $ sh develop_server.sh
 
 ## Deploying to Github
 
-Paste the following commands at a terminal prompt to deploy the generated files
-insie `output` directory to Github Pages as a user page:
+Paste the following commands at a terminal prompt to deploy: 
 
 ```sh
-$ ghp-import output/
-$ git checkout master
-$ git merge gh-pages
-$ git push --all
+$ ghp-import output/  # import the generated filse in `output/` to `gh-pages`
+$ git checkout master # switch to `master` 
+$ git merge gh-pages  # merge the imported files
+$ git push --all      # push it to Gihutb
 ```
 
 ## License
 
 The site is licensed under the MIT License.
+
+[1]: http://chiayolin.org/
