@@ -4,7 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Chiayo Lin'
 SITENAME = u'chiayolin.org'
-SITEURL = 'http://chiayolin.org'
+SITEURL = ''
+
+THEME = './lowlands'
 
 PATH = 'content'
 STATIC_PATHS = ['etc/CNAME', 'etc/favicon.ico']
@@ -12,8 +14,6 @@ EXTRA_PATH_METADATA = {'etc/CNAME': {'path': 'CNAME'}, 'etc/favicon.ico': {'path
 
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
-
-THEME = './lowlands'
 
 TIMEZONE = 'Asia/Taipei'
 DEFAULT_DATE_FORMAT = '%a %b %d %Y'
