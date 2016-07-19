@@ -24,9 +24,9 @@ EXTRA_PATH_METADATA = {
 # urls
 ARTICLE_URL = 'posts/{slug}/'
 ARTICLE_SAVE_AS = 'a/{slug}.html'
+ARCHIVES_SAVE_AS = 'a/index.html'
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = '{slug}.html'
-ARCHIVES_SAVE_AS = 'log/index.html'
 AUTHOR_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 
