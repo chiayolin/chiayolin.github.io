@@ -7,7 +7,7 @@ SITENAME = u'chiayolin.org'
 SITEURL = 'http://chiayolin.org'
 
 PATH = 'content'
-STATIC_PATHS = ['etc/CNAME', 'etc/favicon']
+STATIC_PATHS = ['etc/CNAME', 'etc/favicon.ico']
 EXTRA_PATH_METADATA = {'etc/CNAME': {'path': 'CNAME'}, 'etc/favicon.ico': {'path': 'favicon.ico'}} 
 
 PAGE_URL = 'pages/{slug}/'
