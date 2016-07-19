@@ -17,11 +17,13 @@ PATH = 'content'
 STATIC_PATHS = ['etc/CNAME', 'etc/favicon.ico']
 EXTRA_PATH_METADATA = {'etc/CNAME': {'path': 'CNAME'}, 'etc/favicon.ico': {'path': 'favicon.ico'}} 
 
-# input/output path for htmls
+# urls
 ARTICLE_URL = 'posts/{slug}/'
 ARTICLE_SAVE_AS = 'a/{slug}.html'
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = '{slug}.html'
+
+ARCHIVES_SAVE_AS = 'a/index.html'
 
 # time and date
 TIMEZONE = 'Asia/Taipei'
