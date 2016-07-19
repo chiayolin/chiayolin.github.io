@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Chiayo Lin'
 SITENAME = u'chiayolin.org'
-SITEURL = ''
+SITEURL = 'http://chiayolin.org'
 
 PATH = 'content'
 STATIC_PATHS = ['etc/CNAME']
@@ -13,6 +13,7 @@ EXTRA_PATH_METADATA = {'etc/CNAME': {'path': 'CNAME'},}
 THEME = 'lowlands'
 
 TIMEZONE = 'Asia/Taipei'
+DEFAULT_DATE_FORMAT = '%a %b %d %Y'
 
 DEFAULT_LANG = u'en'
 
