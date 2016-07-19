@@ -10,6 +10,8 @@ PATH = 'content'
 STATIC_PATHS = ['etc/CNAME']
 EXTRA_PATH_METADATA = {'etc/CNAME': {'path': 'CNAME'},}
 
+THEME = 'lowlands'
+
 TIMEZONE = 'Asia/Taipei'
 
 DEFAULT_LANG = u'en'
