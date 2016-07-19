@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+  {% block head %}
+    <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/src/css/main.css" />
+  {% endblock head %}
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+    </div>
+    <div class="nav">
+      <ul>
+        <li><a href="/">/</a></li>
+        <li><span class="separator">::</span></li>
+        <li><a href="https://github.com/chiayolin/chiayolin.github.io">/src</a></li>
+        <li><span class="separator">::</span></li>
+        <li><a href="{{ SITEURL }}/readme/">/README</a></li>
+      </ul>
+    </div>
+    {% block content %}
+    {% endblock %}
+    <div class="footer">
+      <address>
+        /* author:&nbsp;Chiayo Lin<br/>
+        &nbsp;* gtihub:&nbsp;@chiayolin<br/>
+        &nbsp;* twitter:&nbsp;@chiayolin<br/>
+        &nbsp;* email:&nbsp;chiayo.lin@gmail.com <br/>
+        &nbsp;* page generator: Pelican */
+      </address>
+    </div>
+  </div>
+</body>
+</html>
