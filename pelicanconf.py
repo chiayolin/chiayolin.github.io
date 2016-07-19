@@ -21,14 +21,20 @@ EXTRA_PATH_METADATA = {
     'etc/CNAME': {'path': 'CNAME'}, 
     'etc/favicon.ico': {'path': 'favicon.ico'}} 
 
-# urls
+# urls and generated path
 ARTICLE_URL = 'posts/{slug}/'
 ARTICLE_SAVE_AS = 'a/{slug}.html'
 ARCHIVES_SAVE_AS = 'a/index.html'
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = '{slug}.html'
+
+# i don't need these
+TAG_SAVE_AS = ''
+TAGS_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
+AUTHORS_SAVE_AS =''
 CATEGORY_SAVE_AS = ''
+CATEGORIES_SAVE_AS = ''
 
 # time and date
 TIMEZONE = 'Asia/Taipei'
