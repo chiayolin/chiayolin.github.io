@@ -7,6 +7,8 @@ SITENAME = u'chiayolin.org'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['etc/CNAME']
+EXTRA_PATH_METADATA = {'etc/CNAME': {'path': 'CNAME'},}
 
 TIMEZONE = 'Asia/Taipei'
 
