@@ -81,6 +81,19 @@ div.footer {
   margin: 2em 0;
 }
 
+#menu li {
+  display: inline;
+}
+
+#post-list {
+  margin-top: 1em;
+}
+
+ul.post-list, ul.project-list {
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+
 div.entry-title {
 }
 
@@ -97,18 +110,3 @@ pre {
     margin: 2em 1em 2em 4em;
 }
 
-
-/* under development */
-
-#menu li {
-    display: inline;
-}
-
-#post-list {
-    margin-bottom: 1em;
-    margin-top: 1em;
-}
-
-ul.post-list {
-  list-style-type: none;
-}

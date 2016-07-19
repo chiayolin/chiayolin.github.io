@@ -19,7 +19,7 @@ EXTRA_PATH_METADATA = {'etc/CNAME': {'path': 'CNAME'}, 'etc/favicon.ico': {'path
 
 # input/output path for htmls
 ARTICLE_URL = 'posts/{slug}/'
-ARTICLE_SAVE_AS = '{slug}/index.html'
+ARTICLE_SAVE_AS = '{slug}/'
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 
