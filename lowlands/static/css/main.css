@@ -1,0 +1,114 @@
+/* global reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: auto;
+}
+
+body {
+  background-color: white;
+  font: 13.34px monospace;
+  text-align: center;
+  *font-size: small;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  /* color: #551a8b; */
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+
+/* site */
+
+div.wrapper {
+    font-family: monospace;
+    font-size: 100%;
+    text-align: justify;
+    background-color: white;
+    color: #111;
+
+    width: 42em;
+    margin: 3em auto 2em auto;
+    line-height: 1.5em;
+
+}
+
+div.header h1 a {
+  color: #111;
+}
+
+div.nav {
+  float: right;
+  margin-top: -2.5em;
+  margin-bottom: 1em;
+}
+
+div.nav li {
+  display: inline;
+}
+
+div.footer {
+  margin: 2em 0;
+}
+
+div.entry-title {
+}
+
+div.entry-info p {
+  margin: 0em;
+
+}
+
+div.entry-content {
+
+}
+
+pre {
+    margin: 2em 1em 2em 4em;
+}
+
+
+/* under development */
+
+#menu li {
+    display: inline;
+}
+
+#post-list {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+ul.post-list {
+  list-style-type: none;
+}
