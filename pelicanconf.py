@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 from markdown.extensions.codehilite import CodeHiliteExtension
-from markdown.extensions.toc import TocExtension
+# from markdown.extensions.toc import TocExtension
 
 # site meta
 AUTHOR = u'Chiayo Lin'
@@ -46,8 +46,8 @@ DEFAULT_LANG = u'en'
 # import markdown extenstions
 MD_EXTENSIONS = [
     CodeHiliteExtension(css_class='highlight'),
-    TocExtension(permalink=True),
     'markdown.extensions.extra',
+    # TocExtension(permalink=True),
 ]
 
 # disable pagenation
