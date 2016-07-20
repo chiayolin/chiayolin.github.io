@@ -11,8 +11,8 @@ echo -e "$VARNAME"
 if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
 
     if [ "$TRAVIS" == "true" ]; then
-        git config --global user.email "user@github.com"
-        git config --global user.name "ekonstantinidis"
+        git config --global user.email "chiayo.lin@github.com"
+        git config --global user.name "Chiayo Lin"
     fi
 
     # Using token clone gh-pages branch
