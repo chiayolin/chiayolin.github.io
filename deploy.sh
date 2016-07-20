@@ -11,7 +11,7 @@ echo -e "$VARNAME"
 if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
 
     if [ "$TRAVIS" == "true" ]; then
-        git config --global user.email "chiayo.lin@github.com"
+        git config --global user.email "chiayo.lin@gmail.com"
         git config --global user.name "Chiayo Lin"
     fi
 
