@@ -81,6 +81,8 @@ div.footer {
   margin: 2em 0;
 }
 
+/* index */
+
 #menu li {
   display: inline;
 }
@@ -94,19 +96,22 @@ ul.post-list, ul.project-list {
   margin-bottom: 1em;
 }
 
+/* for each article entry */
+
 div.entry-title {
+
 }
 
 div.entry-info p {
   margin: 0em;
-
 }
 
 div.entry-content {
 
 }
 
-pre {
-    margin: 2em 1em 2em 4em;
+div.highlight {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1.75rem;
 }
-

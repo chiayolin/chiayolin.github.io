@@ -10,38 +10,46 @@ install it via pacman.
 
 ## Getting Started
 
-1\.  Install build essentials: 
+First install build essentials: 
 
-	:::sh
-	pacman -S --needed base-devel
+```sh
+$ pacman -S --needed base-devel
+```
 
-2\.  Download the tarball of the package you want from [AUR][aur]. 
-Then switch your working directory to where your tarball is:
+After the built essentials are installed, download the tarball of the package that 
+you want from [AUR][aur]. And switch your current working directory to where the 
+tarball is at:
 
-	:::sh
-	cd /path/to/directory/
+```sh
+$ cd /path/to/directory/
+```
 
-3\.  Extract the tarball that you downloaded by uing `tar`:
+Simply extract the tarball using the `tar` command:
   
-	:::sh
-	tar -zxvf FOOBAR.tar.gz
+```sh
+$ tar -zxvf FOOBAR.tar.gz
+```
 
-4\.  `cd` into extracted folder:
-  
-	:::sh
-	cd /path/to/FOOBAR/
+`cd` into the extracted folder:
 
-5\.  Make the package:
-  
-	:::sh
-	makepkg -Acs
-	# do not run makepkg as root!
+```sh 
+$ cd /path/to/FOOBAR/
+```
 
-6\.  Finally, install the package with filetype `pkg.tar.xz`
+Make the package using `makepkg`:
 
-	:::sh
-	pacman -U FOOBAR.pkg.tar.xz
 
-That's pretty much it :D
+```sh  
+$ makepkg -Acs
+# do not run makepkg as root!
+```
+
+Finally, install the package with the extension `.pkg.tar.xz`
+
+```sh
+$ pacman -U FOOBAR.pkg.tar.xz
+```
+
+And then you are ready to go :D
 
 [aur]: https://aur.archlinux.org/
