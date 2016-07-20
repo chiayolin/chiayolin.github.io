@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>chiayolin.org</title><link href="/" rel="alternate"></link><link href="/feeds/all-en.atom.xml" rel="self"></link><id>/</id><updated>2016-07-19T00:00:00+08:00</updated><entry><title>Deploying a Pelican Site to Github Pages</title><link href="/posts/deploying-a-pelican-site-to-github-pages/" rel="alternate"></link><updated>2016-07-19T00:00:00+08:00</updated><author><name>Chiayo Lin</name></author><id>tag:,2016-07-19:posts/deploying-a-pelican-site-to-github-pages/</id><summary type="html">&lt;p&gt;hello world&lt;/p&gt;
-&lt;h2 id="getting-started"&gt;Getting Started&lt;a class="headerlink" href="#getting-started" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;</summary></entry><entry><title>Why LISP?</title><link href="/posts/why-lisp/" rel="alternate"></link><updated>2016-05-10T19:30:30+08:00</updated><author><name>Chiayo Lin</name></author><id>tag:,2016-05-10:posts/why-lisp/</id><summary type="html">&lt;p&gt;A book would not become famous just because it is written in a popular
+&lt;h2&gt;Getting Started&lt;/h2&gt;</summary></entry><entry><title>Why LISP?</title><link href="/posts/why-lisp/" rel="alternate"></link><updated>2016-05-10T19:30:30+08:00</updated><author><name>Chiayo Lin</name></author><id>tag:,2016-05-10:posts/why-lisp/</id><summary type="html">&lt;p&gt;A book would not become famous just because it is written in a popular
 language. At the end of the day, ideas behind the words are what matter 
 the most. The same concept apllies to programming languages, too. A good 
 programming language should be able to describe the abstract beings that 
@@ -12,37 +12,38 @@ You can find packages that haven't been officially supported by Arch Linux on AU
 such as Google Chrome, Dropbox, and Libre Office. AUR contains package descriptions 
 (PKGBUILDs) that allow you to compile a package from source with makepkg and then 
 install it via pacman.&lt;/p&gt;
-&lt;h2 id="getting-started"&gt;Getting Started&lt;a class="headerlink" href="#getting-started" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;1.  Install build essentials: &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;pacman -S --needed base-devel
+&lt;h2&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;First install build essentials: &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;pacman -S --needed base-devel
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;2.  Download the tarball of the package you want from &lt;a href="https://aur.archlinux.org/"&gt;AUR&lt;/a&gt;. 
-Then switch your working directory to where your tarball is:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /path/to/directory/
+&lt;p&gt;After the built essentials are installed, download the tarball of the package that 
+you want from &lt;a href="https://aur.archlinux.org/"&gt;AUR&lt;/a&gt;. And switch your current working directory to where the 
+tarball is at:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /path/to/directory/
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;3.  Extract the tarball that you downloaded by uing &lt;code&gt;tar&lt;/code&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;tar -zxvf FOOBAR.tar.gz
+&lt;p&gt;Simply extract the tarball using the &lt;code&gt;tar&lt;/code&gt; command:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;tar -zxvf FOOBAR.tar.gz
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;4.  &lt;code&gt;cd&lt;/code&gt; into extracted folder:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /path/to/FOOBAR/
+&lt;p&gt;&lt;code&gt;cd&lt;/code&gt; into the extracted folder:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /path/to/FOOBAR/
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;5.  Make the package:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;makepkg -Acs
+&lt;p&gt;Make the package using &lt;code&gt;makepkg&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;makepkg -Acs
 &lt;span class="c"&gt;# do not run makepkg as root!&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;6.  Finally, install the package with filetype &lt;code&gt;pkg.tar.xz&lt;/code&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;pacman -U FOOBAR.pkg.tar.xz
+&lt;p&gt;Finally, install the package with the extension &lt;code&gt;.pkg.tar.xz&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;pacman -U FOOBAR.pkg.tar.xz
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;That's pretty much it :D&lt;/p&gt;</summary></entry></feed>
+&lt;p&gt;And then you are ready to go :D&lt;/p&gt;</summary></entry></feed>

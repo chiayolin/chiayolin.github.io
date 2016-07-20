@@ -4,6 +4,7 @@
       <title>chiayolin.org</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="/theme/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/theme/css/github.css" />
 
 
 
@@ -44,40 +45,41 @@ You can find packages that haven't been officially supported by Arch Linux on AU
 such as Google Chrome, Dropbox, and Libre Office. AUR contains package descriptions 
 (PKGBUILDs) that allow you to compile a package from source with makepkg and then 
 install it via pacman.</p>
-<h2 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h2>
-<p>1.  Install build essentials: </p>
-<div class="highlight"><pre>pacman -S --needed base-devel
+<h2>Getting Started</h2>
+<p>First install build essentials: </p>
+<div class="highlight"><pre><span class="nv">$ </span>pacman -S --needed base-devel
 </pre></div>
 
 
-<p>2.  Download the tarball of the package you want from <a href="https://aur.archlinux.org/">AUR</a>. 
-Then switch your working directory to where your tarball is:</p>
-<div class="highlight"><pre><span class="nb">cd</span> /path/to/directory/
+<p>After the built essentials are installed, download the tarball of the package that 
+you want from <a href="https://aur.archlinux.org/">AUR</a>. And switch your current working directory to where the 
+tarball is at:</p>
+<div class="highlight"><pre><span class="nv">$ </span><span class="nb">cd</span> /path/to/directory/
 </pre></div>
 
 
-<p>3.  Extract the tarball that you downloaded by uing <code>tar</code>:</p>
-<div class="highlight"><pre>tar -zxvf FOOBAR.tar.gz
+<p>Simply extract the tarball using the <code>tar</code> command:</p>
+<div class="highlight"><pre><span class="nv">$ </span>tar -zxvf FOOBAR.tar.gz
 </pre></div>
 
 
-<p>4.  <code>cd</code> into extracted folder:</p>
-<div class="highlight"><pre><span class="nb">cd</span> /path/to/FOOBAR/
+<p><code>cd</code> into the extracted folder:</p>
+<div class="highlight"><pre><span class="nv">$ </span><span class="nb">cd</span> /path/to/FOOBAR/
 </pre></div>
 
 
-<p>5.  Make the package:</p>
-<div class="highlight"><pre>makepkg -Acs
+<p>Make the package using <code>makepkg</code>:</p>
+<div class="highlight"><pre><span class="nv">$ </span>makepkg -Acs
 <span class="c"># do not run makepkg as root!</span>
 </pre></div>
 
 
-<p>6.  Finally, install the package with filetype <code>pkg.tar.xz</code></p>
-<div class="highlight"><pre>pacman -U FOOBAR.pkg.tar.xz
+<p>Finally, install the package with the extension <code>.pkg.tar.xz</code></p>
+<div class="highlight"><pre><span class="nv">$ </span>pacman -U FOOBAR.pkg.tar.xz
 </pre></div>
 
 
-<p>That's pretty much it :D</p>
+<p>And then you are ready to go :D</p>
   </div><!-- /.entry-content -->
     <div class="footer">
       <address>
