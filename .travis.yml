@@ -1,19 +1,13 @@
 branches:
   only: source
-
 language: python
-
-python: "2.7"
-
+python: '2.7'
 env:
   global:
-    secure: 123123...123123
-
+  - secure: FXu2mInd+OIgdjL+zP9cyc+Jpzo/pVZWvIQ+ik+K+G02mm3xzDUBPlMSaOUktZnKj97NHwZRIE/JjAfYvW18PPbPKbcHaX/kXsuxcPh+uGza1zhJE3V9OsY85WXDBfgNHz1M90vSJTfCkPrM2zojXgPXgtR+VKQlNVI1PFQNYfCB9SrqBTBdJfFoEs53tgOqroeha1n8aLsbl8yqBXmKoslL+oNlHnyVe1cjMw+LS1BmZ04JFKkPERgYvx+akwMZloGGi7UNHEOcpw0HHrIwZeRfEDcotX23N8UW68AyncYMehdpkx5+uvh8Np+/+zcKlDIQidB9/KiLHmpv6x2PC9O3Q/j3kH0mlEJplriibjflMExuCcdireCPErMO7O5USFuKAjs5YGwmc8d31vkKMsFhO8gppUPl3Pk5TgvH5rrSfekSj4jrmMyeImfus3xSRRStV1frhMPO5r/rj1kOr5ZqKXC/VQ4xYFnoAv/DShAOo9hijjUrzib95V5nhzkT6pcRINe2W7R4ifkDJAFo89ylaEkxU1uQN3IOiRqgKCge/p+lJZ5nhHZFmyfJKZfN+QM70jcEh01d5VndEPnquo2PFgweHk9ExXbVEU43weJomcqg9RRBwArjHqs8SpJao+D5llB31cyiChVLvRPwdvxhEFVnK2UNL3oKiD0+jvY=
 install:
-  - pip install -r requirements.txt
-
+- pip install -r requirements.txt
 script:
-  - make html
-
+- make html
 after_success:
-  - bash deploy.sh
+- bash deploy.sh
