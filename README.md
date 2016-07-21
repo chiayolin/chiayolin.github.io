@@ -29,3 +29,4 @@ The site is licensed under the MIT License.
 [2]: http://chiayolin.org/a/generating-a-static-site-with-pelican.html
 [3]: https://pages.github.com/
 [4]: https://travis-ci.org/
+[5]: https://raw.githubusercontent.com/chiayolin/chiayolin.github.io/source/LICENSE
