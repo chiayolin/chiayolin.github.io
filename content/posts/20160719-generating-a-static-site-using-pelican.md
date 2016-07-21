@@ -61,13 +61,13 @@ $ git remote add origin git@github.com:username/awsome_project.git
 
 ## Site Generation
 I don't remember any one of the Pelican commands... But hey, if you decided to
-generate a `[Makefile][6]` in the previous section when running the 
+generate a [Makefile][10] in the previous section when running the 
 `pelican-quickstart` command then all you need to do now is run:
 
 ```sh
 $ make html
 ```
-[6]: https://en.wikipedia.org/wiki/Makefile
+[10]: https://en.wikipedia.org/wiki/Makefile
 
 Yes, that's it. A Pelican site is generated under the `output/` directory.
 
