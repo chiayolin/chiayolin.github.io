@@ -7,33 +7,18 @@ published at the `master` branch.
 
 ## Site Generation
 
-To compile the files inside `content/`, run:
+Read [this post][2] for more information regarding the site generation.
 
-```sh
-$ make html
-```
+## Deployment
 
-To start up a local HTTP server:
+The site is built and deployed to [Github Pages][3] by [Travis-CI][4].
 
-```sh
-$ make serve
-```
+## Todos
 
-Alternatively, execute:
-
-```sh
-$ sh develop_server.sh
-```
-
-## Deploying to Github
-
-Paste the following commands at a terminal prompt to deploy: 
-
-```sh
-$ ghp-import output/  # import the generated filse in `output/` to `gh-pages`
-$ git checkout master # switch to `master` 
-$ git merge gh-pages  # merge the imported files
-$ git push --all      # push it to Gihutb
+```md
+* README.md - document more stuff down
+* lowlands/ - fix the CSS styling for everything
+* content/  - write a post about the deployment to Travis-CI
 ```
 
 ## License
@@ -41,3 +26,6 @@ $ git push --all      # push it to Gihutb
 The site is licensed under the MIT License.
 
 [1]: http://chiayolin.org/
+[2]: http://chiayolin.org/a/generating-a-static-site-with-pelican.html
+[3]: https://pages.github.com/
+[4]: https://travis-ci.org/
