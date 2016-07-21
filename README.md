@@ -23,7 +23,7 @@ The site is built and deployed to [Github Pages][3] by [Travis-CI][4].
 
 ## License
 
-The site is licensed under the MIT License.
+The site is licensed under the [MIT License][5].
 
 [1]: http://chiayolin.org/
 [2]: http://chiayolin.org/a/generating-a-static-site-with-pelican.html
