@@ -8,7 +8,7 @@ site generator that generates my templates and Markdown files to HTML, without
 spending time configuring different versions of Ruby Gems just to get my site up 
 and running. So I recently decided to give [Pelican][3] a try. Pelican is a 
 static generator like Jekyll, but it is written in [Python][4] and uses 
-[Jinja][5] as its templating language/engine. This post is created as a note for
+[Jinja][5] as its templating language/engine. This post is created as a note to
 myself on generating a static site with Pelican. 
 
 [1]: https://jekyllrb.com/
