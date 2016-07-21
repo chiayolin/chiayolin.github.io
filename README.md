@@ -1,7 +1,7 @@
 # chiayolin.org [![Build Status](https://travis-ci.org/chiayolin/chiayolin.github.io.svg?branch=source)](https://travis-ci.org/chiayolin/chiayolin.github.io)
 
 [chiayolin.org][1] is the hompage of Chiayo Lin. The site is generated using 
-Pelican and published on Github Pages as a user page. You can find the source
+Pelican and hosted on Github Pages. You can find the source
 code of this project at the `source` branch. The generated source code is
 published at the `master` branch.
 
