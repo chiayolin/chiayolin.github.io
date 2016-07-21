@@ -23,7 +23,7 @@ EXTRA_PATH_METADATA = {
 
 # urls and generated path
 ARTICLE_URL = 'posts/{slug}/'
-ARTICLE_SAVE_AS = 'a/{date:%y}{date:%m}{date:%d}{date:%S}.html'
+ARTICLE_SAVE_AS = 'a/{date:%y}{date:%m}{date:%d}{date:%k}.html'
 ARCHIVES_SAVE_AS = 'a/index.html'
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = '{slug}.html'
