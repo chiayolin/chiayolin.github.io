@@ -33,8 +33,8 @@ After Pelican is installed on your machine, you may now begin creating a directo
 for your Pelican site:
 
 ```sh
-$ mkdir my_awsome_project 
-$ cd my_awsome_project
+$ mkdir awsome_project 
+$ cd awsome_project
 ```
 
 After your project directory is created, run the `pelican-quickstart` command to
@@ -54,7 +54,7 @@ order to keep track of your code and later push them to [Github Pages][6].
 
 ```sh
 $ git init
-$ git remote add origin git@github.com:username/my_awsome_project.git
+$ git remote add origin git@github.com:username/awsome_project.git
 ```
 
 [6]: https://pages.github.com/
