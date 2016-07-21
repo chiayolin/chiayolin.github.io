@@ -1,5 +1,5 @@
 Title: Generating a Static Site with Pelican
-Date: 2016-07-19 19:27
+Date: 2016-07-19 19:27:01
 
 I used [Jekyll][1] as a static site generator to generate HTML files from 
 [Markdown][2] for this site and it worked just fine. However, Jekyll is perhaps
