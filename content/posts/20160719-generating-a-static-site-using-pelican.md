@@ -71,7 +71,7 @@ $ make html
 
 Yes, that's it. A Pelican site is generated under the `output/` directory.
 
-## Running a HTTP Server Locally
+## Run a HTTP Server Locally
 
 "Running a HTTP Server Locally" is basically just a fancy way to say "preview your
 site before publishing it." In order to do that, simply type the command below at
