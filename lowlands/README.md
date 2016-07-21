@@ -1,6 +1,7 @@
 # Lowlands 
 
-Lowlands is a minimalist [Pelican][1] theme created for [chiayolin.org][2].
+Lowlands is a minimalist [Pelican][1] theme created for [chiayolin.org][2]
+that is still under development.
 
 ## Why the name “Lowlands”?
 
