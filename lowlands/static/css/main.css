@@ -91,7 +91,6 @@ div.footer {
 }
 
 /* index */
-
 .title-margin {
   display: block;
   margin-top: 2em;
@@ -118,7 +117,6 @@ abbr[title] {
 }
 
 /* for each article entry */
-
 div.entry-title {
 
 }
@@ -129,5 +127,11 @@ div.entry-info {
 
 div.entry-content {
 
+}
+
+.avatar {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
 }
 
