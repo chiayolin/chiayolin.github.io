@@ -11,9 +11,9 @@ body {
 }
 
 .navbar {
-  background: none;
   min-height: 30px !important;
   margin-bottom: 0px;
+  background: none;
 }
 
 .navbar-nav > li > a, .navbar-brand {
