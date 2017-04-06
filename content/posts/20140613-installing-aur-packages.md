@@ -1,6 +1,8 @@
 Title:  Installing AUR Packages
 Date:   2014-06-13 11:25:52
 Modified: 2016-07-18 22:48:30
+Location: Saigon, Vietnam
+
 
 Arch User Repository (AUR) is a community-driven repository for Arch Linux users. 
 You can find packages that haven't been officially supported by Arch Linux on AUR, 
