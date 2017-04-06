@@ -40,4 +40,4 @@ _some people_ who want to sue _Bob_ for defamation, _Bob_ will not be found guil
 since his rights are protected by the Constitution and his situation is compatible with
 **No. 509**. We shall view this incident as nothing more than an exercise of rights.
 
-[ie]: www.judicial.gov.tw/constitutionalcourt/p03_01.asp?expno=509
+[ie]: http://www.judicial.gov.tw/constitutionalcourt/p03_01.asp?expno=509
