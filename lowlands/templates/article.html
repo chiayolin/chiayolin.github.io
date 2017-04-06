@@ -19,24 +19,23 @@
   <div class="entry-title">
     <h2>{{ article.title }}</h2>
   </div>
-  <i>
   <div class="entry-info">
-    <p>
+    <small>
       <abbr class="published" title="{{ article.date.isoformat() }}">{{ article.locale_date }}</abbr>
 	    {% if article.authors %} by {% for author in article.authors %} 
-        {{ author }} at
+        {{ author }} @
       {% endfor %} {% endif %}
       {{article.location}}
-    </p>
+    </small>
     {% if article.modified %}
-      <p>last modified:
+      <br/>
+      <small>last modified:
         <abbr class="modified" title="{{ article.modified.isoformat() }}">
           {{ article.locale_modified }}
         </abbr>
-      </p>
+      </small>
 	  {% endif %}
   </div><!-- /.post-info -->
-  </i>
   <div class="entry-content">
     {{ article.content }}
   </div><!-- /.entry-content -->

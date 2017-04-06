@@ -99,7 +99,6 @@ body {
 /* article */
 .article-container {
   line-height: 1.5em;
-  text-align: justify;
   width: 572px;
 }
 
@@ -120,6 +119,10 @@ div.entry-title h2 {
 
 div.entry-info {
   margin-bottom: 1em;
+}
+
+.entry-content {
+  text-align: justify;
 }
 
 div.entry-content h2 {
