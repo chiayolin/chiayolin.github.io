@@ -1,6 +1,6 @@
 Title: ROC Constitutional Court Interpretation #509 
 Date: 2017-04-06 15:40:00
-Location: Tapei, Taiwan
+Location: Taipei, Taiwan
 
 I'm writing this article just to document the event that happened recently and to 
 provide my perspective of this particular incident.
