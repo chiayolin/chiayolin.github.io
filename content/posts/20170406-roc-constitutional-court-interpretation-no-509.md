@@ -8,12 +8,12 @@ provide my perspective of this particular incident.
 Earlier this month, my friend, let's call him _Bob_, was warned that an allegation 
 he made regarding accounting provision against a civil servant of Taiwan's _Ministry 
 of Foreign Affairs_ could possibly constitute defamation. Such act is but a typical 
-method and excuse the Taiwanese government officials constantly use to prevent the 
-people from discussing and investigating the truth. Later on, he was even forced to 
-answer questions asked by entities that are not entitled to the power to investigate. 
+method and excuse the government officials constantly use to prevent the people from 
+discussing and investigating the truth. Later on, he was even forced to answer 
+questions asked by entities that are not entitled to the power to investigate. 
 Conducting an investigation without the police power endowed by the Constitution is 
 unconstitutional. Furthermore, the allegation he made is protected by the freedom of 
-speech and is guaranteed by _Article 11_ of the Constitution.
+speech and is guaranteed by _Article 11_ of the Taiwanese (ROC) Constitution.
 
 In the **[Constitutional Interpretation No. 509][ie]**（釋〔憲〕字第五〇九號）published 
 in July 7th 2000, _Constitutional Court of Judicial Yuan_（司法院・憲法庭）reiterates 
