@@ -1,0 +1,167 @@
+body {
+    background-color: white;
+    font: 13.34px monospace;
+}
+
+/* nav */
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #000;
+}
+
+.navbar {
+  min-height: 30px !important;
+  margin-bottom: 0px;
+  background: none;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    font-size: 14px;
+    height: 30px;
+    padding-top: 5px !important; 
+    padding-bottom: 0 !important;
+}
+
+.navbar .divider-vertical {
+    height: 30px;
+    margin: 0 9px;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #f2f2f2;
+}
+
+.navbar .divider-end {
+    height: 30px;
+    margin-right: 0px;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #f2f2f2;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #000;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse .nav > .divider-vertical {
+        display: none;
+     }
+    .navbar-nav > li > a, .navbar-brand {
+        padding-top: 12px !important;
+  }
+
+}
+
+/* site */
+.site-title-cursor {
+  animation: cursor 1s step-end infinite;
+} @keyframes cursor {
+  0% {
+    color: #111;
+  }
+  49% {
+    color: #111;
+  }
+  50% {
+    color: #fff;
+  }
+  100% {
+    color: #fff;
+  }
+}
+
+/* banner */
+.banner-wrapper {
+  width: 556px;
+  max-height: 255px;
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+.banner-wrapper > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner-wrapper .carousel-caption {
+  padding-bottom: 0px;
+}
+
+.banner-caption {
+  z-index: 10;
+  position: absolute;
+}
+
+/* article */
+.article-container {
+  line-height: 1.5em;
+  width: 572px;
+}
+
+@media (max-width: 735px) {
+  .article-container {
+    width: 100%;
+  }
+  .banner-wrapper {
+    display: none;
+  }
+}
+
+
+/* article entry */
+div.entry-title h2 {
+  font-size: 20px;
+}
+
+div.entry-info {
+  margin-bottom: 1em;
+}
+
+.entry-content {
+  text-align: justify;
+}
+
+div.entry-content h2 {
+  font-size: 18px;
+}
+
+/* readme */
+.avatar {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+/* index */
+.title-margin {
+  display: block;
+  margin-top: 2em;
+}
+
+#menu li {
+  display: inline;
+}
+
+#post-list {
+  margin-top: 1em;
+}
+
+ul.post-list, ul.project-list {
+  padding-left:0;
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+
+abbr[title] {
+  border-bottom: none !important;
+  cursor: inherit !important;
+  text-decoration: none !important;
+}
+
+div.footer {
+  margin: 2em 0;
+}
