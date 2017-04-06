@@ -38,6 +38,6 @@ wrong because a democratic institution is based upon open discussions and the sy
 will fail to operate if the freedom of expression is taken away. Although there are 
 _some people_ who want to sue _Bob_ for defamation, _Bob_ will not be found guilty
 since his rights are protected by the Constitution and his situation is compatible with
-**No. 509** We shall view this incident as nothing more than an exercise of rights.
+**No. 509**. We shall view this incident as nothing more than an exercise of rights.
 
 [ie]: www.judicial.gov.tw/constitutionalcourt/p03_01.asp?expno=509
