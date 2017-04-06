@@ -13,7 +13,7 @@ people from discussing and investigating the truth. Later on, he was even forced
 answer questions asked by entities that are not entitled to the power to investigate. 
 Conducting an investigation without the police power endowed by the Constitution is 
 unconstitutional. Furthermore, the allegation he made is protected by the freedom of 
-speech and is guaranteed by A_rticle 11_ of the Constitution.
+speech and is guaranteed by _Article 11_ of the Constitution.
 
 In the **[Constitutional Interpretation No. 509][ie]**（釋〔憲〕字第五〇九號）published 
 in July 7th 2000, _Constitutional Court of Judicial Yuan_（司法院・憲法庭）reiterates 
