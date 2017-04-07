@@ -16,17 +16,26 @@
  *
  */
 
-var commit_url = "https://github.com/chiayolin/chiayolin.github.io/commit/"
+/* latest commit URL from Github */
+var COMMIT_URL = "https://github.com/chiayolin/chiayolin.github.io/commit/"
 
 function getLatestSHA(url, callback) {
-	$.ajax({ dataType: 'json', url: url }).done((data) => callback(data));
+  $.ajax({ dataType: 'json', url: url }).done((data) => callback(data));
 }
 
+/* main */
 $(document).ready(() => {
-	getLatestSHA("https://api.github.com/repositories/18872887/commits",
-		(data) => {
-			var sha = data[0].sha
-			$("#git-commit-sha").attr('href', commit_url + sha);
-			$("#git-commit-sha").text(sha.slice(0, 13)) 
-		})
+
+  /* display latest SHA */
+  getLatestSHA("https://api.github.com/repositories/18872887/commits",
+    (data) => {
+      var sha = data[0].sha
+      $("#git-commit-sha").attr('href', COMMIT_URL + sha);
+      $("#git-commit-sha").text(sha.slice(0, 13)) 
+    });
+  
+  /* baffle.js */
+  window.baffle('#brand-name').start().set({ speed: 50 }).reveal(1500, 1500);
+  setTimeout(() => $('.site-title-cursor').show(), 3000);
+
 });

@@ -57,6 +57,7 @@ body {
 
 /* site */
 .site-title-cursor {
+  display: none;
   animation: cursor 1s step-end infinite;
 } @keyframes cursor {
   0% {
