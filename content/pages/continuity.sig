@@ -29,16 +29,16 @@ content written by me kept untouched where appropriate. Appropriate pages
 more info. The front page of chiayolin.org should be redone as appropriate with 
 a link to the old site.
 
-<hr/>
+<br/>
 If I'm dead, I'd like be shipped home (Taiwan, please) and rest somewhere in 
 [Yangmingshan](https://en.wikipedia.org/wiki/Yangmingshan) near Taipei. 
 I will miss you all :)
 
-<br/>
+<hr/>
 **[Digital signature][sig] for [continuity.md][cmd]**
 
 <br/>
-Updated April 2017 by Chiayo Lin (*TW, I'm not dead yet!*)
+Updated April 2017 by Chiayo Lin (*BTW, I'm not dead yet!*)
 
 Inspired by [aaronsw.com](http://www.aaronsw.com/)'s
 [*If I get hit by a truck...*](http://www.aaronsw.com/2002/continuity.html
@@ -50,17 +50,17 @@ Inspired by [aaronsw.com](http://www.aaronsw.com/)'s
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQIcBAEBCAAGBQJY609eAAoJELvKyb0KHGGtY8QQAJjchT3Qql7ftcEp0t+JIH5b
-OWH1ZdHSaZsiDRyKbh77xSPaSY/MgdibUEtoSUjSOzXC6ko9h5+ISpGrafSggN5U
-ceXGAKVPOprKale57BBfOfcAvBFvXHFk/EdmLMhnHSbk1LJdml3mUdzbYOAD0MtH
-YXuMi3QLAsNVRCFSnKcfNMNFDUXBegdnb512mCUp6wLl0AvPpP3mfTb5YTgCAmgV
-fgY1gedsmOve63npninDsH1LO2e3mieGVJJyw4G6CLKjee2hrV+WMTZHsT9qcCbj
-w8Odortq6lAx2teBQKlc1XMhPyTULZzIU7h6QKzRR1ybhfqYDKzYCAmV+3Z5z6it
-CxAfCeRY6xd5lCqM5hBrOJrpEs+uUwdE90jjGLhAynsNg4mina6ZD1xqg85Jioym
-NzxmL8Qccu5bN7zqu2SiVspOR9+H5CGAjQtdFyRDFQLCvwpNN4/3yQOsVV2qupV+
-CAl74lC3pET8e3JZl2CbJgHR766y0ymVyj8rnYNOMhXA8btTtlncFkKJ36QUUJZu
-mMhD5qCzhytwSUP4WK2o5udvdUGaUUs4oKb9Kws6P22C3IlIH7JKdqDCTXTyoiIU
-M4t5jG8N4M4nkDC326QZR/Q70EQ8tIgWNcBxZPPCcLxa0XdJplgZK7kxTDlpWLUS
-JG3AnuZLqYx1FhCSCaM/
-=IwQ0
+iQIcBAEBCAAGBQJY60/3AAoJELvKyb0KHGGtkVUQAIsgTpgiwaThDWNp/FbYkB8O
+z7yUzndc5mhM5iIPWPU2/oT1yysIhqZPBwd8g1qU7IWJlJNG9LGx9RB6038s/+48
+pI/9fQzlZR5qwIg0c/rqAf9UQJ0jvAT77/HQOx3z3No4sqb0Pkzl9ykqZdRrTj2Q
+JHpWxbzWwRTPOoBoGgEfEY6HAtdGZj/2L2wFbUQIywk1EySTdfPqRDg830nYGoXM
+sZq2+XseCqIz+sqKAajDxLEWIIqFYwn/BT+cQSbuBCh68kISgIwrN9ROp5d5yH7Q
+zfjKJfdtaS2GFe7p2dz22WS+JZcgkqtVUqF7djsIlZxOFY4orrj8FdK5FxP1IIUD
+urQ2w5gDyRROG6GKX8gx0pCPKe4LczZNFoRaZr4P10esCM54HglV0+YlsMBkNJxa
+yl7e9c9tNafvMkDZn6RZjyc5B1/4+QG1F4pYtVi9BgFyO2XwmRu9hB25CDEv1ZCS
+2PavjMOcIpBXQk102QhGWCSHgbdYBEttt9/xZlmd0Z36R0SlQdA9WKoNOobK/eeB
+s4Yr+1u45ldrrhlHvKykhxAWV9MQG9iLcutOXbzMU4mPGSgeDBlqehTJrEWw6AHO
+3i0jzWAPIwxolguWrpWK6LwxpP74Z/m1l6uUo3YYFm50EsG2IbGW6KYetbTOY6qo
+UDUMc4O/QhznSB+3sCQW
+=vEKG
 -----END PGP SIGNATURE-----
