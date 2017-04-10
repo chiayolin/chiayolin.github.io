@@ -1,13 +1,6 @@
 Title: Continuity
 
-<div class="banner-wrapper img-rounded" style="max-height: 350px;">
-	<img src="http://i.imgur.com/xUl4H4S.jpg">
-	<div class="banner-caption carousel-caption">
-      <small>National Concert Hall | Taipei, Taiwan</small>
-    </div>
-</div>
 
-<br/>
 This page is created in case for some reason I'm no longer able to keep my web 
 services running and source code maintained.
 
@@ -33,17 +26,20 @@ content written by me kept untouched where appropriate. Appropriate pages
 (e.g. on chiayolin.org) may contain a notice about what happened with a link to 
 more info. The front page of chiayolin.org should be redone as appropriate with 
 a link to the old site.
-<br/>
+
 <hr/>
 If I'm dead, I'd like be shipped home (Taiwan, please) and rest somewhere in 
 [Yangmingshan](https://en.wikipedia.org/wiki/Yangmingshan) near Taipei. 
 I will miss you all :)
 
-<small>
 <br/>
-Inspired by [aaronsw.com](http://www.aaronsw.com/)'s
-[<i>If I get hit by a truck...</i>](http://www.aaronsw.com/2002/continuity.html).
+**
+[Digital signature](http://chiayolin.org/continuity.sig) for 
+[continuity.md](https://github.com/chiayolin/chiayolin.github.io/blob/source/content/pages/continuity.md)
+**
 
-Updated April 2017 by Chiayo Lin.
-</small>
-(<i>BTW, I'm not dead yet!</i>)「
+<br/>
+Updated April 2017 by Chiayo Lin (<i>BTW, I'm not dead yet!</i>)
+
+Inspired by [aaronsw.com](http://www.aaronsw.com/)'s
+[<i>If I get hit by a truck...</i>](http://www.aaronsw.com/2002/continuity.html)
