@@ -27,12 +27,15 @@ more info. The front page of chiayolin.org should be redone as appropriate with
 a link to the old site.
 <br/>
 <hr/>
-If I'm dead, I'd like be shipped home and rest somewhere in 
-[Yangmingshan, Taiwan](https://en.wikipedia.org/wiki/Yangmingshan). 
+If I'm dead, I'd like be shipped home (Taiwan, please) and rest somewhere in 
+[Yangmingshan](https://en.wikipedia.org/wiki/Yangmingshan) near Taipei. 
 I will miss you all :)
 
-<i>And I'm not dead yet!</i>
-
+<small>
 <br/>
 Inspired by [aaronsw.com](http://www.aaronsw.com/)'s
 [<i>If I get hit by a truck...</i>](http://www.aaronsw.com/2002/continuity.html).
+
+Updated April 2017 by Chiayo Lin.
+</small>
+(<i>BTW, I'm not dead yet!</i>)
