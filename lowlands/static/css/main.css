@@ -162,6 +162,15 @@ abbr[title] {
   text-decoration: none !important;
 }
 
-div.footer {
+.footer {
   margin: 2em 0;
 }
+
+.build-status-link {
+  margin: 0;
+}
+
+a:hover.build-status-link {
+  text-decoration: none;
+}
+
