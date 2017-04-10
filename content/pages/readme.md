@@ -6,6 +6,7 @@ Xin Chào! My name is Chiayo Lin (aka 林佳佑) and I'm a student at
 [Saigon South International School][1]. I'm from [Taipei, Taiwan][t],
 and I live in [Saigon, Vietnam][s]. If you are interested in the stuff 
 that I'm currently working on, go take a look at my [Github][2].
+
 You can always reach me at <chiayolin@gmail.com>. I will answer every email.
 If you would like to be extra paranoid, my PGP public key is at the bottom right 
 of this page.
