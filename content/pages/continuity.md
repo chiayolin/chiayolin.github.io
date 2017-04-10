@@ -26,16 +26,16 @@ content written by me kept untouched where appropriate. Appropriate pages
 more info. The front page of chiayolin.org should be redone as appropriate with 
 a link to the old site.
 
-<hr/>
+<br/>
 If I'm dead, I'd like be shipped home (Taiwan, please) and rest somewhere in 
 [Yangmingshan](https://en.wikipedia.org/wiki/Yangmingshan) near Taipei. 
 I will miss you all :)
 
-<br/>
+<hr/>
 **[Digital signature][sig] for [continuity.md][cmd]**
 
 <br/>
-Updated April 2017 by Chiayo Lin (*TW, I'm not dead yet!*)
+Updated April 2017 by Chiayo Lin (*BTW, I'm not dead yet!*)
 
 Inspired by [aaronsw.com](http://www.aaronsw.com/)'s
 [*If I get hit by a truck...*](http://www.aaronsw.com/2002/continuity.html
