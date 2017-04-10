@@ -16,4 +16,4 @@ of this page.
 [s]: https://goo.gl/maps/Skp06
 [2]: https://github.com/chiayolin/
 
-:wq
+[:wq](http://chiayolin.org/continuity)
