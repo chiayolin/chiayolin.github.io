@@ -16,9 +16,11 @@ THEME = './lowlands'
 PATH = 'content'
 STATIC_PATHS = [
     'etc/CNAME', 
+    'etc/continuity.sig',
     'etc/favicon.ico']
 EXTRA_PATH_METADATA = {
-    'etc/CNAME': {'path': 'CNAME'}, 
+    'etc/CNAME': {'path': 'CNAME'},
+    'etc/continuity.sig': {'path' : 'continuity.sig'}, 
     'etc/favicon.ico': {'path': 'favicon.ico'}} 
 
 # urls and generated path
