@@ -41,6 +41,6 @@ Inspired by [aaronsw.com](http://www.aaronsw.com/)'s
 [*If I get hit by a truck...*](http://www.aaronsw.com/2002/continuity.html)
 
 
-[sig]: http://chiayolin.org/continuity.sig
+[sig]: https://raw.githubusercontent.com/chiayolin/chiayolin.github.io/master/continuity.sig
 [cmd]: https://github.com/chiayolin/chiayolin.github.io/blob/source/content/pages/continuity.md
 
