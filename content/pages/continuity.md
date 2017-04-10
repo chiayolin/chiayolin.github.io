@@ -1,5 +1,13 @@
 Title: Continuity
 
+<div class="banner-wrapper img-rounded" style="max-height: 350px;">
+	<img src="http://i.imgur.com/xUl4H4S.jpg">
+	<div class="banner-caption carousel-caption">
+      <small>National Concert Hall | Taipei, Taiwan</small>
+    </div>
+</div>
+
+<br/>
 This page is created in case for some reason I'm no longer able to keep my web 
 services running and source code maintained.
 
@@ -38,4 +46,4 @@ Inspired by [aaronsw.com](http://www.aaronsw.com/)'s
 
 Updated April 2017 by Chiayo Lin.
 </small>
-(<i>BTW, I'm not dead yet!</i>)
+(<i>BTW, I'm not dead yet!</i>)「
