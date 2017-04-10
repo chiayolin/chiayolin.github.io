@@ -38,9 +38,9 @@ I will miss you all :)
 Updated April 2017 by Chiayo Lin (*BTW, I'm not dead yet!*)
 
 Inspired by [aaronsw.com](http://www.aaronsw.com/)'s
-[*If I get hit by a truck...*](http://www.aaronsw.com/2002/continuity.html
+[*If I get hit by a truck...*](http://www.aaronsw.com/2002/continuity.html)
 
 
 [sig]: http://chiayolin.org/continuity.sig
-[cmd]: https://github.com/chiayolin/chiayolin.github.io/blob/source/content/pages/continuity.md]
+[cmd]: https://github.com/chiayolin/chiayolin.github.io/blob/source/content/pages/continuity.md
 

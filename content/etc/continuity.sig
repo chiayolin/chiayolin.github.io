@@ -41,26 +41,26 @@ I will miss you all :)
 Updated April 2017 by Chiayo Lin (*BTW, I'm not dead yet!*)
 
 Inspired by [aaronsw.com](http://www.aaronsw.com/)'s
-[*If I get hit by a truck...*](http://www.aaronsw.com/2002/continuity.html
+[*If I get hit by a truck...*](http://www.aaronsw.com/2002/continuity.html)
 
 
 [sig]: http://chiayolin.org/continuity.sig
-[cmd]: https://github.com/chiayolin/chiayolin.github.io/blob/source/content/pages/continuity.md]
+[cmd]: https://github.com/chiayolin/chiayolin.github.io/blob/source/content/pages/continuity.md
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQIcBAEBCAAGBQJY60/3AAoJELvKyb0KHGGtkVUQAIsgTpgiwaThDWNp/FbYkB8O
-z7yUzndc5mhM5iIPWPU2/oT1yysIhqZPBwd8g1qU7IWJlJNG9LGx9RB6038s/+48
-pI/9fQzlZR5qwIg0c/rqAf9UQJ0jvAT77/HQOx3z3No4sqb0Pkzl9ykqZdRrTj2Q
-JHpWxbzWwRTPOoBoGgEfEY6HAtdGZj/2L2wFbUQIywk1EySTdfPqRDg830nYGoXM
-sZq2+XseCqIz+sqKAajDxLEWIIqFYwn/BT+cQSbuBCh68kISgIwrN9ROp5d5yH7Q
-zfjKJfdtaS2GFe7p2dz22WS+JZcgkqtVUqF7djsIlZxOFY4orrj8FdK5FxP1IIUD
-urQ2w5gDyRROG6GKX8gx0pCPKe4LczZNFoRaZr4P10esCM54HglV0+YlsMBkNJxa
-yl7e9c9tNafvMkDZn6RZjyc5B1/4+QG1F4pYtVi9BgFyO2XwmRu9hB25CDEv1ZCS
-2PavjMOcIpBXQk102QhGWCSHgbdYBEttt9/xZlmd0Z36R0SlQdA9WKoNOobK/eeB
-s4Yr+1u45ldrrhlHvKykhxAWV9MQG9iLcutOXbzMU4mPGSgeDBlqehTJrEWw6AHO
-3i0jzWAPIwxolguWrpWK6LwxpP74Z/m1l6uUo3YYFm50EsG2IbGW6KYetbTOY6qo
-UDUMc4O/QhznSB+3sCQW
-=vEKG
+iQIcBAEBCAAGBQJY61KaAAoJELvKyb0KHGGtMq4P/A+g3KAAQPYzAN2b5r8SW3/l
+z/NUpInHnZP3tXTC2izdne8kEtpH1z00k5eZzuKjPsFLeDvx7dEvK0q0r7JXu0bY
+6uwcn74WM6b7QwuKFIQdx2WbOj6HUgtmFt35N8SbO69O51nyWFC70x6JhXvrq9gG
+S4Kvz824+txu028KG6aDkv1nRZ0VbR4eKdO7kPudkSjp06uy8LqXfniozImhorKJ
+dUnEFMK8ORadJZyU/epzPrsfZRJIAbub3+qkuT7Rmic3S+CnSyYGENXbS4HUqkOL
+3wTBHFw4ZwOlty3+OGNrLXZBIPeM/2iJqS+lEc4zLtJI2Dhr+nx95y/AHVU6382W
+50Wri8/cEadwvPraqku0D2+kKN8r1k0sqKNC8Ym+C7sro62v/6T8Zou+wD3z6SR2
+AIYfzMKyTnFLGH2oiI45RwyKVQUQnNgONPgN8k2sL2k7QEEgmMGPyfnK1Fh/IRUG
+SKpZ5l1EXnTbwie/q92hjCZ9UJ3zoIGa7k4Q7s47VK+LE9oeDtvsTr6JAjeFhaO9
+MsoFoDM1rQAuRSJL53JOXughBD1+Tc5B0eA8uR78vzv1HDRHyJQVgvDjAMpl3m3n
+4qrmLuJZ+UYwgA8MdSkRDaGmXEH9hE7hHlxpK7kf5ScgPDl97h9ehS+l/b1XZNOF
+08heqF+/cizRPyfiydwl
+=1L1j
 -----END PGP SIGNATURE-----
