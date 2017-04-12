@@ -3,9 +3,9 @@
 Lowlands is a minimalist [Pelican][1] theme created for [chiayolin.org][2]
 and it is still being developed.
 
-## Why the name “Lowlands”?
+## Why “Lowlands”?
 
-Yes, the name "Lowlands" comes from a sad-eyed lady [:)][x]
+It's from the sad-eyed lady [:)][x]
 
 ## License
 
