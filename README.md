@@ -17,10 +17,10 @@ The site is built and deployed to Github Pages by [Travis-CI][5].
 
 ```md
 * README.md   - document more stuff down
-* lowlands/   - fix the CSS styling for everything
+* ~~lowlands/   - fix the CSS styling for everything~~
 * content/    - write a post about the deployment to Travis-CI
 * content/    - recover the old contents from release 2.2
-* lowlands/   - release 2.2 revisited, the renaissance of chiayolin.org.
+* ~~lowlands/   - release 2.2 revisited, the renaissance of chiayolin.org.~~
 ```
 
 ## License
