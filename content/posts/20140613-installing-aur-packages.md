@@ -41,7 +41,7 @@ $ cd /path/to/FOOBAR/
 Make the package using `makepkg`:
 
 
-```sh  
+```sh
 $ makepkg -Acs
 # do not run makepkg as root!
 ```
