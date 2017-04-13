@@ -17,26 +17,6 @@ room. I ended up setting up a web server that is only accessible via the local
 network. However, this did not really bother me much since I just wanted a 
 platform where I can experiment with different things. 
 
-So that’s what this site is. A place where I experiment with different web 
-development techniques. A place where I practice sharing thoughts. I like 
-to document my thoughts the same way I write documentation for the code I have 
-written. Sometimes, I would pick one and put it on this site. But most of the 
-time, the ones I picked are the actual documentation of my code or the notes on
-a project that I’m currently working on. 
-
-Still don’t know what is going on here? That’s okay. This site fundamentally is
-not for you, it’s for me. This is not a site that is meant to be read or seen 
-by others. It was supposed to be private, only accessible to me on my LAN. 
-You found this site on the internet is only because I bought a domain name, and
-the source code is on Github so I might as well just host it on Github Pages.
-
-Although this site is meant to be perosnal, I would like to hear about your 
-thoughts, too. If you think something on the site is horribly wrong (not 
-politically but technically), or you simply wanted to talk casually about 
-computing science, let me know. My email and PGP public key is at the 
-bottom right of this page. If you would like to, emails should use PGP 
-encryption to ensure and protect your privacy.
-
 ## Historical Frontpage Looks
 
 ##### Version 1.0 (2013):
@@ -58,3 +38,26 @@ encryption to ensure and protect your privacy.
 ##### Version 4.0 (2017):
 <img src="http://i.imgur.com/OtUozCr.png?1" 
      class="img-responsive img-rounded center-block img-border" alt=""/><br/>
+
+## "What iz diz Chiayo?"
+
+So that’s what this site is. A place where I experiment with different web 
+development techniques. A place where I practice sharing thoughts. I like 
+to document my thoughts the same way I write documentation for the code I have 
+written. Sometimes, I would pick one and put it on this site. But most of the 
+time, the ones I picked are the actual documentation of my code or the notes on
+a project that I’m currently working on. 
+
+Still don’t know what is going on here? That’s okay. This site fundamentally is
+not for you, it’s for me. This is not a site that is meant to be read or seen 
+by others. It was supposed to be private, only accessible to me on my LAN. 
+You found this site on the internet is only because I bought a domain name, and
+the source code is on Github so I might as well just host it on Github Pages.
+
+Although this site is meant to be perosnal, I would like to hear about your 
+thoughts, too. If you think something on the site is horribly wrong (not 
+politically but technically), or you simply wanted to talk casually about 
+computing science, let me know. My email and PGP public key is at the 
+bottom right of this page. If you would like to, emails should use PGP 
+encryption to ensure and protect your privacy.
+
