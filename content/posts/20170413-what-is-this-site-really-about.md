@@ -13,9 +13,9 @@ The hotel I lived in did not allow me to have a static external IP address. It
 was primarily because every room was sharing one external IP address. I asked 
 the IT at the hotel whether it was possible to run a separate telephone line for 
 me. He said the hotel would not let him rewire the telephone line in the room. 
-I ended up setting up a web server that is only accessible via the local 
+I ended up setting up a web server that would only be accessible via the local 
 network. However, this did not really bother me much since I just wanted a 
-platform where I can experiment with different things. 
+platform where I could experiment with different things. 
 
 ## Historical Frontpage Looks
 
