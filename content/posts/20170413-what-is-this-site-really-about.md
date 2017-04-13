@@ -2,6 +2,8 @@ Title: What is This Site Really About?
 Date: 2017-04-13 20:00:05
 Location: Saigon, Vietnam
 
+## A Domain Name
+
 I purchased this domain name ([chiayolin.org](http://chiayolin.org)) in 2013. 
 It was just few months after moving to Ho Chi Minh City, Vietnam, from Taiwan. 
 I had no idea why I bought a domain name, but thought it would be a pretty cool 
@@ -34,3 +36,25 @@ politically but technically), or you simply wanted to talk casually about
 computing science, let me know. My email and PGP public key is at the 
 bottom right of this page. If you would like to, emails should use PGP 
 encryption to ensure and protect your privacy.
+
+## Historical Frontpage Looks
+
+##### Version 1.0 (2013):
+<img src="http://i.imgur.com/fH7ixrC.png?1" 
+     class="img-responsive img-rounded center-block img-border" alt=""/><br/>
+
+##### Version 2.0 (2014):
+<img src="http://i.imgur.com/mrhiV2d.png?1" 
+     class="img-responsive img-rounded center-block img-border" alt=""/><br/>
+
+##### Version 2.2 (2015):
+<img src="http://i.imgur.com/JrU6ztL.png?1" 
+     class="img-responsive img-rounded center-block img-border" alt=""/><br/>
+
+##### Version 3.0 (2016):
+<img src="http://i.imgur.com/1Gwj5Rs.png?1" 
+     class="img-responsive img-rounded center-block img-border" alt=""/><br/>
+
+##### Version 4.0 (2017):
+<img src="http://i.imgur.com/OtUozCr.png?1" 
+     class="img-responsive img-rounded center-block img-border" alt=""/><br/>

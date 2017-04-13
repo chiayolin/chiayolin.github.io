@@ -10,7 +10,7 @@ body {
     color: #000;
 }
 
-.navbar {
+.navbar-default {
   min-height: 30px !important;
   margin-bottom: 0px;
   background: none;
@@ -112,7 +112,6 @@ body {
   }
 }
 
-
 /* article entry */
 div.entry-title h2 {
   font-size: 20px;
@@ -127,6 +126,11 @@ div.entry-info {
 
 div.entry-content h2 {
   font-size: 18px;
+}
+
+.img-border {
+  border-style: solid;
+  border-width: 1px;
 }
 
 /* readme */
