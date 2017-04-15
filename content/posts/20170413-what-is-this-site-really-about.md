@@ -20,31 +20,31 @@ platform where I could experiment with different things.
 ## Historical Frontpage Looks
 
 ##### Version 1.0 (2013):
-<a href="http://i.imgur.com/fH7ixrC.png?1" data-fancybox>
+<a href="http://i.imgur.com/fH7ixrC.png?1" data-fancybox="images-single">
 <img src="http://i.imgur.com/fH7ixrC.png?1" 
 	 class="img-responsive img-rounded center-block img-border" alt=""/></a>
 <br/>
 
 ##### Version 2.0 (2014):
-<a href="http://i.imgur.com/mrhiV2d.png?1" data-fancybox>
+<a href="http://i.imgur.com/mrhiV2d.png?1" data-fancybox="images-single">
 <img src="http://i.imgur.com/mrhiV2d.png?1"
      class="img-responsive img-rounded center-block img-border" alt=""/></a>
 <br/>
 
 ##### Version 2.2 (2015):
-<a href="http://i.imgur.com/JrU6ztL.png?1" data-fancybox>
+<a href="http://i.imgur.com/JrU6ztL.png?1" data-fancybox="images-single">
 <img src="http://i.imgur.com/JrU6ztL.png?1"
      class="img-responsive img-rounded center-block img-border" alt=""/></a>
 <br/>
 
 ##### Version 3.0 (2016):
-<a href="http://i.imgur.com/1Gwj5Rs.png?1" data-fancybox>
+<a href="http://i.imgur.com/1Gwj5Rs.png?1" data-fancybox="images-single">
 <img src="http://i.imgur.com/1Gwj5Rs.png?1"
      class="img-responsive img-rounded center-block img-border" alt=""/></a>
 <br/>
 
 ##### Version 4.0 (2017):
-<a href="http://i.imgur.com/OtUozCr.png?1" data-fancybox>
+<a href="http://i.imgur.com/OtUozCr.png?1" data-fancybox="images-single">
 <img src="http://i.imgur.com/OtUozCr.png?1"
      class="img-responsive img-rounded center-block img-border" alt=""/></a>
 <br/>
