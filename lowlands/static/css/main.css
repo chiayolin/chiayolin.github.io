@@ -139,6 +139,7 @@ div.entry-content h2 {
 .img-border {
   border-style: solid;
   border-width: 1px;
+  border-color: #000;
 }
 
 /* readme */
