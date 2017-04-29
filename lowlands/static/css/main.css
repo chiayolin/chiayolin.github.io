@@ -83,6 +83,11 @@ a:focus {
 }
 
 /* banner */
+
+.drm-banner {
+  display: block;
+}
+
 .banner-wrapper {
   width: 556px;
   max-height: 255px;
@@ -119,6 +124,9 @@ a:focus {
     display: none;
   }
   .published-index {
+    display: none;
+  }
+  .drm-banner {
     display: none;
   }
 }
