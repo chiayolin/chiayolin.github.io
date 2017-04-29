@@ -8,7 +8,7 @@ and I live in <a data-fancybox href="https://www.google.com/maps/place/Ho+Chi+Mi
 If you are interested in the stuff that I'm currently working on, 
 go take a look at my [Github][2].
 
-You can always reach me at <chiayolin@gmail.com>. I will answer every email.
+You can always reach me at <chiayolin@member.fsf.org>. I will answer every email.
 If you would like to be extra paranoid, my PGP public key is at the bottom right 
 of this page.
 
