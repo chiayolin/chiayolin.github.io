@@ -31,7 +31,7 @@ $(document).ready(() => {
     (data) => {
       var sha = data[0].sha
       $("#git-commit-sha").attr('href', COMMIT_URL + sha);
-      $("#git-commit-sha").text(sha.slice(0, 13)) 
+      $("#git-commit-sha").text(sha.slice(0, 7)) 
     });
   
   /* baffle.js */

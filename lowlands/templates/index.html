@@ -6,6 +6,7 @@
       <small>Udvar-Hazy Center | Chantilly, Virginia</small>
     </div>
   </div>
+
 <section id="content">
 {% block content_title %}
 <span class="title-margin"></span>
@@ -14,7 +15,7 @@
 <ul class="post-list">
 {% for article in articles_page.object_list %}
   <li>
-    <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr> &raquo;
+    <abbr class="published published-index" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr> &raquo;
     <a href="{{ SITEURL }}/{{ article.save_as }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
   </li>
 {% endfor %}
