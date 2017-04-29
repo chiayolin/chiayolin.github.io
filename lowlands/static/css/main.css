@@ -118,6 +118,9 @@ a:focus {
   .banner-wrapper {
     display: none;
   }
+  .published-index {
+    display: none;
+  }
 }
 
 /* article entry */
@@ -130,6 +133,7 @@ div.entry-info {
 }
 
 .entry-content {
+  text-align: justify;
 }
 
 div.entry-content h2 {
