@@ -1,4 +1,4 @@
-Title: ROC Constitutional Court Interpretation #509 
+Title: Constitutional Court Interpretation #509 
 Date: 2017-04-06 15:40:00
 Location: Taipei, Taiwan
 
@@ -6,7 +6,7 @@ I'm writing this article just to document the event that happened recently and t
 provide my perspective of this particular incident.
 
 Earlier this month, my friend, let's call him _Bob_, was warned that an allegation 
-he made regarding accounting provision against a civil servant of Taiwan's _Ministry 
+he made regarding _something_ against a civil servant of Taiwan's _Ministry 
 of Foreign Affairs_ could possibly constitute defamation. Such act is but a typical 
 method and excuse the government officials constantly use to prevent the people from 
 discussing and investigating the truth. Later on, he was even forced to answer 
