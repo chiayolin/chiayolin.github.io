@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>chiayolin.org</title>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="/theme/css/bootstrap.min.css" />
+      <link rel="stylesheet" type="text/css" href="/theme/css/fancybox.min.css">
+      <link rel="stylesheet" type="text/css" href="/theme/css/main.css" />
+
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container article-container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" 
+                  data-toggle="collapse" data-target="#navbar" 
+                  aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            <span id="brand-name">{林} chiayolin.org</span><span class="site-title-cursor">_</span>
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="divider-vertical"></li>
+            <li><a href="./">/</a></li>
+            <li class="divider-vertical"></li>
+            <li><a href="https://github.com/chiayolin/chiayolin.github.io/">/src@ </a></li>
+            <li class="divider-vertical"></li>
+            <li><a href="/readme">/README</a></li>
+            <li class="divider-vertical divider-end"></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+    </nav>
+    <div class="container article-container">
+  <div class="entry-title">
+    <h2>Generating a Static Site with Pelican</h2>
+  </div>
+  <div class="entry-info">
+    <small>
+      <abbr class="published" title="2016-07-19T19:27:01+08:00">Tue Jul 19 2016</abbr>
+ by  
+        Chiayo Lin @
+       Centreville, Virginia
+    </small>
+  </div><!-- /.post-info -->
+  <div class="entry-content">
+    <p>I used <a href="https://jekyllrb.com/">Jekyll</a> as a static site generator to generate HTML files from 
+<a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> for this site and it worked just fine. However, Jekyll is perhaps
+too powerful for what I really need. Because what I want is just a simple static 
+site generator that generates my templates and Markdown files to HTML, without
+spending time configuring different versions of Ruby Gems just to get my site up 
+and running. So I recently decided to give <a href="http://blog.getpelican.com/">Pelican</a> a try. Pelican is a 
+static generator like Jekyll, but it is written in <a href="https://www.python.org/">Python</a> and uses 
+<a href="http://jinja.pocoo.org/">Jinja</a> as its templating language/engine. This post is created as a note to
+myself on generating a static site with Pelican. </p>
+<h2>Installation</h2>
+<p>First thing we want to do is install Pelican and Markdown via <code>pip</code> and update
+your Python if it is needed:</p>
+<div class="highlight"><pre><span></span>$ pip install pelican markdown
+</pre></div>
+
+
+<h2>Create a Project</h2>
+<p>After Pelican is installed on your machine, you may now begin creating a directory
+for your Pelican site:</p>
+<div class="highlight"><pre><span></span>$ mkdir awsome_project 
+$ <span class="nb">cd</span> awsome_project
+</pre></div>
+
+
+<p>After your project directory is created, run the <code>pelican-quickstart</code> command to
+proceed the process of creating a Pelican project:</p>
+<div class="highlight"><pre><span></span>$ pelican-quickstart
+</pre></div>
+
+
+<p>By running <code>pelican-quickstart</code>, the script will ask you some questions regarding
+the configuation of your site (this post will assume that you leave the choices 
+as default). Answer these questions truthfully XD </p>
+<p>You might also want to initialize the project directory as a Git repository in
+order to keep track of your code and later push them to <a href="https://pages.github.com/">Github Pages</a>.
+(I will write another post on deploying a Pelican site to Github Pages).</p>
+<div class="highlight"><pre><span></span>$ git init
+$ git remote add origin git@github.com:username/awsome_project.git
+</pre></div>
+
+
+<h2>Site Generation</h2>
+<p>I don't remember any one of the Pelican commands... But hey, if you decided to
+generate a <a href="https://en.wikipedia.org/wiki/Makefile">Makefile</a> in the previous section when running the 
+<code>pelican-quickstart</code> command then all you need to do now is run:</p>
+<div class="highlight"><pre><span></span>$ make html
+</pre></div>
+
+
+<p>Yes, that's it. A Pelican site is generated under the <code>output/</code> directory.</p>
+<h2>Run a HTTP Server Locally</h2>
+<p>"Running a HTTP Server Locally" is basically just a fancy way to say "preview your
+site before publishing it." In order to do that, simply type the command below at
+a terminal prompt inside your project's root directory (where your Makefile is):</p>
+<div class="highlight"><pre><span></span>$ make serve
+</pre></div>
+
+
+<p>Alternatively, run <code>develop_server.sh</code>:</p>
+<div class="highlight"><pre><span></span>$ sh develop_server.sh
+</pre></div>
+
+
+<p>This will automatically regenerate the site when a change is made. </p>
+<p>Finally, you can navigate to <a href="http://localhost:8000/">http://localhost:8000/</a> in your browser 
+to access/preview the generated site.</p>
+<h2>Writting Content</h2>
+<p>Every Markdown file (or whatever tool you prefer) and other files for the site are
+placed under the <code>content/</code> directory. For more information about writting the 
+content, please head to the <a href="http://docs.getpelican.com/en/3.6.3/content.html">offical documentation</a>.</p>
+  </div><!-- /.entry-content -->
+      <div class="footer">
+        <small>commit: &nbsp;<a href="" id="git-commit-sha"></a></small> 
+        <br/>
+        <small>status:&nbsp;<a class="build-status-link" href="https://travis-ci.org/chiayolin/chiayolin.github.io">
+          <img src="https://travis-ci.org/chiayolin/chiayolin.github.io.svg?branch=source"/>
+        </a></small>
+        <br/>
+        <small>license: <a style="color:black" href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY NC &nbsp;4.0</a></small>
+        <br/><br/>
+        <address class="pull-right">〒 chiayolin@member.fsf.org<br/>
+        密 PGP: <a href="https://keybase.io/chiayolin/pgp_keys.asc?fingerprint=318e86c48a9cfd361d73722cbbcac9bd0a1c61ad">
+           BBCA C9BD 0A1C 61AD</a>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="/theme/js/bootstrap.min.js"></script>
+    <script src="/theme/js/fancybox.min.js"></script>
+    <script src="/theme/js/baffle.min.js"></script>
+    <script src="/theme/js/plugins.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-96958127-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
