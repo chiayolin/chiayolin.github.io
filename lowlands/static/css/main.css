@@ -190,7 +190,8 @@ div.entry-content h2 {
   margin-top: 1em;
 }
 
-.post-list code, .project-list code, .banner-caption small {
+.post-list code, .project-list code, 
+.banner-caption small, .footer-sha code {
   font-family: 'Source Code Pro', monospace;
   background: none;
   color: #333;
@@ -214,10 +215,16 @@ abbr[title] {
 
 .footer {
   margin: 2em 0;
+  margin-bottom: 0;
 }
 
 .footer-info {
   font-family: 'Source Code Pro', monospace;
+  margin: 0px;
+}
+
+.footer-sha {
+
 }
 
 .build-status-link {
