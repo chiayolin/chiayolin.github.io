@@ -34,11 +34,10 @@ I will miss you all :)
 <hr/>
 **[Digital signature][sig] for [continuity.md][cmd]**
 
-<br/>
-Updated April 2017 by Chiayo Lin (*BTW, I'm not dead yet!*)
-
 Inspired by [aaronsw.com](http://www.aaronsw.com/)'s
 [*If I get hit by a truck...*](http://www.aaronsw.com/2002/continuity.html)
+
+Updated April 2017 by Chiayo Lin.
 
 
 [sig]: https://raw.githubusercontent.com/chiayolin/chiayolin.github.io/master/continuity.sig
