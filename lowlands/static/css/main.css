@@ -213,6 +213,22 @@ abbr[title] {
   text-decoration: none !important;
 }
 
+
+.pic-1024-qwords .thumbnail {
+  display: inline-block;
+  width: 100%;
+
+}
+
+.pic-1024-qwords .thumbnail img {
+  width: 100%;
+}
+
+.pic-1024-qwords a:hover {
+  text-decoration: none;
+}
+
+
 .footer {
   margin: 2em 0;
   margin-bottom: 0;
