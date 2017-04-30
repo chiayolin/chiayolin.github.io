@@ -37,11 +37,10 @@ I will miss you all :)
 <hr/>
 **[Digital signature][sig] for [continuity.md][cmd]**
 
-<br/>
-Updated April 2017 by Chiayo Lin (*BTW, I'm not dead yet!*)
-
 Inspired by [aaronsw.com](http://www.aaronsw.com/)'s
 [*If I get hit by a truck...*](http://www.aaronsw.com/2002/continuity.html)
+
+Updated April 2017 by Chiayo Lin.
 
 
 [sig]: https://raw.githubusercontent.com/chiayolin/chiayolin.github.io/master/continuity.sig
@@ -50,17 +49,17 @@ Inspired by [aaronsw.com](http://www.aaronsw.com/)'s
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQIcBAEBCAAGBQJY61OoAAoJELvKyb0KHGGtlUwP/iO3JdLFskYDFhaU1P1SH8Ci
-IMCMlatf1pDc1LBLC97bUzXttOG5Vj1/ZtvnVH+ei3W5mLjCd6cWCZXnxl1XyNlT
-pL0hC+xmt442juMYHRos9wZFGb1WJRoaROf0amWkwMchdphmA1bsEO0oVtCCBqmb
-4GQmTPvBdPSYBwkoRk5lQyLLBr2QS+6A272xwTJM5iOFtwXkHK1xk5/00oNjm6a4
-xMqa0YPML2RoNOmDnKzgu5+tMWoAXhWVOAyFpNhyATiXEotB38C9sIS7nR9cJQoJ
-0o39i9ZPf/4kLbtUXUvnOokjYsLebA3e/zEI4aKtp6diPmT1k0i1UjejDsfJ01gC
-9YEabpoYMzEcFRTPSiqZ2euNnis7l7drr+4u0AbPchw7NjlASPDkPiL7g9WYrS01
-+FKuQi4kSB48kHOu8TcAuxj1tpT9d0HHbjA09KMnKc2PRil4P3V2zDHTzF1T2CCD
-w0Xxn67R5ExKXCtl2Ky5i7+GOc6CuvbcpVf0vJ6fY3JoOKAJdOQka9hc97kUXNyh
-oSfSUGRcwmN587aGpjY7QnhoYgnrjZudYka8hvUPLHKZxWzZ/f0Ys3jbehQ3AGgk
-pifcb8um48yzfqoMc0SL80u1V9GxkA5fj4uPKMvt5Ffrxx94KN/V9LArZUmE1l0g
-pPL9K0n1L2GyppeFoZ5I
-=IdCn
+iQIcBAEBCAAGBQJZBbLUAAoJELvKyb0KHGGtTD8QAKErzopxaeL0+4J7MOjWKYKv
+4NBoDF5DWkTwkXgSG+pDzGaIWeBodyjtc1uJbNZksHlZ44WfB9U7WTUhWffSzukX
+6TDRHFx44F3HL40BYpPagh3sAHtYtsDzv9WqW7asvwmP3o8Z9R0FT9WmqoC6HM+R
+slyv4kW/pIhoRptbjmx4C9SkHLAYHv+LP6/Zu41+ksuDI79BWLG3tuAfUc10md4c
+xED4eeT4ykwdvHNQGI2WTvwu4uN5o2BRWinLPKN6Adr7YXXjDb0Dmo8TjQiJFNda
+ri7TzTNbC+pJPU7eVe1wCaLBgKb7HmedDiIX3R7m4AY3JsWxikE7nfFtkNwz8Jq/
+HVRYvFcCvOeXevYA5h30e2dKEns0+BqA31LPmUHomMWMzwx44t/JHY+TEZccFnmx
+ahRRWkugTXOv27rCnM63+KPqsv6C0nDInGiVn72v1/Jf1IyN/uKKcHsotlMA5lcr
+PuWt7vs+RFeSQv3FJjvqKBu2ql0OcNIP9f8GvZxuvFo08Y8jF0jPHBejNjIpIhE6
+iplgd92MLACBnjtkVhcRpc+AVeDJfsBMovzKWK6Re6E7BnSz4JBuG45Y/wZJblFW
+J4moDTN3ZlTBsvW24Dq3fkuiv9N2/E5T3elISrSpzOcb5uMC71ZPksoVXkC/SM33
+A3kVpl0YZ24cFJdig954
+=wa/5
 -----END PGP SIGNATURE-----
