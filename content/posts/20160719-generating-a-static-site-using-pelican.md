@@ -1,6 +1,6 @@
 Title: Generating a Static Site with Pelican
 Date: 2016-07-19 19:27:01
-Modified: 20167-05-01 00:00:00
+Modified: 2017-05-01 00:00:00
 Location: Centreville, Virginia
 
 I used [Jekyll][1] as a static site generator to generate HTML files from 
