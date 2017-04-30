@@ -128,6 +128,7 @@ a:focus {
 @media (max-width: 735px) {
   .article-container {
     width: 100%;
+    margin-bottom: 0px;
   }
   .navbar-container {
     width: 100%;
