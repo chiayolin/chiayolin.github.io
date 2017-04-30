@@ -1,16 +1,17 @@
 Title: Generating a Static Site with Pelican
 Date: 2016-07-19 19:27:01
+Modified: 20167-05-01 00:00:00
 Location: Centreville, Virginia
 
 I used [Jekyll][1] as a static site generator to generate HTML files from 
-[Markdown][2] for this site and it worked just fine. However, Jekyll is perhaps
-too powerful for what I really need. Because what I want is just a simple static 
-site generator that generates my templates and Markdown files to HTML, without
+[Markdown][2] for this site and it worked just fine. However, Jekyll was perhaps
+too powerful for what I really needed. Because what I wanted was just a simple static 
+site generator that parses my templates and Markdown files and outputs HTMLs, without
 spending time configuring different versions of Ruby Gems just to get my site up 
 and running. So I recently decided to give [Pelican][3] a try. Pelican is a 
 static generator like Jekyll, but it is written in [Python][4] and uses 
 [Jinja][5] as its templating language/engine. This post is created as a note to
-myself on generating a static site with Pelican. 
+myself about generating a static site with Pelican. 
 
 [1]: https://jekyllrb.com/
 [2]: https://en.wikipedia.org/wiki/Markdown
