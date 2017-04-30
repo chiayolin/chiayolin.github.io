@@ -9,32 +9,32 @@
 <section id="content">
 {% block content_title %}
 <span class="title-margin"></span>
-<h5><b>articles</b></h5>
+<h5><b>Articles</b></h5>
 {% endblock %}
 <ul class="post-list">
 {% for article in articles_page.object_list %}
   <li>
-    <abbr class="published published-index" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr> &raquo;
+    <code><abbr class="published published-index" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr> &raquo;</code>
     <a href="{{ SITEURL }}/{{ article.save_as }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
   </li>
 {% endfor %}
 </ul><!-- /#posts-list -->
 <span class="title-margin"></span>
-<h5><b>projects</b></h5>
+<h5><b>Projects</b></h5>
 <ul class="project-list">
-  <li>2017 &raquo; <a href="https://github.com/chiayolin/ib-cs-ia/">
+  <li><code>2017 &raquo;</code><a href="https://github.com/chiayolin/ib-cs-ia/">
     <abbr title="This project is a work-in-progress">*IB Computing Science I.A.</abbr></a></li>
-  <li>2017 &raquo; <abbr title="This project is a work-in-progress">*Variable DC Power Supply w/ Display</abbr></li>
-  <li>2017 &raquo; <a href="http://hearingvietnam.org/">Hearing Vietnam's Official Website</a></li>
-  <li>2016 &raquo; <a href="https://github.com/chiayolin/chiayolin.github.io/tree/source">chiayolin.org (new)</a></li>
-  <li>2016 &raquo; <a href="http://chiayolin.org/dotfiles/">Dotfiles 2.0</a></li>
-  <li>2016 &raquo; <a href="http://chiayolin.org/physics_mccc/">Physics Engineering Project (2016)</a>
-  <li>2015 &raquo; A Computer Science Club at SSIS &dagger;</a>
-  <li>2015 &raquo; <a href="http://chiayolin.org/physics_drone/">Physics Engineering Project (2015)</a>
-  <li>2014 &raquo; <a href="http://chiayolin.org/nbc/">nbc</a></li>
-  <li>2014 &raquo; Programmable Bluetooth Powerstrip</li>
-  <li>2014 &raquo; chiayolin.org (original)</li>
-  <li>2013 &raquo; 4-bit Binary Adder</li>
+  <li><code>2017 &raquo;</code> <abbr title="This project is a work-in-progress">*Variable DC Power Supply w/ Display</abbr></li>
+  <li><code>2017 &raquo;</code> <a href="http://hearingvietnam.org/">Hearing Vietnam's Official Website</a></li>
+  <li><code>2016 &raquo;</code> <a href="https://github.com/chiayolin/chiayolin.github.io/tree/source">chiayolin.org (new)</a></li>
+  <li><code>2016 &raquo;</code> <a href="http://chiayolin.org/dotfiles/">Dotfiles 2.0</a></li>
+  <li><code>2016 &raquo;</code> <a href="http://chiayolin.org/physics_mccc/">Physics Engineering Project (2016)</a>
+  <li><code>2015 &raquo;</code> A Computer Science Club at SSIS &dagger;</a>
+  <li><code>2015 &raquo;</code> <a href="http://chiayolin.org/physics_drone/">Physics Engineering Project (2015)</a>
+  <li><code>2014 &raquo;</code> <a href="http://chiayolin.org/nbc/">nbc</a></li>
+  <li><code>2014 &raquo;</code> Programmable Bluetooth Powerstrip</li>
+  <li><code>2014 &raquo;</code> chiayolin.org (original)</li>
+  <li><code>2013 &raquo;</code> 4-bit Binary Adder</li>
 </ul>
 </section><!-- /#content -->
 {% endblock content %}

@@ -1,7 +1,7 @@
 body {
     background-color: #fafbfc;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 13.34px;
+    font-size: 14px;
+    font-family: Helvetica, Arial, clean, sans-serif;
 }
 
 
@@ -45,7 +45,6 @@ a:focus {
 
 .nav.navbar-nav.navbar-right li a {
   color: rgba(255,255,255,0.75);
-
 }
 
 .nav.navbar-nav.navbar-right li a:hover {
@@ -112,7 +111,7 @@ a:focus {
 
 /* article */
 .article-container {
-  line-height: 1.5em;
+  line-height: 1.7em;
   width: 572px;
   background-color: #fff;
   border: 1px solid #e1e4e8;
@@ -121,6 +120,7 @@ a:focus {
 }
 
 .navbar-container {
+  font-family: 'Source Code Pro', monospace;
   line-height: 1.5em;
   width: 602px;
 }
@@ -146,11 +146,13 @@ a:focus {
 
 /* article entry */
 div.entry-title h2 {
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: normal;
 }
 
 div.entry-info {
   margin-bottom: 1em;
+  letter-spacing: 0.05em;
 }
 
 .entry-content {
@@ -184,8 +186,18 @@ div.entry-content h2 {
   display: inline;
 }
 
-#post-list {
+.post-list {
   margin-top: 1em;
+}
+
+.post-list code, .project-list code, .banner-caption small {
+  font-family: 'Source Code Pro', monospace;
+  background: none;
+  color: #333;
+}
+
+.banner-caption small {
+  color: #fff;
 }
 
 ul.post-list, ul.project-list {
@@ -202,6 +214,10 @@ abbr[title] {
 
 .footer {
   margin: 2em 0;
+}
+
+.footer-info {
+  font-family: 'Source Code Pro', monospace;
 }
 
 .build-status-link {
