@@ -68,6 +68,6 @@ Although this site is meant to be perosnal, I would like to hear about your
 thoughts, too. If you think something on the site is horribly wrong (not 
 politically but technically), or you simply wanted to talk casually about 
 computing science, let me know. My email and PGP public key is at the 
-bottom right of this page. If you would like to, emails should use PGP 
-encryption to ensure and protect your privacy.
+bottom right of this page. If you would like to, use PGP encryption to 
+ensure and protect your privacy.
 
