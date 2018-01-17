@@ -6,9 +6,9 @@ Title: Continuity
 This page is created in case for some reason I'm no longer able to keep my web 
 services running and source code maintained.
 
-I designate Ryo Budiwarman and be my virtual executor. Ryo has the authority to 
-coordinate whatever actions are needed to dispatch my projects into safe hands
-(And if you delete anything, Ryo, I will haunt you from the grave!).
+I designate Thy Dang and Ryo Budiwarman to be my virtual executors. They have
+the authority to coordinate whatever actions are needed to dispatch my projects 
+into safe hands (And if you delete anything, Ryo, I will haunt you from the grave!).
 
 <br/>
 ##### **Source code**
@@ -40,26 +40,25 @@ I will miss you all :)
 Inspired by [aaronsw.com](http://www.aaronsw.com/)'s
 [*If I get hit by a truck...*](http://www.aaronsw.com/2002/continuity.html)
 
-Updated April 2017 by Chiayo Lin.
+Updated January 2018 by Chiayo Lin.
 
 
 [sig]: https://raw.githubusercontent.com/chiayolin/chiayolin.github.io/master/continuity.sig
 [cmd]: https://github.com/chiayolin/chiayolin.github.io/blob/source/content/pages/continuity.md
 
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v2
 
-iQIcBAEBCAAGBQJZBbLUAAoJELvKyb0KHGGtTD8QAKErzopxaeL0+4J7MOjWKYKv
-4NBoDF5DWkTwkXgSG+pDzGaIWeBodyjtc1uJbNZksHlZ44WfB9U7WTUhWffSzukX
-6TDRHFx44F3HL40BYpPagh3sAHtYtsDzv9WqW7asvwmP3o8Z9R0FT9WmqoC6HM+R
-slyv4kW/pIhoRptbjmx4C9SkHLAYHv+LP6/Zu41+ksuDI79BWLG3tuAfUc10md4c
-xED4eeT4ykwdvHNQGI2WTvwu4uN5o2BRWinLPKN6Adr7YXXjDb0Dmo8TjQiJFNda
-ri7TzTNbC+pJPU7eVe1wCaLBgKb7HmedDiIX3R7m4AY3JsWxikE7nfFtkNwz8Jq/
-HVRYvFcCvOeXevYA5h30e2dKEns0+BqA31LPmUHomMWMzwx44t/JHY+TEZccFnmx
-ahRRWkugTXOv27rCnM63+KPqsv6C0nDInGiVn72v1/Jf1IyN/uKKcHsotlMA5lcr
-PuWt7vs+RFeSQv3FJjvqKBu2ql0OcNIP9f8GvZxuvFo08Y8jF0jPHBejNjIpIhE6
-iplgd92MLACBnjtkVhcRpc+AVeDJfsBMovzKWK6Re6E7BnSz4JBuG45Y/wZJblFW
-J4moDTN3ZlTBsvW24Dq3fkuiv9N2/E5T3elISrSpzOcb5uMC71ZPksoVXkC/SM33
-A3kVpl0YZ24cFJdig954
-=wa/5
+iQIzBAEBCAAdFiEEMY6GxIqc/TYdc3Isu8rJvQocYa0FAlpf2eQACgkQu8rJvQoc
+Ya10dBAAsHakazY5qeyAxFgQyL+aG8Xn0J4LbJlSiowMnGwzqcbTpMGWVOd1cEBj
+VrXnJ80JCSmTi6qeUEO7Nv90duXVb4gf7Lc/iI344aWqJbuVP+ZRwiB4fmoBQKEw
+rfu/aAgpoeli9GRIUh9E1Bz52ERRo/Gtt+JE9J6YKe+o+h9BLc6f6q/TPapEc6bh
+rCAwPKVelQz+h0dnhmrbfxKYR9cNqzvPg/H81HueNbECOYIx9iXe4xQCl5lipFj5
+nBsVh+n49WHCH1H+XUJS6r5Sl1Z1QrL37l7TrDIC6f/bbYK1BL4iwO0+a4LRSIdI
+Msw7Fe0cvXzbH5CzCYzyURwxLfVaIQLsoVwad9jrTL9lu5tjwsZvQGruQP4QXAk9
+kFC2nytT66lHvY4JMTlYzXz16SS9nrEkneR6VoXF4ZyrikXCjAUQA7ftKsW2dKel
+Q5Z5dePla//M22lccmTetSgd6ly8mki666Ai/P39gSP1o4HsulNnhRlM08EHXt43
+1a+ePPU57kmwzWHAxG1VL/KuShOeD+T31pCEBqwu4QvaoJbvPshoggU438rqqacD
+JxQ2SdQCgFXetzyZ3ThkV1eq3z+HMdBiVBOaQS2XKe5UNLvsFW390GsmTdkFlqT+
+VaH0mfKo8WG7Gapr9nN3hlnQ4rxKmNE4MQWc9ktZ7AQMUlXh2LA=
+=WoxA
 -----END PGP SIGNATURE-----

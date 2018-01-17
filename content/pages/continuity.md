@@ -3,9 +3,9 @@ Title: Continuity
 This page is created in case for some reason I'm no longer able to keep my web 
 services running and source code maintained.
 
-I designate Ryo Budiwarman and be my virtual executor. Ryo has the authority to 
-coordinate whatever actions are needed to dispatch my projects into safe hands
-(And if you delete anything, Ryo, I will haunt you from the grave!).
+I designate Thy Dang and Ryo Budiwarman to be my virtual executors. They have
+the authority to coordinate whatever actions are needed to dispatch my projects 
+into safe hands (And if you delete anything, Ryo, I will haunt you from the grave!).
 
 <br/>
 ##### **Source code**
@@ -37,7 +37,7 @@ I will miss you all :)
 Inspired by [aaronsw.com](http://www.aaronsw.com/)'s
 [*If I get hit by a truck...*](http://www.aaronsw.com/2002/continuity.html)
 
-Updated April 2017 by Chiayo Lin.
+Updated January 2018 by Chiayo Lin.
 
 
 [sig]: https://raw.githubusercontent.com/chiayolin/chiayolin.github.io/master/continuity.sig
