@@ -1,5 +1,5 @@
 Title: README
-<img src="https://lh3.googleusercontent.com/-gQFIj4FWyHc/AAAAAAAAAAI/AAAAAAAAAAA/AMcAYi8eZeZ6neigkNqhK6NjjNZddPMZyw/mo/photo.jpg"
+<img src="https://avatars1.githubusercontent.com/u/5305227?s=1000u=3e560a244eab43b875432786dde309b4316a77ac&v=4"
    class="img-responsive img-circle center-block avatar" alt=""/><br/>
 
 Xin Chào! My name is Chiayo Lin (aka 林佳佑) and I'm a student at 
