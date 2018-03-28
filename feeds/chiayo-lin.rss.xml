@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>chiayolin.org - Chiayo Lin</title><link>/</link><description></description><lastBuildDate>Thu, 01 Mar 2018 18:51:30 +0800</lastBuildDate><item><title>自由之歌</title><link>/posts/zi-you-zhi-ge/</link><description>&lt;p&gt;陽明山上盛開的櫻花，&lt;br/&gt;
+東北季風吹向的花們：&lt;br/&gt;
+蓬萊男兒們正在前線，&lt;br/&gt;
+像櫻花般優雅的凋謝。&lt;br/&gt;
+&lt;br/&gt;
+自動步槍算不上武器，&lt;br/&gt;
+上刺刀後又能幹嘛呢？&lt;br/&gt;
+不知不覺的四百年間，&lt;br/&gt;
+鍊出不投降的蓬萊魂。&lt;br/&gt;
+&lt;br/&gt;
+誓死防衛台灣的戰士，&lt;br/&gt;
+總共有兩千三百萬個，&lt;br/&gt;
+就算基地全部被摧毀，&lt;br/&gt;
+山中地下還有武裝軍。&lt;br/&gt;
+&lt;br/&gt;
+台灣海峽一八〇公里，&lt;br/&gt;
+如有國家與我們為敵：&lt;br/&gt;
+海軍的驅逐艦將出港，&lt;br/&gt;
+在海上守護我們的家。&lt;br/&gt;
+&lt;br/&gt;
+踏入敵軍陣地的那步，&lt;br/&gt;
+敵軍的主力就在這裡：&lt;br/&gt;
+最後的對決就是任務，&lt;br/&gt;
+騎兵砲兵一起作戰吧！&lt;br/&gt;
+&lt;br/&gt;
+橫跨急凍的中央山脈，&lt;br/&gt;
+或是在南洋的叢林裡，&lt;br/&gt;
+只要活著就繼續作戰，&lt;br/&gt;
+這就是台灣兵的精神。&lt;br/&gt;
+&lt;br/&gt;
+如果有帶野戰的口糧，&lt;br/&gt;
+沒有補給線也沒關係：&lt;br/&gt;
+不論城市或荒郊野外，&lt;br/&gt;
+也要維持前線的秩序。&lt;br/&gt;
+&lt;br/&gt;
+我們不知什麼是撤退，&lt;br/&gt;
+緊急程序沒有寫這個，&lt;br/&gt;
+飛行員的身體跟炸彈，&lt;br/&gt;
+將會與敵人同歸於盡。&lt;br/&gt;
+&lt;br/&gt;
+前進呀前進呀再前進！&lt;br/&gt;
+直到肉搏戰敵人陣地，&lt;br/&gt;
+我軍的勝算在於突擊，&lt;br/&gt;
+最後一戰就這幾分鐘。&lt;br/&gt;
+&lt;br/&gt;
+在前線的每一個朋友，&lt;br/&gt;
+我來跟你說一聲再見，&lt;br/&gt;
+我準備好特別攻擊了 ，&lt;br/&gt;
+為我們的家還有自由！&lt;br/&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chiayo Lin</dc:creator><pubDate>Thu, 01 Mar 2018 18:51:30 +0800</pubDate><guid isPermaLink="false">tag:None,2018-03-01:/posts/zi-you-zhi-ge/</guid></item><item><title>What is This Site Really About?</title><link>/posts/what-is-this-site-really-about/</link><description>&lt;h2&gt;A Domain Name&lt;/h2&gt;
+&lt;p&gt;I purchased this domain name (&lt;a href="http://chiayolin.org"&gt;chiayolin.org&lt;/a&gt;) in 2013. 
+It was just few months after moving to Ho Chi Minh City, Vietnam, from Taiwan. 
+I had no idea why I bought a domain name, but thought it would be a pretty cool 
+project to work on. So …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chiayo Lin</dc:creator><pubDate>Thu, 13 Apr 2017 20:00:05 +0800</pubDate><guid isPermaLink="false">tag:None,2017-04-13:/posts/what-is-this-site-really-about/</guid></item><item><title>Constitutional Court Interpretation #509</title><link>/posts/constitutional-court-interpretation-509/</link><description>&lt;p&gt;I'm writing this article just to document the event that happened recently and to 
+provide my perspective of this particular incident.&lt;/p&gt;
+&lt;p&gt;Earlier this month, my friend, let's call him &lt;em&gt;Bob&lt;/em&gt;, was warned that an allegation 
+he made regarding &lt;em&gt;something&lt;/em&gt; against a civil servant of Taiwan's &lt;em&gt;Ministry 
+of Foreign Affairs&lt;/em&gt; could …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chiayo Lin</dc:creator><pubDate>Thu, 06 Apr 2017 15:40:00 +0800</pubDate><guid isPermaLink="false">tag:None,2017-04-06:/posts/constitutional-court-interpretation-509/</guid></item><item><title>Generating a Static Site with Pelican</title><link>/posts/generating-a-static-site-with-pelican/</link><description>&lt;p&gt;I used &lt;a href="https://jekyllrb.com/"&gt;Jekyll&lt;/a&gt; as a static site generator to generate HTML files from 
+&lt;a href="https://en.wikipedia.org/wiki/Markdown"&gt;Markdown&lt;/a&gt; for this site and it worked just fine. However, Jekyll was perhaps
+too powerful for what I really needed. Because what I wanted was just a simple static 
+site generator that parses my templates and Markdown …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chiayo Lin</dc:creator><pubDate>Tue, 19 Jul 2016 19:27:01 +0800</pubDate><guid isPermaLink="false">tag:None,2016-07-19:/posts/generating-a-static-site-with-pelican/</guid></item><item><title>Why LISP?</title><link>/posts/why-lisp/</link><description>&lt;p&gt;A book would not become famous just because it is written in a popular
+language. At the end of the day, ideas behind the words are what matter 
+the most. The same concept apllies to programming languages, too. A good 
+programming language should be able to describe the abstract beings …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chiayo Lin</dc:creator><pubDate>Tue, 10 May 2016 19:30:30 +0800</pubDate><guid isPermaLink="false">tag:None,2016-05-10:/posts/why-lisp/</guid></item><item><title>Installing AUR Packages</title><link>/posts/installing-aur-packages/</link><description>&lt;p&gt;Arch User Repository (AUR) is a community-driven repository for Arch Linux users. 
+You can find packages that haven't been officially supported by Arch Linux on AUR, 
+such as Google Chrome, Dropbox, and Libre Office. AUR contains package descriptions 
+(PKGBUILDs) that allow you to compile a package from source with makepkg …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chiayo Lin</dc:creator><pubDate>Fri, 13 Jun 2014 11:25:52 +0800</pubDate><guid isPermaLink="false">tag:None,2014-06-13:/posts/installing-aur-packages/</guid></item></channel></rss>
