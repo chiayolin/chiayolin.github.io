@@ -27,7 +27,7 @@ more info. The front page of chiayolin.org should be redone as appropriate with
 a link to the old site.
 
 <br/>
-If I'm dead, I'd like be shipped home (Taiwan, please) and rest somewhere in 
+If I'm dead, I'd like to be shipped home (Taiwan, please) and rest somewhere in 
 [Yangmingshan](https://en.wikipedia.org/wiki/Yangmingshan) near Taipei. 
 I will miss you all :)
 
