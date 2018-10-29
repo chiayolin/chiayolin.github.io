@@ -1,3 +1,0 @@
-pelican>=3.6
-Markdown>=2.4.1
-Pygments>=1.6
