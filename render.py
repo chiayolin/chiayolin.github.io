@@ -1,0 +1,150 @@
+from jinja2 import FileSystemLoader as load_files
+from jinja2 import Environment
+from markdown2 import markdown
+
+import os, sys, shutil
+
+""" 
+symbolic constants
+"""
+OUTPUT_DIR = '_output/'
+STATIC_DIR = '_static/'
+PAGES_DIR = '_pages/'
+POSTS_DIR = '_posts/'
+POSTS_PREFIX = 'blog/'
+TEMPLATES = 'templates/'
+
+def read_file(path):
+    """
+    returns file content specified by path.
+    """
+    
+    with open(path, 'rb') as f:
+        content = f.read().decode('utf-8', 'ignore')
+    
+    return content
+
+def write_file(path, content):
+    """
+    returns None, writes content to file specified by path.
+    """
+    
+    with open(path, 'w') as f:
+        f.write(content)
+    
+    return
+
+def list_dir(path):
+    """
+    returns list of everything under path exclusing the hidden files
+    """
+
+    return [*filter(lambda x: x[0] != '.', os.listdir(path))]
+
+def render_pages(j2_env, metadata = {}):
+    """
+    returns None, renders pages in src_dir, write to out_dir.
+
+    This functions takes two arguments, j2_env and metadata. Second is a 
+    mapping which can be passed for special pages to render. An example of a
+    of a special page can be 'index.html', where it displays a list of posts
+    And to display these posts, a mapping of { 'posts' : [...] } will be 
+    passed to the function where [...] is an array of post metadata.
+
+    Futhemore, these special pages shall not be rendered with the default
+    template, since the default one is just HTML subsititution where the
+    content is not rendered. Therefore, this function matches page's file-
+    name against existing ones in TEMPLATES. If the page's filename is same
+    with a template's filename, then that template is used to render instead 
+    of the default one.
+
+    A pound sign '#' is used to indicate file hierarchy for the output of the
+    page rendered. E.G. page named 'blog#index.html under PAGES_DIR will be
+    rendered with 'blog#index.html' under TEMPLATES, this behavior is described 
+    above. However, the rendered file will be at OUTPUT_DIR/blog/index.html 
+    instead since a pound sign indicates a slash '/' which is a representation
+    of the file hierarchy.
+    """
+
+    src_dir = PAGES_DIR
+    out_dir = OUTPUT_DIR
+    tmp_dir = j2_env.loader.searchpath[0] + '/'
+    
+    for raw_page in list_dir(src_dir):
+        # render special pages: if page's filename is the same as the one in 
+        # template, use that template to render instead.
+        print(raw_page + ': processing...')
+        if raw_page in list_dir(tmp_dir):
+            j2_temp = j2_env.get_template(raw_page)
+            print(raw_page + ': special case template')
+        else:
+            j2_temp = j2_env.get_template('page.html')
+
+        raw_html = read_file(src_dir + raw_page)
+        rendered = j2_temp.render(html = raw_html, **metadata)
+        
+        # engineer and write to correct output path
+        fullpath = raw_page.replace('#', '/')
+        basename = os.path.basename(fullpath)
+        dirname = os.path.dirname(fullpath)
+        if dirname:
+            os.makedirs(out_dir + dirname, exist_ok=True)
+        
+        write_file(out_dir + fullpath, rendered + '\n')
+        print(raw_page + ': wrote to ' + out_dir + fullpath)
+    
+    return
+
+def render_posts(j2_env, path_prefix=POSTS_PREFIX):
+    """ 
+    returns list of post meta, renders posts in src_dir, write to out_dir 
+    """
+
+    src_dir = POSTS_DIR
+    out_dir = OUTPUT_DIR
+
+    md_extr = ['metadata', 'footnotes']
+    j2_temp = j2_env.get_template('post.html')
+    
+    _metadata = []
+    for raw_post in list_dir(src_dir):
+        print(raw_post + ': processing')
+        raw_data = read_file(src_dir + raw_post)
+        raw_html = markdown(raw_data, extras=md_extr)
+
+        metadata = raw_html.metadata
+        _metadata.append(metadata)
+        
+        rendered = j2_temp.render(html = raw_html, **metadata)
+        filename = os.path.splitext(raw_post)[0] + '.html'
+        write_file(out_dir + path_prefix + filename, rendered + '\n')
+
+    # sort _metadata with each dict's datetime created and then
+    # return the reverse because latest should go first
+    sorted_metadata = sorted(_metadata, key=lambda kv: kv['date'])
+    return reversed(sorted_metadata)
+
+def main():
+    """
+    returns None, program's main entry.
+    """
+
+    # output preprocessing: remove the existing OUTPUT_DIR if presented.
+    # copytree() creates a new directory if not yet presented, things 
+    # under STATIC_DIR will just be copied to OUTPUT_DIR without rednering.
+    if os.path.exists(OUTPUT_DIR):
+        shutil.rmtree(OUTPUT_DIR)
+    shutil.copytree(STATIC_DIR, OUTPUT_DIR, ignore=shutil.ignore_patterns('.*'))
+    os.mkdir(OUTPUT_DIR + POSTS_PREFIX)
+    
+    # load jinja2 template
+    j2_env = Environment(loader = load_files(TEMPLATES))
+
+    # render posts and pages
+    posts = render_posts(j2_env)
+    metadata = { 'posts' : posts }
+    render_pages(j2_env, metadata)
+
+    return
+
+__name__ == '__main__' and main()
