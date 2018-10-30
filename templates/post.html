@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="content">
+    {% if title %}
+      <h2 class="content-title">{{ title }}</h2>
+    {% endif %}
+
+    {% if cover %}
+      <div class="content-cover">
+        <img src={{ cover }} class="content-image">
+      </div>
+    {% endif %}
+
+    {% if caption %}
+      <p class="content-image-caption">{{ caption }}</p>
+    {% endif %}
+
+    {% if author or date or location %}
+      <p class="content-metadata">
+        {% if author   %}by {{ author }}  {% endif %}
+        {% if date     %}<br/>{{ date }}  {% endif %}
+        {% if location %}@ {{ location }} {% endif%}
+      </p>
+    {% endif %}
+
+    {{ body }}
+  </div>
+{% endblock %}

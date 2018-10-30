@@ -1,0 +1,17 @@
+<div class="navbar no-select">
+  <a href="#"><img class="navbar-branding" src="/assets/hayashi.png"></a>
+  <a class="navbar-overlay-trigger" onclick="on()">&#8801;</a>
+  <div id="navbar-overlay" onclick="off()">
+    <div class="navbar-overlay-links">
+      <a href="#">WEBLOG</a>
+      <a href="#">GITHUB</a>
+      <a href="#">RÉSUMÉ</a>
+      <a href="#">README</a>
+    </div>
+  </div>
+  <hr/>
+  <script>
+  function on()  { document.getElementById("navbar-overlay").style.display = "block"; }
+  function off() { document.getElementById("navbar-overlay").style.display = "none";  }
+  </script>
+</div>
