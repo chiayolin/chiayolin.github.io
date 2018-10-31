@@ -95,7 +95,6 @@ def render_pages(j2_env, metadata = {}):
             j2_temp = j2_env.get_template('page.html')
 
         raw_html = read_file(src_dir + raw_page)
-        print(raw_page + ": ", metadata['posts'])
         rendered = j2_temp.render(html = raw_html, **metadata)
 
         # engineer and write to correct output path
