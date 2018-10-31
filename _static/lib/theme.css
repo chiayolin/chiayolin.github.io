@@ -42,10 +42,9 @@ hr {
 .navbar-branding {
   display: block;
   margin: auto;
-  width: 45px;
-  height: auto;
   cursor: pointer;
-
+  height: auto;
+  width: 45px;
 }
 
 .navbar-links {
@@ -81,6 +80,7 @@ hr {
 
 .navbar-overlay-trigger {
   display: block;
+  width: 30px;
   font-size: 50px;
   cursor: pointer;
   font-weight: lighter;
