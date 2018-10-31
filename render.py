@@ -47,6 +47,14 @@ def list_dir(path):
 
     return [*filter(lambda x: x[0] != '.', os.listdir(path))]
 
+def kigenize(date):
+    l = date.split('-')
+    y = '紀元 ' + str(int(l[0]) + 660) + ' 年 '
+    m = l[1] + ' 月 '
+    d = l[2] + ' 日'
+
+    return y + m + d
+
 def render_pages(j2_env, metadata = {}):
     """
     returns None, renders pages in src_dir, write to out_dir.
@@ -118,12 +126,16 @@ def render_posts(j2_env, metadata, path_prefix=POSTS_PREFIX):
         print(raw_post + ': processing')
         raw_data = read_file(src_dir + raw_post)
         raw_html = markdown(raw_data, extras=md_extr)
-
-        filename = os.path.splitext(raw_post)[0] + '.html'
-        raw_html.metadata.update({ 'filename' : filename })
-
         metadata = raw_html.metadata
-        _metadata.append(metadata)
+
+        # add path name to file
+        filename = os.path.splitext(raw_post)[0] + '.html'
+        metadata.update({ 'filename' : filename })
+
+        # update date format
+        metadata['date'] = kigenize(metadata['date'])
+
+        _metadata.append(metadata) # append to accumula. list
         rendered = j2_temp.render(html = raw_html, **metadata)
         write_file(out_dir + path_prefix + filename, rendered + '\n')
 
@@ -151,7 +163,7 @@ def main():
 
     metadata = { 'site' : {
         'title' : TITLE,
-        'prefix'  : SITE_PREFIX,
+        'prefix' : SITE_PREFIX,
         'posts_prefix' : POSTS_PREFIX,
         }
     }
