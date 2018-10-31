@@ -18,12 +18,13 @@
 
     {% if author or date or location %}
       <p class="content-metadata">
-        {% if author   %}by {{ author }}  {% endif %}
-        {% if date     %}<br/>{{ date }}  {% endif %}
-        {% if location %}@ {{ location }} {% endif%}
+        {% if date %}{{ date }} {% endif %}
+        {% if author %}by {{ author }} {% endif %}
+        {% if location %}@ {{ location }} {% endif %}
+        {% if modified %}<br/>last modified: {{ modified }}  {% endif %}
       </p>
     {% endif %}
 
-    {{ body }}
+    {{ html }}
   </div>
 {% endblock %}

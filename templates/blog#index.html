@@ -1,10 +1,15 @@
 {% extends 'base.html' %}
 {% block content %}
   <div class="content">
-    {% for post in posts -%}
-	<hr style="border: 5.px solid #999;">
-	  <p class="content-metadata style="margin-bottom: 6px;">{{ post.date }}</p>
-	  <h3><i>{{ post.title }}</i></h3>
-    {% endfor %}
+	{{ html }}
+  {% for post in posts -%}
+    <hr class="content-list-hr">
+    <a class="content-list-link" href={{ post.filename }}>
+	    <p class="content-metadata">{{ post.date }}</p>
+	    <h3 class="content-list-title">{{ post.title }}</h3>
+    </a>
+  {% endfor %}
   </div>
+  <hr class="content-list-hr">
+  <p class="content-image-caption">EOF</p>
 {% endblock %}
