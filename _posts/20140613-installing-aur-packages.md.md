@@ -2,7 +2,6 @@
 title    : Installing AUR Packages
 date     : 2014-06-13
 modified : 2016-07-18
-author   : Chiayo Lin
 location : Saigon, Vietnam
 ---
 
