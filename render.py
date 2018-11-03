@@ -133,6 +133,8 @@ def render_posts(j2_env, metadata, path_prefix=POSTS_PREFIX):
 
         # update date format
         metadata['date'] = kigenize(metadata['date'])
+        if 'modified' in metadata:
+            metadata['modified'] = kigenize(metadata['modified'])
 
         _metadata.append(metadata) # append to accumula. list
         rendered = j2_temp.render(html = raw_html, **metadata)
