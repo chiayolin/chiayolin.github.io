@@ -39,12 +39,17 @@ hr {
   padding-top: 25px;
 }
 
-.navbar-branding {
+.navbar-branding a {
   display: block;
-  margin: auto;
-  cursor: pointer;
+  margin: 0 auto;
+  text-align: center;
+  width: 45px !important;
+  margin-bottom: -60px;
+}
+
+.navbar-branding img {
   height: auto;
-  width: 45px;
+  width: 100%;
 }
 
 .navbar-links {
@@ -111,6 +116,14 @@ hr {
 
 .navbar-overlay-links a:active {
   text-decoration: underline;
+}
+
+.navbar-overlay-x {
+  position: absolute;
+  font-size: 25pt;
+  top: 21%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .navbar hr {
