@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/lib/theme.css">
+  <title></title>
+</head>
+<body>
+  <!-- start main -->
+  <div class="main">
+    <!-- start navbar -->
+    <div class="navbar no-select">
+  <div class="navbar-branding">
+    <a href="/" ><img src="/assets/hayashi.png"></a>
+  </div>
+  <a class="navbar-overlay-trigger" onclick="on()">&#8801;</a>
+  <div id="navbar-overlay">
+    <div class="navbar-overlay-x" onclick="off()">&#9783;</div>
+    <div class="navbar-overlay-links">
+      <a href="/blog">WEBLOG</a>
+      <a href="https://github.com/chiayolin">GITHUB</a>
+      <a href="/assets/201811-cyl.pdf">RÉSUMÉ</a>
+      <a href="/readme">README</a>
+    </div>
+  </div>
+  <hr/>
+  <script>
+  function on()  { document.getElementById("navbar-overlay").style.display = "block"; }
+  function off() { document.getElementById("navbar-overlay").style.display = "none";  }
+  </script>
+</div>
+    <!-- end navbar -->
+    <!-- start content -->
+    
+  <div class="content">
+	<h1 class="content-list-header"><code>~/*.txt</code></h1>
+
+  <hr class="content-list-hr">
+    <a class="content-list-link" href=20170413-what-is-this-site-really-about.html>
+	    <p class="content-metadata">紀元 2677 年 04 月 13 日</p>
+	    <h2 class="content-list-title">What is This Site Really About?</h2>
+    </a>
+  <hr class="content-list-hr">
+    <a class="content-list-link" href=20170406-constitutional-court-interpretation-no-509.html>
+	    <p class="content-metadata">紀元 2677 年 04 月 06 日</p>
+	    <h2 class="content-list-title">Constitutional Court Interpretation #509</h2>
+    </a>
+  <hr class="content-list-hr">
+    <a class="content-list-link" href=20160719-generating-a-static-site-using-pelican.html>
+	    <p class="content-metadata">紀元 2676 年 07 月 19 日</p>
+	    <h2 class="content-list-title">Generating a Static Site with Pelican</h2>
+    </a>
+  <hr class="content-list-hr">
+    <a class="content-list-link" href=20160510-why-lisp.html>
+	    <p class="content-metadata">紀元 2676 年 05 月 10 日</p>
+	    <h2 class="content-list-title">Why LISP?</h2>
+    </a>
+  <hr class="content-list-hr">
+    <a class="content-list-link" href=20140613-installing-aur-packages.md.html>
+	    <p class="content-metadata">紀元 2674 年 06 月 13 日</p>
+	    <h2 class="content-list-title">Installing AUR Packages</h2>
+    </a>
+  
+  </div>
+  <hr class="content-list-hr">
+  <p class="content-image-caption">EOF</p>
+
+    <!-- end content -->
+    <!-- start footer -->
+    <div class="footer">
+  <hr/>
+  <div class="footer-margin-top"></div>
+  <a href="https://keybase.io/chiayolin/pgp_keys.asc?fingerprint=318e86c48a9cfd361d73722cbbcac9bd0a1c61ad">BBCA C9BD 0A1C 61AD</a>
+  <span class="pull-right">〒 cyl at umd dot edu</span>
+</div>
+    <!-- end footer -->
+  </div>
+  <!-- end main -->
+</body>
+</html>
