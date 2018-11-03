@@ -1,0 +1,2 @@
+jinja2 >= 2.1
+markdown2 >= 2.3.5
