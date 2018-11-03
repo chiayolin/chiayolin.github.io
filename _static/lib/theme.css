@@ -11,7 +11,8 @@ body {
 }
 
 hr {
-  border: .5px solid #000;
+  border: thin solid #000;
+  border-bottom: 0px;
   margin: 15px 0;
 }
 
@@ -195,7 +196,7 @@ hr {
 }
 
 .content h5 {
-  margin: 16px 0;
+  margin: 16px 0 !important;
 }
 
 .content img {
@@ -236,12 +237,9 @@ hr {
   margin: 0 !important;
 }
 
-.content-list-title {
-	font-weight: normal;
-}
-
 .content-list-hr {
-  border: .5px solid #e6e6e6;
+  border: thin solid #e6e6e6;
+  border-bottom: 0px;
 }
 
 .content-list-link {
@@ -253,6 +251,11 @@ hr {
   margin: 15px auto;
   padding-bottom: 16px;
   font-family: monospace;
+}
+
+.footer a {
+  color: #000;
+  text-decoration: none;
 }
 
 .footer-margin-top {
