@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div class="content">
+	{{ html }}
+  {% for post in posts -%}
+    <hr class="content-list-hr">
+    <a class="content-list-link" href={{ post.filename }}>
+	    <p class="content-metadata">{{ post.date }}</p>
+	    <h2 class="content-list-title">{{ post.title }}</h2>
+    </a>
+  {% endfor %}
+  </div>
+  <hr class="content-list-hr">
+  <p class="content-image-caption">EOF</p>
+{% endblock %}

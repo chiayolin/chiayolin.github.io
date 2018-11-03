@@ -1,3 +1,2 @@
-pelican>=3.6
-Markdown>=2.4.1
-Pygments>=1.6
+jinja2 >= 2.1
+markdown2 >= 2.3.5

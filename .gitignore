@@ -1,3 +1,2 @@
-ENV/
-output/
-pelicanconf.pyc
+.DS_Store
+_output/

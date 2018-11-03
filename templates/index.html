@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="content">
+	{{ html }}
+  <h1 class="content-list-header"><code>~/*.txt</code> </h1>
+  {% for post in posts %}
+    <!-- print most recent three items only -->
+    {% if loop.index <= 3 %}
+      <hr class="content-list-hr">
+      {% set post_path = site.prefix + site.posts_prefix + post.filename %}
+      <a class="content-list-link" href={{ post_path }}>
+	      <p class="content-metadata">{{ post.date }}</p>
+	      <h2 class="content-list-title">{{ post.title }}</h2>
+      </a>
+    {% endif %}
+  {% endfor %}
+  <a class="content-list-link" href="/blog">
+  <hr class="content-list-hr">
+  <p class="content-image-caption">
+    MORE<span class="pull-right">❐</span>
+  </p>
+  <hr class="content-list-hr">
+  </a>
+  <h1 class="content-list-header"><code>~/*[^.txt]</code></h1>
+  <hr class="content-list-hr">
+  <a class="content-list-link" href="https://github.com/chiayolin">
+    <p class="content-image-caption">
+      GITHUB<span class="pull-right">&#x2197;</span>
+    </p>
+  </a>
+  <hr class="content-list-hr">
+  <a class="content-list-link" href="/assets/201811-cyl.pdf">
+    <p class="content-image-caption">
+      RÉSUMÉ<span class="pull-right">❐</span>
+    </p>
+  </a>
+  <hr class="content-list-hr">
+  <a class="content-list-link" href="/readme">
+    <p class="content-image-caption">
+      README<span class="pull-right">❐</span>
+    </p>
+  </a>
+</div>
+{% endblock %}

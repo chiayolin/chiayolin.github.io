@@ -1,18 +1,19 @@
+env:
+  global:
+    secure: eYqjnOpA7BqjG9LlganSQdTekqS+moLWXS4n0VJwTHpwRJSdCii0SEVW5VmKVqi/hqBBpgWMULtDFq9NegEHTFLZScnzmCHMF+84Q1xIoiXjUezIJSeeuICn7YXMrYhevNxULwKWgcyQDYkTPHiLFA/u9FPI61rkiHuZ/CcxxtuWL5w9iATfX7uDpk+dN5j3V/uGU8OIfhryPzoErhQchXhfe6644fJUvzTqb7T4PMg5Tlk45j2PuuiBiPkckWpKJdexbpIeuHivbuM29zK5tnvUySo6nEtZ2pFN9FdrXLMvB+i1ZR0Fc654eY2SF9N9swk6TKPbtX1fNQChKTQya8XhDChHpa6ubg6WttIhQuZSCaiXYwSenRoFGMgvewaWieePx1FVNGpt0aF2bvAiShvyonfDFbHXNqWOkOazKxOiVFfrshSaMJxSlG02OHhie8MOFuornmr4rAH9L+Erx0WbdRI/7wbrSe920Dm59dh9oRsa8qQqN0UcOwZVFhhDiTmnv1mpd5SmWVk3mCEKNv/P/QXauXrMB9klDlTmwZg/nBAY2ZK/+CoebHcIP+vgmEArWejBne7wcoE4KzDGS/n+chwP+3Y67XjxhjGjnBNgjvQuTSms2l44cNoAYiT4bvXggkZl/ciq7inSP6D7YukOmp5mkKIYwJwkynI5lgQ=
+
 branches:
   only: source
 
 language: python
 
-python: '2.7'
-
-env:
-  global:
-    secure: eYqjnOpA7BqjG9LlganSQdTekqS+moLWXS4n0VJwTHpwRJSdCii0SEVW5VmKVqi/hqBBpgWMULtDFq9NegEHTFLZScnzmCHMF+84Q1xIoiXjUezIJSeeuICn7YXMrYhevNxULwKWgcyQDYkTPHiLFA/u9FPI61rkiHuZ/CcxxtuWL5w9iATfX7uDpk+dN5j3V/uGU8OIfhryPzoErhQchXhfe6644fJUvzTqb7T4PMg5Tlk45j2PuuiBiPkckWpKJdexbpIeuHivbuM29zK5tnvUySo6nEtZ2pFN9FdrXLMvB+i1ZR0Fc654eY2SF9N9swk6TKPbtX1fNQChKTQya8XhDChHpa6ubg6WttIhQuZSCaiXYwSenRoFGMgvewaWieePx1FVNGpt0aF2bvAiShvyonfDFbHXNqWOkOazKxOiVFfrshSaMJxSlG02OHhie8MOFuornmr4rAH9L+Erx0WbdRI/7wbrSe920Dm59dh9oRsa8qQqN0UcOwZVFhhDiTmnv1mpd5SmWVk3mCEKNv/P/QXauXrMB9klDlTmwZg/nBAY2ZK/+CoebHcIP+vgmEArWejBne7wcoE4KzDGS/n+chwP+3Y67XjxhjGjnBNgjvQuTSms2l44cNoAYiT4bvXggkZl/ciq7inSP6D7YukOmp5mkKIYwJwkynI5lgQ=
+python: '3.7'
 
 install:
-  - pip install -r requirements.txt
+  - pip3 install -r requirements.txt
 
 script:
-  - make html
+  - python3 render.py
+
 after_success:
   - bash deploy.sh

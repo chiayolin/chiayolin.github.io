@@ -3,7 +3,7 @@
 #         static-site-pelican-grunt-travis-github-pages/#deploy
 BRANCH=master
 TARGET_REPO=chiayolin/chiayolin.github.io.git
-PELICAN_OUTPUT_FOLDER=output
+OUTPUT_FOLDER=_output
 
 echo -e "testing travis-encrypt"
 echo -e "$VARNAME"
@@ -20,12 +20,12 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
 
     # Go into directory and copy data we're interested in to that directory
     cd built_website
-    rsync -rv --exclude=.git  ../$PELICAN_OUTPUT_FOLDER/* .
+    rsync -rv --exclude=.git  ../$OUTPUT_FOLDER/* .
 
     echo -e "remove previous version of website\n"
     git rm -rf .
     git clean -f -d
-    git commit -m "Rel 1.5 - empty the branch before pushing($TRAVIS_BUILD_NUMBER)"
+    git commit -m "empty the branch before pushing($TRAVIS_BUILD_NUMBER)"
     git push -fq origin $BRANCH > /dev/null
     cd ..
 
@@ -35,7 +35,7 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
 
     # Go into directory and copy data we're interested in to that directory
     cd built_website
-    rsync -rv --exclude=.git  ../$PELICAN_OUTPUT_FOLDER/* .
+    rsync -rv --exclude=.git  ../$OUTPUT_FOLDER/* .
 
     # Add, commit and push files
     git add -f .
