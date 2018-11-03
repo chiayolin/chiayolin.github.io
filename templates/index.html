@@ -2,7 +2,7 @@
 {% block content %}
 <div class="content">
 	{{ html }}
-  <h1><code>~/*.txt</code> </h1>
+  <h1 class="content-list-header"><code>~/*.txt</code> </h1>
   {% for post in posts %}
     <!-- print most recent three items only -->
     {% if loop.index <= 3 %}
@@ -21,7 +21,7 @@
   </p>
   <hr class="content-list-hr">
   </a>
-  <h1><code>~/*[^.txt]</code></h1>
+  <h1 class="content-list-header"><code>~/*[^.txt]</code></h1>
   <hr class="content-list-hr">
   <a class="content-list-link" href="https://github.com/chiayolin">
     <p class="content-image-caption">
