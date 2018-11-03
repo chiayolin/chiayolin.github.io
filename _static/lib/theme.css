@@ -80,7 +80,6 @@ hr {
   bottom: 0;
   background-color: #fff;
   z-index: 2;
-  cursor: pointer;
 }
 
 .navbar-overlay-trigger {
@@ -124,6 +123,7 @@ hr {
   top: 21%;
   left: 50%;
   transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
 .navbar hr {
