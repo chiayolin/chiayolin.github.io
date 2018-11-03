@@ -111,7 +111,11 @@ def render_pages(j2_env, metadata = {}):
 
 def render_posts(j2_env, metadata, path_prefix=POSTS_PREFIX):
     """
-    returns list of post meta, renders posts in src_dir, write to out_dir
+    returns list of post meta, renders posts in src_dir, write to out_dir.
+
+    This function by default outputs the rendered file under POST_DIR to
+    OUTPUT_DIR/POSTS_PREFIX/FILE.html. Futhemore, it returns a collection
+    of metadata of the posts it rendered.
     """
 
     src_dir = POSTS_DIR
@@ -139,6 +143,7 @@ def render_posts(j2_env, metadata, path_prefix=POSTS_PREFIX):
         _metadata.append(metadata) # append to accumula. list
         rendered = j2_temp.render(html = raw_html, **metadata)
         write_file(out_dir + path_prefix + filename, rendered + '\n')
+        print(raw_post + ': wrote to ' + out_dir + path_prefix + filename)
 
     # sort _metadata with each dict's datetime created and then
     # return the reverse because latest should go first
