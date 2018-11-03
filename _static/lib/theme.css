@@ -150,6 +150,24 @@ hr {
   margin-bottom: 1em;
 }
 
+.content h3 {
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+}
+
+.content h4 {
+  font-size: .83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+}
+
+.content h5 {
+  font-size: .67em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+}
+
 .content p {
   margin: 16px 0;
   text-align: justify;
@@ -178,6 +196,13 @@ hr {
 
 .content h5 {
   margin: 16px 0;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
 }
 
 .content-metadata {
