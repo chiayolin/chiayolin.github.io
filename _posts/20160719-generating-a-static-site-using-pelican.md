@@ -49,7 +49,7 @@ $ pelican-quickstart
 ```
 
 By running `pelican-quickstart`, the script will ask you some questions regarding
-the configuation of your site (this post will assume that you leave the choices
+the configuration of your site (this post will assume that you leave the choices
 as default). Answer these questions truthfully XD
 
 You might also want to initialize the project directory as a Git repository in
@@ -98,10 +98,10 @@ to access/preview the generated site.
 
 [7]: http://localhost:8000/
 
-## Writting Content
+## Writing Content
 
 Every Markdown file (or whatever tool you prefer) and other files for the site are
-placed under the `content/` directory. For more information about writting the
-content, please head to the [offical documentation][8].
+placed under the `content/` directory. For more information about writing the
+content, please head to the [official documentation][8].
 
 [8]: http://docs.getpelican.com/en/3.6.3/content.html
