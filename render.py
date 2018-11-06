@@ -87,7 +87,7 @@ def render_pages(j2_env, metadata = {}):
     for raw_page in list_dir(src_dir):
         # render special pages: if page's filename is the same as the one in
         # template, use that template to render instead.
-        print(raw_page + ': processing...')
+        print(raw_page + ': processing page...')
         if raw_page in list_dir(tmp_dir):
             j2_temp = j2_env.get_template(raw_page)
             print(raw_page + ': special case template')
@@ -105,7 +105,7 @@ def render_pages(j2_env, metadata = {}):
             os.makedirs(out_dir + dirname, exist_ok=True)
 
         write_file(out_dir + fullpath, rendered + '\n')
-        print(raw_page + ': wrote to ' + out_dir + fullpath)
+        print('wrote to ' + out_dir + fullpath)
 
     return
 
@@ -126,7 +126,7 @@ def render_posts(j2_env, metadata, path_prefix=POSTS_PREFIX):
 
     _metadata = []
     for raw_post in list_dir(src_dir):
-        print(raw_post + ': processing')
+        print(raw_post + ': processing post...')
         raw_data = read_file(src_dir + raw_post)
         raw_html = markdown(raw_data, extras=md_extr)
         metadata = raw_html.metadata
@@ -143,7 +143,7 @@ def render_posts(j2_env, metadata, path_prefix=POSTS_PREFIX):
         _metadata.append(metadata) # append to accumula. list
         rendered = j2_temp.render(html = raw_html, **metadata)
         write_file(out_dir + path_prefix + filename, rendered + '\n')
-        print(raw_post + ': wrote to ' + out_dir + path_prefix + filename)
+        print('wrote to ' + out_dir + path_prefix + filename)
 
     # sort _metadata with each dict's datetime created and then
     # return the reverse because latest should go first
@@ -178,6 +178,8 @@ def main():
     posts = render_posts(j2_env, metadata)
     metadata.update({ 'posts' : posts })
     render_pages(j2_env, metadata)
+
+    print("\n" + str(metadata))
 
     return
 
