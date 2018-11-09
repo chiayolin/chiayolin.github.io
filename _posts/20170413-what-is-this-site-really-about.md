@@ -1,8 +1,11 @@
 ---
 title    : What is This Site Really About?
 date     : 2017-04-13
-modified : 2018-11-02
+modified : 2018-11-08
 location : Saigon, Vietnam
+
+cover: https://i.imgur.com/uwTjEAk.png?1
+caption: Looking down District 1 from Hotel Nikko Saigon (2013).
 ---
 
 ## A Domain Name
