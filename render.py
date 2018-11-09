@@ -179,7 +179,7 @@ def main():
     metadata.update({ 'posts' : posts })
     render_pages(j2_env, metadata)
 
-    print("\n" + str(metadata))
+    print('\n' + str(metadata))
 
     return
 

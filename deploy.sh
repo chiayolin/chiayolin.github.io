@@ -2,7 +2,6 @@
 # source: http://iamemmanouil.com/blog/\
 #         static-site-pelican-grunt-travis-github-pages/#deploy
 
-
 BRANCH="master"
 OUTPUT="_output"
 NAME="Chiayo Lin"
