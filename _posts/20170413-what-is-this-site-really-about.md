@@ -82,7 +82,7 @@ by others. It was supposed to be private, only accessible to me on my LAN.
 You found this site on the internet is only because I bought a domain name, and
 the source code is on Github so I might as well just host it on Github Pages.
 
-Although this site is meant to be perosnal, I would like to hear about your
+Although this site is meant to be personal, I would like to hear about your
 thoughts, too. If you think something on the site is horribly wrong (not
 politically but technically), or you simply wanted to talk casually about
 computing science, let me know. My email and PGP public key is at the
