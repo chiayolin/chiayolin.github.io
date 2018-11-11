@@ -1,7 +1,11 @@
 ---
 title    : Constitutional Court Interpretation #509
 date     : 2017-04-06
+modified : 2018-11-11
 location : Taipei, Taiwan (FORMOSA)
+
+cover: https://imgur.com/7AxYVWF.jpg?1
+caption: Taipei's Mayor Dr. Ko (front) commemorating Mr. Cheng Nan-jung (back), a martyr to free speech of post-WWII Formosa.
 ---
 
 I'm writing this article just to document the event that happened recently and to

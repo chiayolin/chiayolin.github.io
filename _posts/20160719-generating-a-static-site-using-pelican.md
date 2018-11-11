@@ -1,8 +1,17 @@
 ---
 title    : Generating a Static Site with Pelican
 date     : 2016-07-19
-modified : 2017-05-01
+modified : 2018-11-11
 location : Centreville, Virginia
+---
+
+---
+### NOTICE
+
+*As of November 2018, I have switched to a Python script (render.py) I wrote in
+combination with Jinja2 templating engine and markdown2 to generate these HTML
+files. For more information, check out [chiayolin.org's repository][0].*
+
 ---
 
 I used [Jekyll][1] as a static site generator to generate HTML files from
@@ -15,6 +24,7 @@ static generator like Jekyll, but it is written in [Python][4] and uses
 [Jinja][5] as its templating language/engine. This post is created as a note to
 myself about generating a static site with Pelican.
 
+[0]: https://github.com/chiayolin/chiayolin.github.io
 [1]: https://jekyllrb.com/
 [2]: https://en.wikipedia.org/wiki/Markdown
 [3]: http://blog.getpelican.com/
