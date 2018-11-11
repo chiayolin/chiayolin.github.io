@@ -167,10 +167,12 @@ def main():
     # load jinja2 template
     j2_env = Environment(loader = load_files(TEMPLATES))
 
-    metadata = { 'site' : {
-        'title' : TITLE,
-        'prefix' : SITE_PREFIX,
-        'posts_prefix' : POSTS_PREFIX,
+    # prepare metadata
+    metadata = {
+        'site' : {
+            'title' : TITLE,
+            'prefix' : SITE_PREFIX,
+            'posts_prefix' : POSTS_PREFIX,
         }
     }
 
@@ -183,4 +185,5 @@ def main():
 
     return
 
+# run main unless imported as a module
 __name__ == '__main__' and main()
