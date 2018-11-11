@@ -226,10 +226,26 @@ hr {
   text-align: center !important;
 }
 
-.content-cover {
+.content-profile-pic {
+  margin: 0 auto;
   overflow: hidden;
+  max-width: 300px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.content-cover {
   max-height: 260px;
+  overflow: hidden;
+
+  /*display: flex;
+  align-items: center;
+  justify-content: center; */
+
   border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
 }
 
 .content-list-header {
