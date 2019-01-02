@@ -6,7 +6,7 @@
 
 body {
   /*background: #f6f3f0;*/
-  font-weight: lighter;
+  font-weight: normal;
   font-family: 'Merriweather', serif;
 }
 
@@ -239,9 +239,9 @@ hr {
   max-height: 260px;
   overflow: hidden;
 
-  /*display: flex;
+  display: flex;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
 
   border-radius: 10px;
   -webkit-border-radius: 10px;
