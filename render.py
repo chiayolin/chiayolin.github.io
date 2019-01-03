@@ -49,9 +49,9 @@ def list_dir(path):
 
 def kigenize(date):
     l = date.split('-')
-    y = '紀元 ' + str(int(l[0]) + 660) + ' 年 '
-    m = l[1] + ' 月 '
-    d = l[2] + ' 日'
+    y = str(int(l[0]))
+    m = '-' + l[1]
+    d = '-' + l[2]
 
     return y + m + d
 
