@@ -274,6 +274,10 @@ hr {
   text-decoration: none;
 }
 
+.footer-mail {
+  margin-top: -2px;
+}
+
 .footer-margin-top {
   padding-top: 15px;
 }
