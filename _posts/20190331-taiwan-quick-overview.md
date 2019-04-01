@@ -43,7 +43,7 @@ a Chinese person, that among them are, the false-perception that Formosa is
 part of China and the Chinese is trying to take advantage of the political
 situation of Taiwan. The island of Formosa was occupied by the US Ally, the
 Republic of China (ROC) upon the surrender of WWII. Therefore, the
-international status of Formosa is undecided after Japan renounces Formosa in
+international status of Formosa is undecided even after Japan renounces Formosa in
 the Treaty of San Francisco of 1951. The ROC further maintained a discriminatory
 policy against Formosans during the forty-year period of brutal martial law
 known as White Terror (1947-1987), hoping to root out the Formosan identity.
