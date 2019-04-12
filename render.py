@@ -177,8 +177,8 @@ def main():
     }
 
     # render posts and pages
-    posts = render_posts(j2_env, metadata)
-    metadata.update({ 'posts' : posts })
+    posts_meta = render_posts(j2_env, metadata)
+    metadata.update({ 'posts' : posts_meta })
     render_pages(j2_env, metadata)
 
     print('\n' + str(metadata))
