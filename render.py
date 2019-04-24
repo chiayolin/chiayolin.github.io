@@ -48,6 +48,14 @@ def list_dir(path):
     return [*filter(lambda x: x[0] != '.', os.listdir(path))]
 
 def kigenize(date):
+    """
+    returns the formated date string.
+
+    This function takes one argument, date which is a string represen-
+    tation of a date with the format "YYYY-MM-DD".
+    """
+
+
     l = date.split('-')
     y = str(int(l[0]))
     m = '-' + l[1]
