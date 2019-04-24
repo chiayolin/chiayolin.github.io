@@ -55,7 +55,6 @@ def kigenize(date):
     tation of a date with the format "YYYY-MM-DD".
     """
 
-
     l = date.split('-')
     y = str(int(l[0]))
     m = '-' + l[1]
