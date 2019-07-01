@@ -36,7 +36,7 @@ liberating Formosans from the abusive Ch’ing rule. Formosans began the journey
 of unification and modernization under the Empire of Japan. In conclusion,
 Formosa in its entirety has never been part of China whatsoever.
 
-### We are Formosans - We are not nor wish to become Chinese
+### We are Formosans - We are not (nor wish to become) Chinese
 
 Two major recurring themes are revealed in the small conversation I had with
 a Chinese person, that among them are, the false-perception that Formosa is
