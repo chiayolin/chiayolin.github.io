@@ -4,7 +4,7 @@ date     : 2019-03-31
 location : College Park, Maryland
 
 cover: https://i.imgur.com/S5YhWEh.jpg
-caption: Hokuto Public Bath House - Taipei, Taiwan
+caption: Hokuto Public Bath House [HTC U11] - Taipei, Taiwan (2017)
 ---
 
 ---
