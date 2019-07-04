@@ -18,7 +18,7 @@ However, this does not mean I will stop caring about my home, Taiwan. Fighting
 for Taiwan's independence has been the long-term objective of many Taiwanese.
 Furthermore, persistence is one of the traits that defines the Taiwanese people:
 So no matter how many of us were killed, after how many centuries, we will not
-stop fighting the Chinese imperialism.
+stop fighting against the Chinese imperialism.
 
 中国の台湾侵略反対！*Taiwan Banzai!*
 
