@@ -3,8 +3,8 @@ title    : Taiwan (Formosa) - A Quick Overview
 date     : 2019-03-31
 location : College Park, Maryland
 
-cover: https://i.imgur.com/rumEul7.jpg
-caption: Pioneer of Taiwan Independence Movement Ong Iok-tek (left) with his brother, Ong Iok-lim, victim of White Terror (right) - @oldtwcolor.
+cover: https://i.imgur.com/S5YhWEh.jpg
+caption: Hokuto Public Bath House - Taipei, Taiwan
 ---
 
 ---
