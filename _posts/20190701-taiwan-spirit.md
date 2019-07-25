@@ -32,7 +32,7 @@ Lim Ka-Iu (in Vietnam, 2019)
 
 Empire of Japan lost Taiwan as its territory during the Republic of China
 (= ROC)’s occupation of Taiwan after WWII in 1951. ROC occupation of Taiwan led
-a forty-year period (= 1947-1987) of coercive Sinicization known as White Terror
+a forty-year period (= 1947-1987) of coercive Sinicization known as "White Terror"
 by destroying the Taiwanese identity through committing systematic massacres.
 The People’s Republic of China (= PRC), on the other hand, is taking advantage
 of the political situation of Taiwan and seek to utilize a pseudo-
@@ -45,7 +45,7 @@ Chinese genocidal conquest of abject brutality.
 ### Background
 
 Many historians have failed to recognize the fact that Taiwan and China are
-essentially different. However, these misconceptions must be addressed before
+essentially different. However, this misconception must be addressed before
 any further conversations. Common misconceptions include the false beliefs that
 Formosa (= Taiwan) is a part of China and that Formosans are Chinese
 (Lin et al). The modern term “Chinese” refers to a collection of ethnicities
