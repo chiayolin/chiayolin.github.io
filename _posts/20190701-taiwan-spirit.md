@@ -31,15 +31,15 @@ Lim Ka-Iu (in Vietnam, 2019)
 ### Abstract
 
 Empire of Japan lost Taiwan as its territory during the Republic of China
-(= ROC)’s occupation of Taiwan after WWII in 1951. ROC occupation of Taiwan led
+(= ROC)’s occupation of Taiwan after WWII in 1951. ROC occupation of Taiwan led to
 a forty-year period (= 1947-1987) of coercive Sinicization known as "White Terror"
 by destroying the Taiwanese identity through committing systematic massacres.
 The People’s Republic of China (= PRC), on the other hand, is taking advantage
 of the political situation of Taiwan and seek to utilize a pseudo-
 “reunification” with Taiwan to extenuate a genocidal invasion against the
-Formosans. Therefore, I propose to consider that Taiwan must de-Sinicize through
-strengthening the sense of Taiwanese Nationalism in order to avert the ultimate
-Chinese genocidal conquest of abject brutality.
+Taiwanese. Therefore, I propose to consider that Taiwan must de-Sinicize 
+through strengthening the sense of Taiwanese Nationalism in order to avert the 
+ultimate Chinese genocidal conquest of abject brutality.
 
 
 ### Background
