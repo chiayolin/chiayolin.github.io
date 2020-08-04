@@ -2,9 +2,10 @@
 
 :root {
   /* defualt configs */
-  --defualt-margin: 2rem;
+  --defualt-margin: 1.5rem;
+  --defualt-margin-2: .5rem;
   --defualt-padding: 1rem;
-  --defualt-font-size: 16px;
+  --defualt-font-size: 15px;
   --defualt-line-height: 1.5;
   --defualt-font-weight: 400;
   --defualt-title-font-weight: 600;
@@ -42,6 +43,10 @@
   box-sizing: border-box;
 }
 
+ion-icon {
+  margin-bottom: -.15em;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--defualt-title-font);
   font-weight: var(--defualt-title-font-weight);
@@ -55,6 +60,29 @@ body {
   line-height: var(--defualt-line-height);
   background-color: var(--bg-color);
   color: var(--dark);
+}
+
+nav {
+  font-family: var(--defualt-font);
+  background-color: var(--white);
+  height: var(--nav-height);
+}
+
+header {
+  padding-left: var(--nav-side-margin);
+  background-color: var(--white);
+  height: var(--nav-height);
+  border-top: 1px solid var(--border-color);
+}
+
+.title {
+  padding: calc(var(--nav-height)*(3/10)) 0;
+  color: var(--black);
+}
+
+.content {
+  width: var(--content-width);
+  margin: var(--defualt-margin) auto;
 }
 
 a {
@@ -72,23 +100,25 @@ a:visted {
   text-decoration: none;
 }
 
-nav {
-  font-family: var(--defualt-font);
-  background-color: var(--white);
-  height: var(--nav-height);
+hr {
+  border: 0;
+  border-top: 1px solid var(--border-color);
 }
 
-footer {
+input {
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+  padding: .5rem var(--defualt-padding);
+  font-size: var(--defualt-font-size);
+  width: 100%;
 }
 
-ion-icon {
-  margin-bottom: -.15em;
+input:focus {
+  outline: none;
+  box-shadow: 0 0 2px var(--border-color),
+              0 0 2px var(--border-color);
 }
 
-.content {
-  width: var(--content-width);
-  margin: var(--defualt-margin) auto;
-}
 
 .signin {
   font-weight: var(--defualt-title-font-weight);
@@ -114,7 +144,33 @@ ion-icon {
   border-radius: var(--border-radius);
   padding: var(--defualt-padding);
   background-color: var(--white);
-  margin: 0.5rem auto;
+  margin: var(--defualt-margin-2) auto;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+.box-title {
+  margin-top: var(--defualt-margin);
+  margin-bottom: -.25rem;
+}
+
+.social-links {
+  margin-bottom: .5rem;
+}
+
+.social-links > li {
+  display: inline;
+  margin: .5rem;
+}
+
+.social-links > li > a {
+  color: var(--light);
+}
+
+.social-links > li > a:hover {
+  color: var(--dark);
 }
 
 /* font sizes made easy */
@@ -128,3 +184,6 @@ ion-icon {
 .mute-text   { color: var(--light); }
 .center-text { text-align: center;  }
 .pull-right  { float: right;        }
+
+.mt { margin-top:    var(--defualt-margin-2) }
+.mb { margin-bottom: var(--defualt-margin-2) }
