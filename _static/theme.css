@@ -69,7 +69,6 @@ nav {
 }
 
 header {
-  padding: auto var(--nav-side-margin);
   background-color: var(--white);
   height: var(--nav-height);
   border-top: 1px solid var(--border-color);
@@ -77,6 +76,7 @@ header {
 
 .title {
   padding: calc(var(--nav-height)*(3/10)) 0;
+  margin: auto var(--nav-side-margin);
   color: var(--black);
 }
 
