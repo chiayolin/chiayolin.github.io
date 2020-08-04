@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap');
 
 :root {
   /* defualt configs */
@@ -6,10 +6,13 @@
   --defualt-padding: 1rem;
   --defualt-font-size: 16px;
   --defualt-line-height: 1.5;
-  --defualt-font: 'Roboto', Helvetica, Arial, sans-serif;
-  --defualt-title-font: 'Recursive', Helvetica, Arial, sans-serif;
+  --defualt-font-weight: 400;
+  --defualt-title-font-weight: 600;
+  --defualt-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --defualt-title-font: 'Zilla Slab', serif;
 
   /* nav configs */
+  --nav-side-margin: 5vw; /* align regardless screen size */
   --nav-item-margin: 1.75rem;
   --nav-logo-size: 1.5rem;
   --nav-height: 5rem;
@@ -37,29 +40,35 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--defualt-title-font);
-  font-weight: 600;
+  font-weight: var(--defualt-title-font-weight);
   color: var(--black);
 }
 
 body {
   font-family: var(--defualt-font);
-  line-height: var(--defualt-line-height);
   font-size: var(--defualt-font-size);
+  font-weight: var(--defualt-font-weight);
+  line-height: var(--defualt-line-height);
   background-color: var(--bg-color);
   color: var(--dark);
 }
 
 a {
   color: var(--link-color);
+  text-decoration: none;
 }
 
 nav {
-  font-family: var(--defualt-title-font);
+  font-family: var(--defualt-font);
   background-color: var(--white);
   height: var(--nav-height);
 }
 
 footer {
+}
+
+ion-icon {
+  margin-bottom: -.15em;
 }
 
 .content {
@@ -68,16 +77,17 @@ footer {
 }
 
 .signin {
+  font-weight: var(--defualt-title-font-weight);
   margin: var(--nav-item-margin);
+  margin-right: var(--nav-side-margin);
   color: var(--black);
   text-decoration: none;
-  font-weight: 600;
 }
 
 .logo {
   height: var(--nav-logo-size);
   margin: var(--nav-item-margin);
-  margin-left: 5vw; /* align regardless screen size */
+  margin-left: var(--nav-side-margin);
 }
 
 .box {
@@ -96,6 +106,6 @@ footer {
 .f2 { font-size: 1.5rem  !important; }
 .f1 { font-size: 2rem    !important; }
 
-.mute-text        { color: var(--light); }
-.center-text      { text-align: center;  }
-.pull-right       { float: right;        }
+.mute-text   { color: var(--light); }
+.center-text { text-align: center;  }
+.pull-right  { float: right;        }
