@@ -68,18 +68,6 @@ nav {
   height: var(--nav-height);
 }
 
-header {
-  background-color: var(--white);
-  height: var(--nav-height);
-  border-top: 1px solid var(--border-color);
-}
-
-.title {
-  padding: calc(var(--nav-height)*(3/10)) 0;
-  margin: auto var(--nav-side-margin);
-  color: var(--black);
-}
-
 .content {
   width: var(--content-width);
   margin: var(--defualt-margin) auto;
