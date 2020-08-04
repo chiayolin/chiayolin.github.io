@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap');
 
 :root {
   /* defualt configs */
@@ -9,7 +9,7 @@
   --defualt-font-weight: 400;
   --defualt-title-font-weight: 600;
   --defualt-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --defualt-title-font: 'Zilla Slab', serif;
+  --defualt-title-font: 'Recursive', Helvetica, Arial, sans-serif;
 
   /* nav configs */
   --nav-side-margin: 5vw; /* align regardless screen size */
@@ -24,8 +24,12 @@
   --white: #ffffff;
 
   --bg-color: #f5f5f7;
-  --link-color: #3d7e9a;
   --border-color: #e1e4e8;
+
+  /* links */
+  --link-color: #1a73e8;
+  --link-visted-color: #7b1fa2;
+  --link-hover-color: #174ea6;
 
   /* aux */
   --content-width: 90%;
@@ -58,6 +62,16 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration: none;
+}
+
+a:visted {
+  color: var(--link-visted-color);
+  text-decoration: none;
+}
+
 nav {
   font-family: var(--defualt-font);
   background-color: var(--white);
@@ -80,6 +94,11 @@ ion-icon {
   font-weight: var(--defualt-title-font-weight);
   margin: var(--nav-item-margin);
   margin-right: var(--nav-side-margin);
+  color: var(--black);
+  text-decoration: none;
+}
+
+.signin:hover {
   color: var(--black);
   text-decoration: none;
 }
