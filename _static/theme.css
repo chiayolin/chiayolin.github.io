@@ -1,20 +1,23 @@
 :root {
-  /* defualt values */
-  --defualt-margin: .5rem;
+  /* defualt configs */
+  --defualt-margin: 2rem;
   --defualt-padding: 1rem;
   --defualt-font-size: 16px;
   --defualt-line-height: 1.5;
 
-  /* colors orgy */
-  --f-black: #24292e;
-  --f-dark: #333333;
-  --f-light: #586069;
-  --f-white: #ffffff;
+  /* nav configs */
+  --nav-item-margin: 1.75rem;
+  --nav-logo-size: 1.5rem;
+  --nav-height: 5rem;
 
-  --box-color: #ffffff;
-  --back-color: #f5f5f7;
+  /* colors orgy */
+  --black: #24292e;
+  --dark: #333333;
+  --light: #586069;
+  --white: #ffffff;
+
+  --bg-color: #f5f5f7;
   --link-color: #3d7e9a;
-  --title-color: #24292e;
   --border-color: #e1e4e8;
 
   /* aux */
@@ -30,15 +33,15 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
-  color: var(--title-color);
+  color: var(--black);
 }
 
 body {
   font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
   line-height: var(--defualt-line-height);
   font-size: var(--defualt-font-size);
-  background-color: var(--back-color);
-  color: var(--f-dark);
+  background-color: var(--bg-color);
+  color: var(--dark);
 }
 
 a {
@@ -46,32 +49,37 @@ a {
 }
 
 nav {
-  background-color: var(--box-color);
-  height: 5rem;
+  background-color: var(--white);
+  height: var(--nav-height);
 }
 
-.signin {
-  margin: 1.75rem;
-  font-weight: 600;
-  text-decoration: none;
-  color: var(--f-black);
-}
-
-.logo {
-  height: 1.5rem;
-  margin: 1.75rem;
+footer {
 }
 
 .content {
   width: var(--content-width);
-  margin: auto;
+  margin: var(--defualt-margin) auto;
+}
+
+.signin {
+  margin: var(--nav-item-margin);
+  color: var(--black);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.logo {
+  height: var(--nav-logo-size);
+  margin: var(--nav-item-margin);
+  margin-left: 5vw; /* align regardless screen size */
 }
 
 .box {
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
-  background-color: var(--box-color);
   padding: var(--defualt-padding);
+  background-color: var(--white);
+  margin: 0.5rem auto;
 }
 
 /* font sizes made easy */
@@ -82,4 +90,6 @@ nav {
 .f2 { font-size: 1.5rem  !important; }
 .f1 { font-size: 2rem    !important; }
 
-.pull-right { float: right; }
+.mute-text        { color: var(--light); }
+.center-text      { text-align: center;  }
+.pull-right       { float: right;        }
