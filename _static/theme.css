@@ -69,7 +69,7 @@ nav {
 }
 
 .content {
-  width: var(--content-width);
+  max-width: var(--content-width);
   margin: var(--defualt-margin) auto;
 }
 
@@ -133,6 +133,11 @@ input:focus {
   padding: var(--defualt-padding);
   background-color: var(--white);
   margin: var(--defualt-margin-2) auto;
+}
+
+.boxed {
+  max-width: 45rem;
+  margin: 0 auto;
 }
 
 footer {
