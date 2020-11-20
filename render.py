@@ -57,8 +57,8 @@ def kigenize(date):
 
     l = date.split('-')
     y = str(int(l[0]))
-    m = '-' + l[1]
-    d = '-' + l[2]
+    m = '.' + l[1]
+    d = '.' + l[2]
 
     return y + m + d
 
