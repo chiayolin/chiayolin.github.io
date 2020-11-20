@@ -107,7 +107,6 @@ input:focus {
               0 0 2px var(--border-color);
 }
 
-
 .signin {
   font-weight: var(--defualt-title-font-weight);
   margin: var(--nav-item-margin);
