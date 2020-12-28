@@ -170,6 +170,7 @@ hr {
 }
 
 .content p {
+  font-family: sans-serif;
   margin: 16px 0;
   text-align: justify;
   line-height: 18pt;
