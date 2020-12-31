@@ -19,11 +19,12 @@ if test "$TRAVIS_PULL_REQUEST" = "false"; then
     fi
 
     # using api token clone gh-pages branch
-    git clone --quiet                                               \
-		--branch=$BRANCH https://${GH_TOKEN}@github.com/$REPO built \
-			> /dev/null
+    git clone                                                     \
+      --quiet                                                     \
+      --branch=$BRANCH https://${GH_TOKEN}@github.com/$REPO built \
+        > /dev/null
 
-	# since the site is built, cd into that directory and rync target
+  # since the site is built, cd into that directory and rync target
     cd built
     rsync -rv --exclude=.git  ../$OUTPUT/* .
 
@@ -34,11 +35,12 @@ if test "$TRAVIS_PULL_REQUEST" = "false"; then
     git push -fq origin $BRANCH > /dev/null
     cd ..
 
-    echo "starting deployment on Github Pages"
+    echo "deploying to Github Pages"
     # using api token clone gh-pages branch
-    git clone --quiet                                               \
-		--branch=$BRANCH https://${GH_TOKEN}@github.com/$REPO built \
-			> /dev/null
+    git clone                                                     \
+      --quiet                                                     \
+      --branch=$BRANCH https://${GH_TOKEN}@github.com/$REPO built \
+        > /dev/null
 
     # rync target to the gh-pages branch
     cd built
