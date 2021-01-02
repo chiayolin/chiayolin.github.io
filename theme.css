@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap');
+
+:root {
+  /* defualt configs */
+  --defualt-margin: 1.5rem;
+  --defualt-margin-2: .5rem;
+  --defualt-padding: 1rem;
+  --defualt-font-size: 15px;
+  --defualt-line-height: 1.5;
+  --defualt-font-weight: 400;
+  --defualt-title-font-weight: 600;
+  --defualt-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --defualt-title-font: 'Recursive', Helvetica, Arial, sans-serif;
+
+  /* nav configs */
+  --nav-side-margin: 5vw; /* align regardless screen size */
+  --nav-item-margin: 1.75rem;
+  --nav-logo-size: 1.5rem;
+  --nav-height: 5rem;
+
+  /* colors orgy */
+  --black: #24292e;
+  --dark: #333333;
+  --light: #586069;
+  --white: #ffffff;
+
+  --bg-color: #f5f5f7;
+  --border-color: #e1e4e8;
+
+  /* links */
+  --link-color: #1a73e8;
+  --link-visted-color: #7b1fa2;
+  --link-hover-color: #174ea6;
+
+  /* aux */
+  --content-width: 90%;
+  --border-radius: .5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ion-icon {
+  margin-bottom: -.15em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--defualt-title-font);
+  font-weight: var(--defualt-title-font-weight);
+  color: var(--black);
+}
+
+body {
+  font-family: var(--defualt-font);
+  font-size: var(--defualt-font-size);
+  font-weight: var(--defualt-font-weight);
+  line-height: var(--defualt-line-height);
+  background-color: var(--bg-color);
+  color: var(--dark);
+}
+
+nav {
+  font-family: var(--defualt-font);
+  background-color: var(--white);
+  height: var(--nav-height);
+}
+
+.content {
+  max-width: var(--content-width);
+  margin: var(--defualt-margin) auto;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration: none;
+}
+
+a:visted {
+  color: var(--link-visted-color);
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border-color);
+}
+
+input {
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+  padding: .5rem var(--defualt-padding);
+  font-size: var(--defualt-font-size);
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 2px var(--border-color),
+              0 0 2px var(--border-color);
+}
+
+.signin {
+  font-weight: var(--defualt-title-font-weight);
+  margin: var(--nav-item-margin);
+  margin-right: var(--nav-side-margin);
+  color: var(--black);
+  text-decoration: none;
+}
+
+.signin:hover {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.logo {
+  height: var(--nav-logo-size);
+  margin: var(--nav-item-margin);
+  margin-left: var(--nav-side-margin);
+}
+
+.box {
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: var(--defualt-padding);
+  background-color: var(--white);
+  margin: var(--defualt-margin-2) auto;
+}
+
+.boxed {
+  max-width: 45rem;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+.box-title {
+  margin-top: var(--defualt-margin);
+  margin-bottom: -.25rem;
+}
+
+.social-links {
+  margin-bottom: .5rem;
+}
+
+.social-links > li {
+  display: inline;
+  margin: .5rem;
+}
+
+.social-links > li > a {
+  color: var(--light);
+}
+
+.social-links > li > a:hover {
+  color: var(--dark);
+}
+
+/* font sizes made easy */
+.f6 { font-size: 0.5rem  !important; }
+.f5 { font-size: 0.75rem !important; }
+.f4 { font-size: 1rem    !important; }
+.f3 { font-size: 1.25rem !important; }
+.f2 { font-size: 1.5rem  !important; }
+.f1 { font-size: 2rem    !important; }
+
+.mute-text   { color: var(--light); }
+.center-text { text-align: center;  }
+.pull-right  { float: right;        }
+
+.mt { margin-top:    var(--defualt-margin-2) }
+.mb { margin-bottom: var(--defualt-margin-2) }
