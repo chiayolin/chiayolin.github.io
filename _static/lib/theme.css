@@ -192,7 +192,7 @@ hr {
 }
 
 .content a {
-  font-size: 10pt;
+  font-size: 11pt;
   text-decoration: none;
   color: #a13d2d;
 }
@@ -226,6 +226,8 @@ hr {
 }
 
 .content-image-caption {
+  font-family: 'Merriweather', serif !important;
+  font-size: 10pt !important;
   text-align: center !important;
 }
 
@@ -262,6 +264,7 @@ hr {
 }
 
 .content-list-link {
+  font-size: 10pt !important;
   color: #000 !important;
 }
 
