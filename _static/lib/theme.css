@@ -170,7 +170,7 @@ hr {
 }
 
 .content p {
-  font-family: sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   margin: 16px 0;
   text-align: justify;
   line-height: 18pt;
@@ -210,7 +210,7 @@ hr {
 
 .content-metadata {
   font-family: monospace !important;
-  font-size 10pt;
+  font-size: 10pt;
   color: #666666;
   margin-bottom: 6px !important;
 }
