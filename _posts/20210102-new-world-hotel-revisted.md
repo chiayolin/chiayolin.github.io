@@ -4,7 +4,7 @@ date     : 2021-01-02
 location : Saigon, Vietnam
 ---
 
-It has been almost a year since I last stayed in a room at New World. Before that, I was a long-term resident of New World Saigon Hotel since 2014. However, we had to relocate to another hotel mid-2020 as the business was heavily affected by the global pandemic, although Vietnam’s containment of virus within the country has been magnificent.
+It has been almost a year since I last stayed in a room at New World. Before that, I was a long-term resident of New World Saigon Hotel since 2014. However, we had to relocate to another hotel mid-2020 as the business was heavily affected by the global pandemic, although Vietnam’s containment of the virus within the country has been magnificent.
 
 Just a few days before 2021, I decided to go back to the hotel for a weekend getaway to celebrate the New Year and to re-visit some old memories over there. Unsurprisingly, the price for a room/night in New Year was relatively inexpensive compared to pre-pandemic. That being said, if you pay for the most affordable room, I *baselessly* suppose you might end up on a floor that has yet to undergo renovations, so obviously don't quote me on that. We paid for the most affordable room nevertheless and were upgraded to a newer Club-floor room. 
 
