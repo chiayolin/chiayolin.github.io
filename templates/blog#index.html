@@ -5,7 +5,7 @@
   {% for post in posts -%}
     <hr class="content-list-hr">
     <a class="content-list-link" href={{ post.filename }}>
-	    <p class="content-metadata">{{ post.date }}</p>
+	    <span class="content-metadata">{{ post.date }}</span>
 	    <h2 class="content-list-title">{{ post.title }}</h2>
     </a>
   {% endfor %}

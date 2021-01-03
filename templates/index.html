@@ -9,7 +9,7 @@
       <hr class="content-list-hr">
       {% set post_path = site.prefix + site.posts_prefix + post.filename %}
       <a class="content-list-link" href={{ post_path }}>
-	      <p class="content-metadata">{{ post.date }}</p>
+	      <span class="content-metadata">{{ post.date }}</span>
 	      <h2 class="content-list-title">{{ post.title }}</h2>
       </a>
     {% endif %}
