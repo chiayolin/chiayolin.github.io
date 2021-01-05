@@ -18,17 +18,17 @@ if test "$TRAVIS_PULL_REQUEST" = "false"; then
     git config --global user.name  $NAME
   fi
 
-  # using api token clone gh-pages branch
+  # use api token to clone the gh-pages branch
   git clone                                                     \
     --quiet                                                     \
     --branch=$BRANCH https://${GH_TOKEN}@github.com/$REPO built \
       > /dev/null
 
-  # since the site is built, cd into that directory and rync target
+  # now site is built, cd into that directory and rync target
   cd built
   rsync -rv --exclude=.git  ../$OUTPUT/* .
 
-  echo "remove previous version of website"
+  echo "remove previous version"
   git rm -rf .
   git clean -f -d
   git commit -m "empty the branch before pushing($TRAVIS_BUILD_NUMBER)"
@@ -36,7 +36,7 @@ if test "$TRAVIS_PULL_REQUEST" = "false"; then
   cd ..
 
   echo "deploying to Github Pages"
-  # using api token clone gh-pages branch
+  # use api token to clone the gh-pages branch again
   git clone                                                     \
     --quiet                                                     \
     --branch=$BRANCH https://${GH_TOKEN}@github.com/$REPO built \
@@ -46,7 +46,7 @@ if test "$TRAVIS_PULL_REQUEST" = "false"; then
   cd built
   rsync -rv --exclude=.git  ../$OUTPUT/* .
 
-  # add, commit and push files
+  # add, commit, and push files
   git add -f .
   git commit -m "travis build $TRAVIS_BUILD_NUMBER pushed to Github Pages"
   git push -fq origin $BRANCH > /dev/null
